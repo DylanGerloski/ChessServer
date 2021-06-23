@@ -39,14 +39,16 @@ const getNames = (letter, name) => {
 
 router.get("/test", (req, res) => {
   const newDataA = [];
-  dataD.forEach((opening) => {
+  dataE.forEach((opening) => {
     const algNotation = algebraicConvert(opening.moves);
+
     const openingObj = {
       eco: opening.eco,
       name: opening.name,
       fen: opening.fen,
       moves: opening.moves,
       an: algNotation,
+      hasCont: hasContinuation(opening, dataE),
     };
     newDataA.push(openingObj);
   });
@@ -81,6 +83,16 @@ const algebraicConvert = (fenString) => {
     }
   }
   return str;
+};
+
+const hasContinuation = (variation, varList) => {
+  let hc = false;
+  varList.forEach((variat) => {
+    if (variat.an.includes(variation.an) && variat.name !== variation.name) {
+      hc = true;
+    }
+  });
+  return hc;
 };
 
 export default router;

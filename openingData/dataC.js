@@ -5,6 +5,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e6",
     an: "e4 e6",
+    hasCont: true,
   },
   {
     eco: "C00",
@@ -12,6 +13,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5",
     an: "e4 e6 d4 d5",
+    hasCont: true,
   },
   {
     eco: "C00",
@@ -19,6 +21,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/4B3/PPP2PPP/RN1QKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 c1e3",
     an: "e4 e6 d4 d5 Be3",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -26,6 +29,7 @@ export default [
     fen: "rnbqkbnr/p1pp1ppp/4p3/1p6/3PP3/8/PPP2PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 b7b5",
     an: "e4 e6 d4 b5",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -33,6 +37,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/4p3/8/1P2P3/8/P1PP1PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e6 b2b4",
     an: "e4 e6 b4",
+    hasCont: true,
   },
   {
     eco: "C00",
@@ -40,6 +45,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/4p3/4P3/1b6/8/P1PP1PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e6 b2b4 f8b4 e4e5",
     an: "e4 e6 b4 Bxb4 e5",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -47,6 +53,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/4p3/1B6/4P3/8/PPPP1PPP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e6 f1b5",
     an: "e4 e6 Bb5",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -54,6 +61,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/4p3/4N3/3Pp3/8/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 g1f3 d5e4 f3e5",
     an: "e4 e6 d4 d5 Nf3 dxe4 Ne5",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -61,6 +69,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPPQPPP/RNB1KBNR b KQkq -",
     moves: "e2e4 e7e6 d1e2",
     an: "e4 e6 Qe2",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -68,6 +77,7 @@ export default [
     fen: "rnbqkbnr/pppp2pp/4p3/5p2/4P3/3P4/PPP2PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d3 f7f5",
     an: "e4 e6 d3 f5",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -75,6 +85,7 @@ export default [
     fen: "rnbqkbnr/pppp2pp/4p3/5p2/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e6 g1f3 f7f5",
     an: "e4 e6 Nf3 f5",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -82,6 +93,7 @@ export default [
     fen: "rnbqkb1r/pppp2pp/4pn2/5P2/3P4/8/PPP2PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 f7f5 e4f5 g8f6",
     an: "e4 e6 d4 f5 exf5 Nf6",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -89,6 +101,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3p4/3PPp2/8/PPP1Q1PP/RNB1KBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 d1e2 e6e5 f2f4 e5f4",
     an: "e4 e6 d4 d5 Qe2 e5 f4 exf4",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -96,6 +109,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/4p3/8/4P3/1P6/P1PP1PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e6 b2b3",
     an: "e4 e6 b3",
+    hasCont: true,
   },
   {
     eco: "C00",
@@ -103,6 +117,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/4p3/3p4/4P3/1P6/PBPP1PPP/RN1QKBNR b KQkq -",
     moves: "e2e4 e7e6 b2b3 d7d5 c1b2",
     an: "e4 e6 b3 d5 Bb2",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -110,6 +125,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/4p3/8/4P3/3P4/PPP2PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d3",
     an: "e4 e6 d3",
+    hasCont: true,
   },
   {
     eco: "C00",
@@ -117,6 +133,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/4p3/8/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e6 g1f3",
     an: "e4 e6 Nf3",
+    hasCont: true,
   },
   {
     eco: "C00",
@@ -124,6 +141,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/4p3/8/4PP2/8/PPPP2PP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e6 f2f4",
     an: "e4 e6 f4",
+    hasCont: true,
   },
   {
     eco: "C00",
@@ -131,6 +149,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/4p3/8/4pP2/5N2/PPPP2PP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e6 f2f4 d7d5 g1f3 d5e4",
     an: "e4 e6 f4 d5 Nf3 dxe4",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -138,6 +157,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/4pn2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 g8f6",
     an: "e4 e6 d4 Nf6",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -145,6 +165,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/7N/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 g1h3",
     an: "e4 e6 d4 d5 Nh3",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -152,6 +173,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/4p3/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4",
     an: "e4 e6 d4",
+    hasCont: true,
   },
   {
     eco: "C00",
@@ -159,6 +181,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3p4/4P3/1Q6/PP1P1PPP/RNB1KBNR b KQkq -",
     moves: "e2e4 e7e6 c2c4 d7d5 c4d5 e6d5 d1b3",
     an: "e4 e6 c4 d5 cxd5 exd5 Qb3",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -166,6 +189,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/4p3/3p4/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e6 b1c3 d7d5 f2f4",
     an: "e4 e6 Nc3 d5 f4",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -173,6 +197,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 g1f3",
     an: "e4 e6 d4 d5 Nf3",
+    hasCont: true,
   },
   {
     eco: "C00",
@@ -180,6 +205,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/4p3/8/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e6 b1c3",
     an: "e4 e6 Nc3",
+    hasCont: true,
   },
   {
     eco: "C00",
@@ -187,6 +213,7 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/2n1pn2/3p4/4P3/3P1N2/PPPNBPPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e6 d2d3 d7d5 b1d2 g8f6 g1f3 b8c6 f1e2",
     an: "e4 e6 d3 d5 Nd2 Nf6 Ngf3 Nc6 Be2",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -194,6 +221,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/4p3/8/4P3/6P1/PPPP1P1P/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e6 g2g3",
     an: "e4 e6 g3",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -201,6 +229,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/3B4/PPP2PPP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 f1d3",
     an: "e4 e6 d4 d5 Bd3",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -208,6 +237,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/4p3/8/2P1P3/8/PP1P1PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e6 c2c4",
     an: "e4 e6 c4",
+    hasCont: true,
   },
   {
     eco: "C00",
@@ -215,6 +245,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/4p3/4P3/8/8/PPPP1PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e6 e4e5",
     an: "e4 e6 e5",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -222,6 +253,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/4p3/3p4/4P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e6 g1f3 d7d5 b1c3",
     an: "e4 e6 Nf3 d5 Nc3",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -229,6 +261,7 @@ export default [
     fen: "rnbqkbnr/pp3ppp/4p3/2ppP3/1P6/5N2/P1PP1PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e6 g1f3 d7d5 e4e5 c7c5 b2b4",
     an: "e4 e6 Nf3 d5 e5 c5 b4",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -236,6 +269,7 @@ export default [
     fen: "rnbqkbnr/pp1p1ppp/4p3/2p5/3PP3/8/PPP2PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 c7c5",
     an: "e4 e6 d4 c5",
+    hasCont: true,
   },
   {
     eco: "C00",
@@ -243,6 +277,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/3pp3/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq -",
     moves: "d2d4 e7e6 e2e4 d7d6",
     an: "d4 e6 e4 d6",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -250,6 +285,7 @@ export default [
     fen: "rnbqkbnr/1p1p1ppp/p3p3/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e6 d2d4 c7c5 g1f3 a7a6",
     an: "e4 e6 d4 c5 Nf3 a6",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -257,6 +293,7 @@ export default [
     fen: "rnbqkbnr/1ppp1ppp/p3p3/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 a7a6",
     an: "e4 e6 d4 a6",
+    hasCont: true,
   },
   {
     eco: "C00",
@@ -264,6 +301,7 @@ export default [
     fen: "rnbqkbnr/2pp1ppp/p3p3/1p6/2PPP3/8/PP3PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 a7a6 c2c4 b7b5",
     an: "e4 e6 d4 a6 c4 b5",
+    hasCont: true,
   },
   {
     eco: "C00",
@@ -271,6 +309,7 @@ export default [
     fen: "rnbqkbnr/1ppp1ppp/p3p3/8/2PPP3/8/PP3PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 a7a6 c2c4",
     an: "e4 e6 d4 a6 c4",
+    hasCont: true,
   },
   {
     eco: "C00",
@@ -278,6 +317,7 @@ export default [
     fen: "rn1qkb1r/1b1p1ppp/p3pn2/1pp5/3PP3/2PB1N2/PP3PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e6 d2d4 a7a6 g1f3 b7b5 f1d3 c7c5 c2c3 c8b7 e1g1 g8f6",
     an: "e4 e6 d4 a6 Nf3 b5 Bd3 c5 c3 Bb7 O-O Nf6",
+    hasCont: false,
   },
   {
     eco: "C00",
@@ -285,6 +325,7 @@ export default [
     fen: "rnbqkbnr/2pp1ppp/4p3/1p6/3PP3/8/PP3PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 a7a6 c2c4 b7b5 c4b5 a6b5",
     an: "e4 e6 d4 a6 c4 b5 cxb5 axb5",
+    hasCont: false,
   },
   {
     eco: "C01",
@@ -292,6 +333,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/4p3/3P4/3P4/8/PPP2PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4d5",
     an: "e4 e6 d4 d5 exd5",
+    hasCont: true,
   },
   {
     eco: "C01",
@@ -299,6 +341,7 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/2n2n2/3p2B1/3P4/2N5/PPP2PPP/R2QKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4d5 e6d5 b1c3 g8f6 c1g5 b8c6",
     an: "e4 e6 d4 d5 exd5 exd5 Nc3 Nf6 Bg5 Nc6",
+    hasCont: false,
   },
   {
     eco: "C01",
@@ -306,6 +349,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3p4/2PP4/8/PP3PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4d5 e6d5 c2c4",
     an: "e4 e6 d4 d5 exd5 exd5 c4",
+    hasCont: false,
   },
   {
     eco: "C01",
@@ -313,6 +357,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/5n2/3p2B1/3P4/2N5/PPP2PPP/R2QKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 e4d5 e6d5 c1g5",
     an: "e4 e6 d4 d5 Nc3 Nf6 exd5 exd5 Bg5",
+    hasCont: false,
   },
   {
     eco: "C02",
@@ -320,6 +365,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/4p3/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4e5",
     an: "e4 e6 d4 d5 e5",
+    hasCont: true,
   },
   {
     eco: "C02",
@@ -327,6 +373,7 @@ export default [
     fen: "rnbqkbnr/pp3ppp/4p3/2ppP3/3P4/8/PPP2PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4e5 c7c5",
     an: "e4 e6 d4 d5 e5 c5",
+    hasCont: true,
   },
   {
     eco: "C02",
@@ -334,6 +381,7 @@ export default [
     fen: "rnbqkbnr/pp3ppp/4p3/2ppP3/3P4/2P5/PP3PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4e5 c7c5 c2c3",
     an: "e4 e6 d4 d5 e5 c5 c3",
+    hasCont: true,
   },
   {
     eco: "C02",
@@ -341,6 +389,7 @@ export default [
     fen: "r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2P5/PP3PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4e5 c7c5 c2c3 b8c6",
     an: "e4 e6 d4 d5 e5 c5 c3 Nc6",
+    hasCont: true,
   },
   {
     eco: "C02",
@@ -348,6 +397,7 @@ export default [
     fen: "r2qkbnr/pp1b1ppp/2n1p3/2ppP3/3P4/2P2N2/PP3PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4e5 c7c5 c2c3 b8c6 g1f3 c8d7",
     an: "e4 e6 d4 d5 e5 c5 c3 Nc6 Nf3 Bd7",
+    hasCont: false,
   },
   {
     eco: "C02",
@@ -355,6 +405,7 @@ export default [
     fen: "rn1qkbnr/pppb1ppp/4p3/3pP3/3P4/8/PPP2PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4e5 c8d7",
     an: "e4 e6 d4 d5 e5 Bd7",
+    hasCont: false,
   },
   {
     eco: "C02",
@@ -362,6 +413,7 @@ export default [
     fen: "rnbqkbnr/pp3ppp/4p3/2ppP3/1P1P4/8/P1P2PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4e5 c7c5 b2b4",
     an: "e4 e6 d4 d5 e5 c5 b4",
+    hasCont: false,
   },
   {
     eco: "C02",
@@ -369,6 +421,7 @@ export default [
     fen: "r1b1kb1r/pp3ppp/1qn1p2n/2ppP3/3P4/P1P2N2/1P3PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4e5 c7c5 c2c3 b8c6 g1f3 d8b6 a2a3 g8h6",
     an: "e4 e6 d4 d5 e5 c5 c3 Nc6 Nf3 Qb6 a3 Nh6",
+    hasCont: false,
   },
   {
     eco: "C02",
@@ -376,6 +429,7 @@ export default [
     fen: "r1b1kbnr/pp3ppp/1qn1p3/2ppP3/3P4/P1P2N2/1P3PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4e5 c7c5 c2c3 b8c6 g1f3 d8b6 a2a3",
     an: "e4 e6 d4 d5 e5 c5 c3 Nc6 Nf3 Qb6 a3",
+    hasCont: true,
   },
   {
     eco: "C02",
@@ -383,6 +437,7 @@ export default [
     fen: "r1b1kbnr/pp3ppp/1qn1p3/2ppP3/3P4/2PB1N2/PP3PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4e5 c7c5 c2c3 b8c6 g1f3 d8b6 f1d3",
     an: "e4 e6 d4 d5 e5 c5 c3 Nc6 Nf3 Qb6 Bd3",
+    hasCont: false,
   },
   {
     eco: "C02",
@@ -390,6 +445,7 @@ export default [
     fen: "rnbqkbnr/pp3ppp/4p3/2ppP3/3P2Q1/8/PPP2PPP/RNB1KBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4e5 c7c5 d1g4",
     an: "e4 e6 d4 d5 e5 c5 Qg4",
+    hasCont: true,
   },
   {
     eco: "C02",
@@ -397,6 +453,7 @@ export default [
     fen: "rnbqkbnr/pp3ppp/4p3/3pP3/3p2Q1/5N2/PPP2PPP/RNB1KB1R b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4e5 c7c5 d1g4 c5d4 g1f3",
     an: "e4 e6 d4 d5 e5 c5 Qg4 cxd4 Nf3",
+    hasCont: false,
   },
   {
     eco: "C02",
@@ -404,6 +461,7 @@ export default [
     fen: "rnbqkbnr/pp3ppp/4p3/2ppP3/3P4/5N2/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4e5 c7c5 g1f3",
     an: "e4 e6 d4 d5 e5 c5 Nf3",
+    hasCont: true,
   },
   {
     eco: "C02",
@@ -411,6 +469,7 @@ export default [
     fen: "r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2P2N2/PP3PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4e5 c7c5 c2c3 b8c6 g1f3",
     an: "e4 e6 d4 d5 e5 c5 c3 Nc6 Nf3",
+    hasCont: true,
   },
   {
     eco: "C02",
@@ -418,6 +477,7 @@ export default [
     fen: "rnbqkbnr/pp3ppp/4p3/3pP3/3p4/3B1N2/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4e5 c7c5 g1f3 c5d4 f1d3",
     an: "e4 e6 d4 d5 e5 c5 Nf3 cxd4 Bd3",
+    hasCont: false,
   },
   {
     eco: "C02",
@@ -425,6 +485,7 @@ export default [
     fen: "rnbqkbnr/pp3ppp/4p3/2PpP3/8/8/PPP2PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4e5 c7c5 d4c5",
     an: "e4 e6 d4 d5 e5 c5 dxc5",
+    hasCont: false,
   },
   {
     eco: "C02",
@@ -432,6 +493,7 @@ export default [
     fen: "rn2kbnr/pp1b1ppp/1q2p3/2ppP3/3P4/2P2N2/PP3PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 e4e5 c7c5 c2c3 d8b6 g1f3 c8d7",
     an: "e4 e6 d4 d5 e5 c5 c3 Qb6 Nf3 Bd7",
+    hasCont: false,
   },
   {
     eco: "C03",
@@ -439,6 +501,7 @@ export default [
     fen: "r1bqkbnr/ppp2ppp/2n5/4p3/3PN3/2P5/PP3PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 b8c6 c2c3 d5e4 d2e4 e6e5",
     an: "e4 e6 d4 d5 Nd2 Nc6 c3 dxe4 Nxe4 e5",
+    hasCont: false,
   },
   {
     eco: "C03",
@@ -446,6 +509,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPPN1PPP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2",
     an: "e4 e6 d4 d5 Nd2",
+    hasCont: true,
   },
   {
     eco: "C03",
@@ -453,6 +517,7 @@ export default [
     fen: "r1bqkbnr/ppp2ppp/2n1p3/3p4/3PP3/8/PPPN1PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 b8c6",
     an: "e4 e6 d4 d5 Nd2 Nc6",
+    hasCont: true,
   },
   {
     eco: "C03",
@@ -460,6 +525,7 @@ export default [
     fen: "rnbqkbnr/ppp3pp/4p3/3p1p2/3PP3/8/PPPN1PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 f7f5",
     an: "e4 e6 d4 d5 Nd2 f5",
+    hasCont: false,
   },
   {
     eco: "C03",
@@ -467,6 +533,7 @@ export default [
     fen: "rnbqkbnr/1pp2ppp/p3p3/3p4/3PP3/8/PPPN1PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 a7a6",
     an: "e4 e6 d4 d5 Nd2 a6",
+    hasCont: false,
   },
   {
     eco: "C03",
@@ -474,6 +541,7 @@ export default [
     fen: "rnbqk1nr/ppp1bppp/4p3/3p4/3PP3/8/PPPN1PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 f8e7",
     an: "e4 e6 d4 d5 Nd2 Be7",
+    hasCont: false,
   },
   {
     eco: "C04",
@@ -481,6 +549,7 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/2n1pn2/3p4/3PP3/5N2/PPPN1PPP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 b8c6 g1f3 g8f6",
     an: "e4 e6 d4 d5 Nd2 Nc6 Ngf3 Nf6",
+    hasCont: false,
   },
   {
     eco: "C05",
@@ -488,6 +557,7 @@ export default [
     fen: "rnbqkb1r/p2n1ppp/1p2p3/2ppP3/3P4/2PB4/PP1N1PPP/R1BQK1NR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 g8f6 e4e5 f6d7 f1d3 c7c5 c2c3 b7b6",
     an: "e4 e6 d4 d5 Nd2 Nf6 e5 Nfd7 Bd3 c5 c3 b6",
+    hasCont: false,
   },
   {
     eco: "C05",
@@ -495,6 +565,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/4pn2/3p4/3PP3/8/PPPN1PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 g8f6",
     an: "e4 e6 d4 d5 Nd2 Nf6",
+    hasCont: true,
   },
   {
     eco: "C05",
@@ -502,6 +573,7 @@ export default [
     fen: "r1bqkb1r/pp1n1ppp/2n1p3/2ppP3/3P4/2PB4/PP1N1PPP/R1BQK1NR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 g8f6 e4e5 f6d7 f1d3 c7c5 c2c3 b8c6",
     an: "e4 e6 d4 d5 Nd2 Nf6 e5 Nfd7 Bd3 c5 c3 Nc6",
+    hasCont: true,
   },
   {
     eco: "C05",
@@ -509,6 +581,7 @@ export default [
     fen: "rnbqkb1r/pppn1ppp/4p3/3pP3/3P1P2/8/PPPN2PP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 g8f6 e4e5 f6d7 f2f4",
     an: "e4 e6 d4 d5 Nd2 Nf6 e5 Nfd7 f4",
+    hasCont: false,
   },
   {
     eco: "C06",
@@ -517,6 +590,7 @@ export default [
     moves:
       "e2e4 e7e6 d2d4 d7d5 b1d2 g8f6 e4e5 f6d7 f1d3 c7c5 c2c3 b8c6 g1e2 c5d4 c3d4",
     an: "e4 e6 d4 d5 Nd2 Nf6 e5 Nfd7 Bd3 c5 c3 Nc6 Ne2 cxd4 cxd4",
+    hasCont: true,
   },
   {
     eco: "C06",
@@ -525,6 +599,7 @@ export default [
     moves:
       "e2e4 e7e6 d2d4 d7d5 b1d2 g8f6 e4e5 f6d7 f1d3 c7c5 c2c3 b8c6 g1e2 c5d4 c3d4 d7b6",
     an: "e4 e6 d4 d5 Nd2 Nf6 e5 Nfd7 Bd3 c5 c3 Nc6 Ne2 cxd4 cxd4 Nb6",
+    hasCont: false,
   },
   {
     eco: "C07",
@@ -532,6 +607,7 @@ export default [
     fen: "rnb1kbnr/pp3ppp/4p3/2pq4/3P4/8/PPPN1PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 c7c5 e4d5 d8d5",
     an: "e4 e6 d4 d5 Nd2 c5 exd5 Qxd5",
+    hasCont: true,
   },
   {
     eco: "C07",
@@ -539,8 +615,8 @@ export default [
     fen: "r1b1kb1r/1p3ppp/p2qpn2/8/2BN4/8/PPP2PPP/R1BQ1RK1 w kq -",
     moves:
       "e2e4 e7e6 d2d4 d7d5 b1d2 c7c5 e4d5 d8d5 g1f3 c5d4 f1c4 d5d6 e1g1 g8f6 d2b3 b8c6 b3d4 c6d4 f3d4 a7a6",
-    an:
-      "e4 e6 d4 d5 Nd2 c5 exd5 Qxd5 Ngf3 cxd4 Bc4 Qd6 O-O Nf6 Nb3 Nc6 Nbxd4 Nxd4 Nxd4 a6",
+    an: "e4 e6 d4 d5 Nd2 c5 exd5 Qxd5 Ngf3 cxd4 Bc4 Qd6 O-O Nf6 Nb3 Nc6 Nbxd4 Nxd4 Nxd4 a6",
+    hasCont: false,
   },
   {
     eco: "C07",
@@ -548,6 +624,7 @@ export default [
     fen: "rnbqkbnr/pp3ppp/4p3/8/2Bp4/5N2/PPPN1PPP/R1BQK2R w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 c7c5 e4d5 d8d5 g1f3 c5d4 f1c4 d5d8",
     an: "e4 e6 d4 d5 Nd2 c5 exd5 Qxd5 Ngf3 cxd4 Bc4 Qd8",
+    hasCont: false,
   },
   {
     eco: "C07",
@@ -555,6 +632,7 @@ export default [
     fen: "rnbqkbnr/pp3ppp/4p3/2pp4/3PP3/8/PPPN1PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 c7c5",
     an: "e4 e6 d4 d5 Nd2 c5",
+    hasCont: true,
   },
   {
     eco: "C07",
@@ -562,14 +640,15 @@ export default [
     fen: "rnbqkbnr/pp3ppp/4p3/2pp4/3PP3/5N2/PPPN1PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 c7c5 g1f3",
     an: "e4 e6 d4 d5 Nd2 c5 Ngf3",
+    hasCont: false,
   },
   {
     eco: "C07",
-    name:
-      "French Defense: Tarrasch Variation, Open System, Shaposhnikov Gambit",
+    name: "French Defense: Tarrasch Variation, Open System, Shaposhnikov Gambit",
     fen: "rnbqkb1r/pp3ppp/4pn2/2pP4/3P4/8/PPPN1PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 c7c5 e4d5 g8f6",
     an: "e4 e6 d4 d5 Nd2 c5 exd5 Nf6",
+    hasCont: false,
   },
   {
     eco: "C07",
@@ -577,6 +656,7 @@ export default [
     fen: "rnbqkbnr/pp3ppp/4p3/2pp4/3PP3/2P5/PP1N1PPP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 c7c5 c2c3",
     an: "e4 e6 d4 d5 Nd2 c5 c3",
+    hasCont: false,
   },
   {
     eco: "C08",
@@ -584,6 +664,7 @@ export default [
     fen: "rnbqkbnr/pp3ppp/8/2pp4/3P4/8/PPPN1PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 c7c5 e4d5 e6d5",
     an: "e4 e6 d4 d5 Nd2 c5 exd5 exd5",
+    hasCont: true,
   },
   {
     eco: "C08",
@@ -591,6 +672,7 @@ export default [
     fen: "rnbqkbnr/pp3ppp/8/3p4/2pP4/5N2/PPPN1PPP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 c7c5 e4d5 e6d5 g1f3 c5c4",
     an: "e4 e6 d4 d5 Nd2 c5 exd5 exd5 Ngf3 c4",
+    hasCont: false,
   },
   {
     eco: "C09",
@@ -598,6 +680,7 @@ export default [
     fen: "r1bqkbnr/pp3ppp/2n5/2pp4/3P4/5N2/PPPN1PPP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 c7c5 e4d5 e6d5 g1f3 b8c6",
     an: "e4 e6 d4 d5 Nd2 c5 exd5 exd5 Ngf3 Nc6",
+    hasCont: false,
   },
   {
     eco: "C10",
@@ -605,6 +688,7 @@ export default [
     fen: "r1bqkbnr/ppp2ppp/2n1p3/3P4/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 b8c6 e4d5",
     an: "e4 e6 d4 d5 Nc3 Nc6 exd5",
+    hasCont: false,
   },
   {
     eco: "C10",
@@ -612,6 +696,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3",
     an: "e4 e6 d4 d5 Nc3",
+    hasCont: true,
   },
   {
     eco: "C10",
@@ -619,6 +704,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/4p3/8/3Pp3/2N5/PPP2PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 d5e4",
     an: "e4 e6 d4 d5 Nc3 dxe4",
+    hasCont: true,
   },
   {
     eco: "C10",
@@ -626,6 +712,7 @@ export default [
     fen: "r1bqkbnr/pppn1ppp/4p3/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 d5e4 c3e4 b8d7",
     an: "e4 e6 d4 d5 Nc3 dxe4 Nxe4 Nd7",
+    hasCont: true,
   },
   {
     eco: "C10",
@@ -633,6 +720,7 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/4pn2/4N3/3P4/8/PPP2PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 d5e4 c3e4 b8d7 g1f3 g8f6 e4f6 d7f6 f3e5",
     an: "e4 e6 d4 d5 Nc3 dxe4 Nxe4 Nd7 Nf3 Ngf6 Nxf6+ Nxf6 Ne5",
+    hasCont: false,
   },
   {
     eco: "C10",
@@ -640,6 +728,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/4p3/3PN3/8/PPP2PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 d5e4 c3e4 e6e5",
     an: "e4 e6 d4 d5 Nc3 dxe4 Nxe4 e5",
+    hasCont: false,
   },
   {
     eco: "C10",
@@ -647,6 +736,7 @@ export default [
     fen: "rn1qkbnr/ppp2ppp/2b1p3/8/3PN3/5N2/PPP2PPP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 d5e4 c3e4 c8d7 g1f3 d7c6",
     an: "e4 e6 d4 d5 Nc3 dxe4 Nxe4 Bd7 Nf3 Bc6",
+    hasCont: false,
   },
   {
     eco: "C10",
@@ -654,6 +744,7 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/4pn2/8/3P4/2P2N2/PP3PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1d2 d5e4 d2e4 b8d7 g1f3 g8f6 e4f6 d7f6 c2c3",
     an: "e4 e6 d4 d5 Nd2 dxe4 Nxe4 Nd7 Nf3 Ngf6 Nxf6+ Nxf6 c3",
+    hasCont: false,
   },
   {
     eco: "C10",
@@ -661,6 +752,7 @@ export default [
     fen: "rnb1kbnr/ppp2ppp/4p3/3q4/3PN3/8/PPP2PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 d5e4 c3e4 d8d5",
     an: "e4 e6 d4 d5 Nc3 dxe4 Nxe4 Qd5",
+    hasCont: false,
   },
   {
     eco: "C10",
@@ -668,6 +760,7 @@ export default [
     fen: "rnbqkbnr/pp3ppp/4p3/2pp4/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 c7c5 b1c3 e7e6 d2d4 d7d5",
     an: "e4 c5 Nc3 e6 d4 d5",
+    hasCont: false,
   },
   {
     eco: "C11",
@@ -675,6 +768,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/4pn2/3p2B1/3PP3/2N5/PPP2PPP/R2QKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5",
+    hasCont: true,
   },
   {
     eco: "C11",
@@ -682,6 +776,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/4pn2/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6",
     an: "e4 e6 d4 d5 Nc3 Nf6",
+    hasCont: true,
   },
   {
     eco: "C11",
@@ -690,14 +785,15 @@ export default [
     moves:
       "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 d5e4 c3e4 f8e7 g5f6 e7f6 g1f3 e8g8",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 dxe4 Nxe4 Be7 Bxf6 Bxf6 Nf3 O-O",
+    hasCont: false,
   },
   {
     eco: "C11",
-    name:
-      "French Defense: Classical Variation, Burn Variation, Morozevich Line",
+    name: "French Defense: Classical Variation, Burn Variation, Morozevich Line",
     fen: "rnbqk2r/ppp1bp1p/4pp2/8/3PN3/8/PPP2PPP/R2QKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 d5e4 c3e4 f8e7 g5f6 g7f6",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 dxe4 Nxe4 Be7 Bxf6 gxf6",
+    hasCont: false,
   },
   {
     eco: "C11",
@@ -705,6 +801,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/4pn2/3P4/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 e4d5",
     an: "e4 e6 d4 d5 Nc3 Nf6 exd5",
+    hasCont: true,
   },
   {
     eco: "C11",
@@ -712,6 +809,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/4pn2/3pP3/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 e4e5",
     an: "e4 e6 d4 d5 Nc3 Nf6 e5",
+    hasCont: true,
   },
   {
     eco: "C11",
@@ -719,6 +817,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/4pn2/3p4/3PP3/2NB4/PPP2PPP/R1BQK1NR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 f1d3",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bd3",
+    hasCont: false,
   },
   {
     eco: "C11",
@@ -726,6 +825,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/4pn2/3p4/3PP3/2N1B3/PPP2PPP/R2QKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1e3",
     an: "e4 e6 d4 d5 Nc3 Nf6 Be3",
+    hasCont: false,
   },
   {
     eco: "C11",
@@ -733,6 +833,7 @@ export default [
     fen: "r1bqkb1r/pp1n1ppp/2n1p3/2PpP3/5P2/2N5/PPP3PP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 e4e5 f6d7 f2f4 c7c5 d4c5 b8c6",
     an: "e4 e6 d4 d5 Nc3 Nf6 e5 Nfd7 f4 c5 dxc5 Nc6",
+    hasCont: true,
   },
   {
     eco: "C11",
@@ -740,6 +841,7 @@ export default [
     fen: "rnbqkb1r/pp1n1ppp/4p3/2ppP3/3P1P2/2N2N2/PPP3PP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 e4e5 f6d7 f2f4 c7c5 g1f3",
     an: "e4 e6 d4 d5 Nc3 Nf6 e5 Nfd7 f4 c5 Nf3",
+    hasCont: true,
   },
   {
     eco: "C11",
@@ -747,6 +849,7 @@ export default [
     fen: "r1bqkb1r/pp1n1ppp/2n1p3/2ppP3/3P1P2/2N1BN2/PPP3PP/R2QKB1R b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 e4e5 f6d7 f2f4 c7c5 g1f3 b8c6 c1e3",
     an: "e4 e6 d4 d5 Nc3 Nf6 e5 Nfd7 f4 c5 Nf3 Nc6 Be3",
+    hasCont: false,
   },
   {
     eco: "C11",
@@ -754,6 +857,7 @@ export default [
     fen: "rnbqk2r/pp1n1ppp/4p3/2bpP3/5PQ1/2N5/PPP3PP/R1B1KBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 e4e5 f6d7 f2f4 c7c5 d4c5 f8c5 d1g4",
     an: "e4 e6 d4 d5 Nc3 Nf6 e5 Nfd7 f4 c5 dxc5 Bxc5 Qg4",
+    hasCont: false,
   },
   {
     eco: "C11",
@@ -762,6 +866,7 @@ export default [
     moves:
       "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 e4e5 f6d7 f2f4 c7c5 d4c5 b8c6 a2a3 f8c5 d1g4 e8g8 g1f3 f7f6",
     an: "e4 e6 d4 d5 Nc3 Nf6 e5 Nfd7 f4 c5 dxc5 Nc6 a3 Bxc5 Qg4 O-O Nf3 f6",
+    hasCont: false,
   },
   {
     eco: "C11",
@@ -769,6 +874,7 @@ export default [
     fen: "rnbqkb1r/pppn1ppp/4p3/3pP3/3P2Q1/2N5/PPP2PPP/R1B1KBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 e4e5 f6d7 d1g4",
     an: "e4 e6 d4 d5 Nc3 Nf6 e5 Nfd7 Qg4",
+    hasCont: false,
   },
   {
     eco: "C12",
@@ -776,6 +882,7 @@ export default [
     fen: "rnbqk2r/ppp2ppp/4pn2/3p2B1/1b1PP3/2N5/PPP2PPP/R2QKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8b4",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4",
+    hasCont: true,
   },
   {
     eco: "C12",
@@ -783,6 +890,7 @@ export default [
     fen: "rnbqk2r/ppp2ppp/4pn2/3pP1B1/1b1P4/2N5/PPP2PPP/R2QKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8b4 e4e5",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5",
+    hasCont: true,
   },
   {
     eco: "C12",
@@ -790,6 +898,7 @@ export default [
     fen: "rnbqk2r/ppp2pp1/4pn1p/3pP3/1b1P3B/2N5/PPP2PPP/R2QKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8b4 e4e5 h7h6 g5h4",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 Bh4",
+    hasCont: false,
   },
   {
     eco: "C12",
@@ -798,6 +907,7 @@ export default [
     moves:
       "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8b4 e4d5 d8d5 g5f6 g7f6 d1d2 d5a5",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 exd5 Qxd5 Bxf6 gxf6 Qd2 Qa5",
+    hasCont: false,
   },
   {
     eco: "C12",
@@ -805,6 +915,7 @@ export default [
     fen: "rnbqk2r/ppp2pp1/4pP1p/3p2B1/1b1P4/2N5/PPP2PPP/R2QKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8b4 e4e5 h7h6 e5f6",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 exf6",
+    hasCont: false,
   },
   {
     eco: "C12",
@@ -812,6 +923,7 @@ export default [
     fen: "rnbqk2r/ppp2pp1/4pn1p/3pP3/1b1P4/2N5/PPP2PPP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8b4 e4e5 h7h6 g5c1",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 Bc1",
+    hasCont: false,
   },
   {
     eco: "C12",
@@ -820,6 +932,7 @@ export default [
     moves:
       "e2e4 e7e6 b1c3 d7d5 d2d4 g8f6 c1g5 f8b4 e4e5 h7h6 g5d2 b4c3 b2c3 f6e4 d1g4 e8f8 d2c1",
     an: "e4 e6 Nc3 d5 d4 Nf6 Bg5 Bb4 e5 h6 Bd2 Bxc3 bxc3 Ne4 Qg4 Kf8 Bc1",
+    hasCont: false,
   },
   {
     eco: "C12",
@@ -827,6 +940,7 @@ export default [
     fen: "rnbqk2r/ppp2ppp/4pn2/3P2B1/1b1P4/2N5/PPP2PPP/R2QKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8b4 e4d5",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 exd5",
+    hasCont: true,
   },
   {
     eco: "C12",
@@ -835,6 +949,7 @@ export default [
     moves:
       "d2d4 d7d5 b1c3 g8f6 c1g5 e7e6 e2e4 f8b4 e4e5 h7h6 e5f6 h6g5 f6g7 h8g8 h2h4 g5h4 d1g4",
     an: "d4 d5 Nc3 Nf6 Bg5 e6 e4 Bb4 e5 h6 exf6 hxg5 fxg7 Rg8 h4 gxh4 Qg4",
+    hasCont: false,
   },
   {
     eco: "C12",
@@ -842,6 +957,7 @@ export default [
     fen: "rnbqk2r/ppp2pp1/4pn1p/3pP3/1b1P4/2N1B3/PPP2PPP/R2QKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8b4 e4e5 h7h6 g5e3",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 Be3",
+    hasCont: false,
   },
   {
     eco: "C12",
@@ -849,6 +965,7 @@ export default [
     fen: "rnbqk2r/ppp2pp1/4pn1p/3pP3/3P4/2b5/PPPB1PPP/R2QKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8b4 e4e5 h7h6 g5d2 b4c3",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 Bd2 Bxc3",
+    hasCont: false,
   },
   {
     eco: "C12",
@@ -857,6 +974,7 @@ export default [
     moves:
       "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8b4 e4e5 h7h6 g5d2 b4c3 b2c3 f6e4 d1g4 g7g6",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 Bd2 Bxc3 bxc3 Ne4 Qg4 g6",
+    hasCont: false,
   },
   {
     eco: "C12",
@@ -864,6 +982,7 @@ export default [
     fen: "rnbqk2r/pppn1pp1/4p2p/3pP3/1b1P4/2N5/PPPB1PPP/R2QKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8b4 e4e5 h7h6 g5d2 f6d7",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 Bd2 Nfd7",
+    hasCont: false,
   },
   {
     eco: "C13",
@@ -871,6 +990,7 @@ export default [
     fen: "rnbqk2r/pppnbppp/4p3/3pP1B1/3P3P/2N5/PPP2PP1/R2QKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8e7 e4e5 f6d7 h2h4",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 h4",
+    hasCont: true,
   },
   {
     eco: "C13",
@@ -879,6 +999,7 @@ export default [
     moves:
       "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8e7 e4e5 f6d7 h2h4 e7g5 h4g5 d8g5",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 h4 Bxg5 hxg5 Qxg5",
+    hasCont: false,
   },
   {
     eco: "C13",
@@ -886,6 +1007,7 @@ export default [
     fen: "rnbqk2r/pp1nbppp/4p3/2ppP1B1/3P3P/2N5/PPP2PP1/R2QKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8e7 e4e5 f6d7 h2h4 c7c5",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 h4 c5",
+    hasCont: false,
   },
   {
     eco: "C13",
@@ -893,6 +1015,7 @@ export default [
     fen: "rnbqk2r/1ppnbppp/p3p3/3pP1B1/3P3P/2N5/PPP2PP1/R2QKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8e7 e4e5 f6d7 h2h4 a7a6",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 h4 a6",
+    hasCont: false,
   },
   {
     eco: "C13",
@@ -900,6 +1023,7 @@ export default [
     fen: "rnbq1rk1/pppnbppp/4p3/3pP1B1/3P3P/2N5/PPP2PP1/R2QKBNR w KQ -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8e7 e4e5 f6d7 h2h4 e8g8",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 h4 O-O",
+    hasCont: false,
   },
   {
     eco: "C13",
@@ -907,6 +1031,7 @@ export default [
     fen: "rnbqk2r/pppnb1pp/4pp2/3pP1B1/3P3P/2N5/PPP2PP1/R2QKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8e7 e4e5 f6d7 h2h4 f7f6",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 h4 f6",
+    hasCont: false,
   },
   {
     eco: "C13",
@@ -914,6 +1039,7 @@ export default [
     fen: "rnbqk1nr/p1p1bppp/1p2p3/3pP3/3P4/2N1B3/PPP2PPP/R2QKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8e7 e4e5 f6g8 g5e3 b7b6",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Ng8 Be3 b6",
+    hasCont: false,
   },
   {
     eco: "C13",
@@ -921,6 +1047,7 @@ export default [
     fen: "rnbqk2r/ppp1bppp/4pn2/3p2B1/3PP3/2N5/PPP2PPP/R2QKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8e7",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7",
+    hasCont: true,
   },
   {
     eco: "C13",
@@ -928,6 +1055,7 @@ export default [
     fen: "rnbqk2r/ppp1bppp/4pB2/3p4/3PP3/2N5/PPP2PPP/R2QKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8e7 g5f6",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 Bxf6",
+    hasCont: false,
   },
   {
     eco: "C13",
@@ -935,6 +1063,7 @@ export default [
     fen: "rnbqk2r/ppp1bppp/4p3/3pP3/3P2Q1/2N5/PPP2PPP/R3KBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8e7 g5f6 e7f6 e4e5 f6e7 d1g4",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 Bxf6 Bxf6 e5 Be7 Qg4",
+    hasCont: false,
   },
   {
     eco: "C13",
@@ -942,14 +1071,15 @@ export default [
     fen: "rnbqk2r/ppp1bppp/4p3/3pP1B1/3Pn3/2N5/PPP2PPP/R2QKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8e7 e4e5 f6e4",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Ne4",
+    hasCont: false,
   },
   {
     eco: "C13",
-    name:
-      "French Defense: Classical Variation, Vistaneckis (Nimzowitsch) Variation",
+    name: "French Defense: Classical Variation, Vistaneckis (Nimzowitsch) Variation",
     fen: "rnbqk1nr/ppp1bppp/4p3/3pP1B1/3P4/2N5/PPP2PPP/R2QKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8e7 e4e5 f6g8",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Ng8",
+    hasCont: true,
   },
   {
     eco: "C14",
@@ -957,6 +1087,7 @@ export default [
     fen: "rnb1k2r/pppnqppp/4p3/3pP3/3P4/2N5/PPP2PPP/R2QKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8e7 e4e5 f6d7 g5e7 d8e7",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7",
+    hasCont: true,
   },
   {
     eco: "C14",
@@ -964,6 +1095,7 @@ export default [
     fen: "rnb1k2r/pppnqppp/4p3/1N1pP3/3P4/8/PPP2PPP/R2QKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8e7 e4e5 f6d7 g5e7 d8e7 c3b5",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7 Nb5",
+    hasCont: false,
   },
   {
     eco: "C14",
@@ -971,6 +1103,7 @@ export default [
     fen: "rnb1k2r/pppnqppp/4p3/3pP3/3P2Q1/2N5/PPP2PPP/R3KBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8e7 e4e5 f6d7 g5e7 d8e7 d1g4",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7 Qg4",
+    hasCont: false,
   },
   {
     eco: "C14",
@@ -978,6 +1111,7 @@ export default [
     fen: "rnb1k2r/pppnqppp/4p3/3pP3/3P4/2N5/PPPQ1PPP/R3KBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8e7 e4e5 f6d7 g5e7 d8e7 d1d2",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7 Qd2",
+    hasCont: false,
   },
   {
     eco: "C14",
@@ -985,8 +1119,8 @@ export default [
     fen: "r1b2rk1/pp1nqppp/2n1p3/3pP3/2pP1P2/2N2N2/PPPQ2PP/2KR1B1R w - -",
     moves:
       "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8e7 e4e5 f6d7 g5e7 d8e7 f2f4 e8g8 g1f3 c7c5 d1d2 b8c6 e1c1 c5c4",
-    an:
-      "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7 f4 O-O Nf3 c5 Qd2 Nc6 O-O-O c4",
+    an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7 f4 O-O Nf3 c5 Qd2 Nc6 O-O-O c4",
+    hasCont: false,
   },
   {
     eco: "C14",
@@ -994,6 +1128,7 @@ export default [
     fen: "rnb1k2r/pppnqppp/4p3/3pP3/3P1P2/2N5/PPP3PP/R2QKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8e7 e4e5 f6d7 g5e7 d8e7 f2f4",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7 f4",
+    hasCont: true,
   },
   {
     eco: "C14",
@@ -1001,6 +1136,7 @@ export default [
     fen: "rnb1k2r/pppnqppp/4p3/3pP3/3P4/2NB4/PPP2PPP/R2QK1NR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 g8f6 c1g5 f8e7 e4e5 f6d7 g5e7 d8e7 f1d3",
     an: "e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7 Bd3",
+    hasCont: false,
   },
   {
     eco: "C15",
@@ -1008,6 +1144,7 @@ export default [
     fen: "rnbqk2r/ppp2ppp/4pn2/3p2B1/1b1PP3/2N5/PPP1NPPP/R2QKB1R b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 g1e2 g8f6 c1g5",
     an: "e4 e6 d4 d5 Nc3 Bb4 Ne2 Nf6 Bg5",
+    hasCont: false,
   },
   {
     eco: "C15",
@@ -1015,6 +1152,7 @@ export default [
     fen: "rnbqk1nr/ppp2ppp/4p3/3p4/1b1PP3/2N5/PPP2PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4",
     an: "e4 e6 d4 d5 Nc3 Bb4",
+    hasCont: true,
   },
   {
     eco: "C15",
@@ -1022,15 +1160,16 @@ export default [
     fen: "rnbqk1nr/ppp2ppp/4p3/8/3Pp3/P1b5/1PP1NPPP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 g1e2 d5e4 a2a3 b4c3",
     an: "e4 e6 d4 d5 Nc3 Bb4 Ne2 dxe4 a3 Bxc3+",
+    hasCont: true,
   },
   {
     eco: "C15",
-    name:
-      "French Defense: Winawer Variation, Alekhine Gambit, Alatortsev Variation",
+    name: "French Defense: Winawer Variation, Alekhine Gambit, Alatortsev Variation",
     fen: "r1bq1rk1/ppp1bppp/2n1pn2/8/3PN3/P5N1/1PP1BPPP/R1BQK2R w KQ -",
     moves:
       "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 g1e2 d5e4 a2a3 b4e7 c3e4 g8f6 e2g3 e8g8 f1e2 b8c6",
     an: "e4 e6 d4 d5 Nc3 Bb4 Ne2 dxe4 a3 Be7 Nxe4 Nf6 N2g3 O-O Be2 Nc6",
+    hasCont: false,
   },
   {
     eco: "C15",
@@ -1038,6 +1177,7 @@ export default [
     fen: "r1bqk1nr/ppp2ppp/2n1p3/8/3Pp3/P1N5/1PP2PPP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 g1e2 d5e4 a2a3 b4c3 e2c3 b8c6",
     an: "e4 e6 d4 d5 Nc3 Bb4 Ne2 dxe4 a3 Bxc3+ Nxc3 Nc6",
+    hasCont: false,
   },
   {
     eco: "C15",
@@ -1045,6 +1185,7 @@ export default [
     fen: "rnbqk1nr/ppp2ppp/4p3/3p4/1b1PP3/2N5/PPP1NPPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 g1e2",
     an: "e4 e6 d4 d5 Nc3 Bb4 Ne2",
+    hasCont: true,
   },
   {
     eco: "C15",
@@ -1052,6 +1193,7 @@ export default [
     fen: "rnbqk1nr/ppp2ppp/4p3/3P4/1b1P4/2N5/PPP2PPP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4d5",
     an: "e4 e6 d4 d5 Nc3 Bb4 exd5",
+    hasCont: true,
   },
   {
     eco: "C15",
@@ -1059,6 +1201,7 @@ export default [
     fen: "rnbqk2r/ppp1nppp/8/3p3Q/1b1P4/2NB4/PPP2PPP/R1B1K1NR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4d5 e6d5 f1d3 g8e7 d1h5",
     an: "e4 e6 d4 d5 Nc3 Bb4 exd5 exd5 Bd3 Ne7 Qh5",
+    hasCont: false,
   },
   {
     eco: "C15",
@@ -1066,14 +1209,15 @@ export default [
     fen: "rnbqk1nr/ppp2ppp/4p3/3p4/1b1PP3/2N5/PPPB1PPP/R2QKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 c1d2",
     an: "e4 e6 d4 d5 Nc3 Bb4 Bd2",
+    hasCont: true,
   },
   {
     eco: "C15",
-    name:
-      "French Defense: Winawer Variation, Fingerslip Variation, Kunin Double Gambit",
+    name: "French Defense: Winawer Variation, Fingerslip Variation, Kunin Double Gambit",
     fen: "rnb1k1nr/ppp2ppp/4p3/8/1b1qp1Q1/2N5/PPPB1PPP/R3KBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 c1d2 d5e4 d1g4 d8d4",
     an: "e4 e6 d4 d5 Nc3 Bb4 Bd2 dxe4 Qg4 Qxd4",
+    hasCont: false,
   },
   {
     eco: "C15",
@@ -1081,14 +1225,15 @@ export default [
     fen: "rnbqk1r1/ppp2p1p/4pn1Q/8/1b1Pp3/2N5/PPPB1PPP/R3KBNR b KQq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 c1d2 d5e4 d1g4 g8f6 g4g7 h8g8 g7h6",
     an: "e4 e6 d4 d5 Nc3 Bb4 Bd2 dxe4 Qg4 Nf6 Qxg7 Rg8 Qh6",
+    hasCont: false,
   },
   {
     eco: "C15",
-    name:
-      "French Defense: Winawer Variation, Fingerslip Variation, Schwarz's Line",
+    name: "French Defense: Winawer Variation, Fingerslip Variation, Schwarz's Line",
     fen: "rnbqk2r/ppp1nppp/4p3/3p4/1b1PP3/8/PPPB1PPP/RN1QKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 c1d2 g8e7 c3b1",
     an: "e4 e6 d4 d5 Nc3 Bb4 Bd2 Ne7 Nb1",
+    hasCont: false,
   },
   {
     eco: "C15",
@@ -1096,6 +1241,7 @@ export default [
     fen: "rnb1k1nr/pp3ppp/4p3/2pq4/1b1P4/2NB4/PPPB1PPP/R2QK1NR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 f1d3 c7c5 e4d5 d8d5 c1d2",
     an: "e4 e6 d4 d5 Nc3 Bb4 Bd3 c5 exd5 Qxd5 Bd2",
+    hasCont: false,
   },
   {
     eco: "C15",
@@ -1103,6 +1249,7 @@ export default [
     fen: "rnbqk1nr/ppp2ppp/4p3/3p4/1b1PP3/P1N5/1PP2PPP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 a2a3",
     an: "e4 e6 d4 d5 Nc3 Bb4 a3",
+    hasCont: false,
   },
   {
     eco: "C16",
@@ -1110,6 +1257,7 @@ export default [
     fen: "rnbqk1nr/ppp2ppp/4p3/3pP3/1b1P4/2N5/PPP2PPP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5",
     an: "e4 e6 d4 d5 Nc3 Bb4 e5",
+    hasCont: true,
   },
   {
     eco: "C16",
@@ -1117,6 +1265,7 @@ export default [
     fen: "rnb1k1nr/pppq1ppp/4p3/3pP3/1b1P4/2N5/PPP2PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5 d8d7",
     an: "e4 e6 d4 d5 Nc3 Bb4 e5 Qd7",
+    hasCont: false,
   },
   {
     eco: "C17",
@@ -1124,6 +1273,7 @@ export default [
     fen: "rnbqk1nr/pp3ppp/4p3/2ppP3/1b1P4/2N5/PPP2PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5 c7c5",
     an: "e4 e6 d4 d5 Nc3 Bb4 e5 c5",
+    hasCont: true,
   },
   {
     eco: "C17",
@@ -1131,6 +1281,7 @@ export default [
     fen: "rnbqk1nr/pp3ppp/4p3/2ppP3/1b1P4/P1N5/1PP2PPP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5 c7c5 a2a3",
     an: "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3",
+    hasCont: true,
   },
   {
     eco: "C17",
@@ -1138,14 +1289,15 @@ export default [
     fen: "rnbqk1nr/pp3ppp/4p3/3pP3/1P6/2p2N2/1PP2PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5 c7c5 a2a3 c5d4 a3b4 d4c3 g1f3",
     an: "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 cxd4 axb4 dxc3 Nf3",
+    hasCont: false,
   },
   {
     eco: "C17",
-    name:
-      "French Defense: Winawer Variation, Advance Variation, Moscow Variation",
+    name: "French Defense: Winawer Variation, Advance Variation, Moscow Variation",
     fen: "rnbqk1nr/pp3ppp/4p3/2ppP3/1b1P2Q1/2N5/PPP2PPP/R1B1KBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5 c7c5 d1g4",
     an: "e4 e6 d4 d5 Nc3 Bb4 e5 c5 Qg4",
+    hasCont: false,
   },
   {
     eco: "C17",
@@ -1153,14 +1305,15 @@ export default [
     fen: "rnbqk1nr/pp3ppp/4p3/2ppP3/1b1P4/2N5/PPPB1PPP/R2QKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5 c7c5 c1d2",
     an: "e4 e6 d4 d5 Nc3 Bb4 e5 c5 Bd2",
+    hasCont: true,
   },
   {
     eco: "C17",
-    name:
-      "French Defense: Winawer Variation, Bogoljubov Variation, Icelandic Defense",
+    name: "French Defense: Winawer Variation, Bogoljubov Variation, Icelandic Defense",
     fen: "rnbqk2r/pp2nppp/4p3/2ppP3/1b1P1P2/2N5/PPPB2PP/R2QKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5 c7c5 c1d2 g8e7 f2f4",
     an: "e4 e6 d4 d5 Nc3 Bb4 e5 c5 Bd2 Ne7 f4",
+    hasCont: false,
   },
   {
     eco: "C17",
@@ -1168,6 +1321,7 @@ export default [
     fen: "rnbqk1nr/pp3ppp/4p3/3pP3/1P6/2p5/1PP2PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5 c7c5 a2a3 c5d4 a3b4 d4c3",
     an: "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 cxd4 axb4 dxc3",
+    hasCont: true,
   },
   {
     eco: "C17",
@@ -1175,6 +1329,7 @@ export default [
     fen: "rnbqk1nr/pp3ppp/4p3/b1ppP3/3P4/P1N5/1PP2PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5 c7c5 a2a3 b4a5",
     an: "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Ba5",
+    hasCont: true,
   },
   {
     eco: "C17",
@@ -1182,6 +1337,7 @@ export default [
     fen: "rnbqk1nr/pp3ppp/4p3/b2pP3/1P1p4/P1N5/2P2PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5 c7c5 a2a3 b4a5 b2b4 c5d4",
     an: "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Ba5 b4 cxd4",
+    hasCont: false,
   },
   {
     eco: "C18",
@@ -1189,6 +1345,7 @@ export default [
     fen: "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5 c7c5 a2a3 b4c3 b2c3",
     an: "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3",
+    hasCont: true,
   },
   {
     eco: "C18",
@@ -1196,6 +1353,7 @@ export default [
     fen: "rnb1k1nr/ppq2ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5 c7c5 a2a3 b4c3 b2c3 d8c7",
     an: "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Qc7",
+    hasCont: false,
   },
   {
     eco: "C19",
@@ -1203,6 +1361,7 @@ export default [
     fen: "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5 c7c5 a2a3 b4c3 b2c3 g8e7",
     an: "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7",
+    hasCont: true,
   },
   {
     eco: "C19",
@@ -1210,6 +1369,7 @@ export default [
     fen: "rnbqk2r/pp2nppp/4p3/2ppP3/P2P4/2P5/2P2PPP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5 c7c5 a2a3 b4c3 b2c3 g8e7 a3a4",
     an: "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 a4",
+    hasCont: false,
   },
   {
     eco: "C19",
@@ -1217,26 +1377,25 @@ export default [
     fen: "rnbqk2r/pp2nppp/4p3/2ppP3/3P2Q1/P1P5/2P2PPP/R1B1KBNR b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5 c7c5 a2a3 b4c3 b2c3 g8e7 d1g4",
     an: "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 Qg4",
+    hasCont: true,
   },
   {
     eco: "C19",
-    name:
-      "French Defense: Winawer Variation, Poisoned Pawn Variation, Main Line",
+    name: "French Defense: Winawer Variation, Poisoned Pawn Variation, Main Line",
     fen: "rnb1k1r1/ppq1np1Q/4p3/3pP3/3p4/P1P5/2P1NPPP/R1B1KB1R b KQq -",
     moves:
       "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5 c7c5 a2a3 b4c3 b2c3 g8e7 d1g4 d8c7 g4g7 h8g8 g7h7 c5d4 g1e2",
-    an:
-      "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 Qg4 Qc7 Qxg7 Rg8 Qxh7 cxd4 Ne2",
+    an: "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 Qg4 Qc7 Qxg7 Rg8 Qxh7 cxd4 Ne2",
+    hasCont: false,
   },
   {
     eco: "C19",
-    name:
-      "French Defense: Winawer Variation, Poisoned Pawn Variation, Paoli Variation",
+    name: "French Defense: Winawer Variation, Poisoned Pawn Variation, Paoli Variation",
     fen: "rnb1k1r1/ppq1np1Q/4p3/3pP3/3p4/P1P5/2P2PPP/R1BK1BNR b q -",
     moves:
       "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5 c7c5 a2a3 b4c3 b2c3 g8e7 d1g4 d8c7 g4g7 h8g8 g7h7 c5d4 e1d1",
-    an:
-      "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 Qg4 Qc7 Qxg7 Rg8 Qxh7 cxd4 Kd1",
+    an: "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 Qg4 Qc7 Qxg7 Rg8 Qxh7 cxd4 Kd1",
+    hasCont: false,
   },
   {
     eco: "C19",
@@ -1244,6 +1403,7 @@ export default [
     fen: "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5 c7c5 a2a3 b4c3 b2c3 g8e7 g1f3",
     an: "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 Nf3",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1251,6 +1411,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/4p3/2B1P3/5P2/PPPP2PP/RNBQK1NR b KQkq -",
     moves: "f2f3 e7e5 e2e4 g8f6 f1c4",
     an: "f3 e5 e4 Nf6 Bc4",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1258,6 +1419,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPPKPPP/RNBQ1BNR b kq -",
     moves: "e2e4 e7e5 e1e2",
     an: "e4 e5 Ke2",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1265,6 +1427,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/4p3/3PP3/8/PPP2PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e5 d2d4",
     an: "e4 e5 d4",
+    hasCont: true,
   },
   {
     eco: "C20",
@@ -1272,6 +1435,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/4p3/2P1P3/8/PP1P1PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e5 c2c4",
     an: "e4 e5 c4",
+    hasCont: true,
   },
   {
     eco: "C20",
@@ -1279,6 +1443,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5",
     an: "e4 e5",
+    hasCont: true,
   },
   {
     eco: "C20",
@@ -1286,6 +1451,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPPNPPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1e2",
     an: "e4 e5 Ne2",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1293,6 +1459,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3pp3/2P1P3/8/PP1P1PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 c2c4 d7d5",
     an: "e4 e5 c4 d5",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1300,6 +1467,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3pp3/3PP3/8/PPP2PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 d2d4 d7d5",
     an: "e4 e5 d4 d5",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1307,6 +1475,7 @@ export default [
     fen: "rnbqkbnr/pppp2pp/8/4pp2/4P3/3P4/PPP2PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 d2d3 f7f5",
     an: "e4 e5 d3 f5",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1314,6 +1483,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/4p3/4P3/5P2/PPPP2PP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e5 f2f3",
     an: "e4 e5 f3",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1321,6 +1491,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N2P2/PPPP2PP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e5 f2f3 g8f6 b1c3",
     an: "e4 e5 f3 Nf6 Nc3",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1328,6 +1499,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/4p3/4P3/3P4/PPP2PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e5 d2d3",
     an: "e4 e5 d3",
+    hasCont: true,
   },
   {
     eco: "C20",
@@ -1335,6 +1507,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/4p3/4P3/2P5/PP1P1PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e5 c2c3",
     an: "e4 e5 c3",
+    hasCont: true,
   },
   {
     eco: "C20",
@@ -1342,6 +1515,7 @@ export default [
     fen: "rnbqkbnr/pppp2pp/8/4pp2/4P3/2P5/PP1P1PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 c2c3 f7f5",
     an: "e4 e5 c3 f5",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1349,6 +1523,7 @@ export default [
     fen: "rnbqk1nr/ppp2ppp/3b4/3pp2Q/4P3/2P5/PP1P1PPP/RNB1KBNR w KQkq -",
     moves: "e2e4 e7e5 c2c3 d7d5 d1h5 f8d6",
     an: "e4 e5 c3 d5 Qh5 Bd6",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1356,6 +1531,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/4p3/4P3/P7/1PPP1PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e5 a2a3",
     an: "e4 e5 a3",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1363,6 +1539,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/4p3/4P3/5Q2/PPPP1PPP/RNB1KBNR b KQkq -",
     moves: "e2e4 e7e5 d1f3",
     an: "e4 e5 Qf3",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1370,6 +1547,7 @@ export default [
     fen: "rn1qkbnr/pppb1ppp/3p4/4P3/4P3/8/PPP2PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 d2d4 d7d6 d4e5 c8d7",
     an: "e4 e5 d4 d6 dxe5 Bd7",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1377,6 +1555,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/4p3/4P3/3B4/PPPP1PPP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f1d3",
     an: "e4 e5 Bd3",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1384,6 +1563,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/4p2Q/4P3/8/PPPP1PPP/RNB1KBNR b KQkq -",
     moves: "e2e4 e7e5 d1h5",
     an: "e4 e5 Qh5",
+    hasCont: true,
   },
   {
     eco: "C20",
@@ -1391,6 +1571,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/4p2Q/4P3/8/PPPP1PPP/RNB1KBNR w KQkq -",
     moves: "e2e4 e7e5 d1h5 g8f6",
     an: "e4 e5 Qh5 Nf6",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1398,6 +1579,7 @@ export default [
     fen: "r1bqkb1r/ppp4p/2n2ppn/3pp3/2B1P3/3P1Q2/PPP1NPPP/RNB1K2R w KQkq -",
     moves: "e2e4 e7e5 d1h5 b8c6 f1c4 g8h6 d2d3 g7g6 h5f3 f7f6 g1e2 d7d5",
     an: "e4 e5 Qh5 Nc6 Bc4 Nh6 d3 g6 Qf3 f6 Ne2 d5",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1405,6 +1587,7 @@ export default [
     fen: "r1bqkbnr/pp3ppp/2n5/4p3/8/3P4/PPP2PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 d2d3 d7d5 e4d5 c7c6 d5c6 b8c6",
     an: "e4 e5 d3 d5 exd5 c6 dxc6 Nxc6",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1412,6 +1595,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/4p3/4P3/1P6/P1PP1PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e5 b2b3",
     an: "e4 e5 b3",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1419,6 +1603,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/4pQ2/4P3/8/PPPP1PPP/RNB1KBNR b KQkq -",
     moves: "e2e4 e7e5 d1g4 g8f6 g4f5",
     an: "e4 e5 Qg4 Nf6 Qf5",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1426,6 +1611,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/5n2/2b5/3nP3/5N2/PP2QPPP/RNB1KB1R w KQkq -",
     moves: "e2e4 e7e5 d1e2 b8c6 c2c3 g8f6 g1f3 f8c5 d2d4 e5d4 c3d4 c6d4",
     an: "e4 e5 Qe2 Nc6 c3 Nf6 Nf3 Bc5 d4 exd4 cxd4 Nxd4",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1433,6 +1619,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/1B2p3/4P3/8/PPPP1PPP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f1b5",
     an: "e4 e5 Bb5",
+    hasCont: true,
   },
   {
     eco: "C20",
@@ -1440,6 +1627,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/8/1Bb1p3/1P2P3/8/P1PP1PPP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f1b5 f8c5 b2b4",
     an: "e4 e5 Bb5 Bc5 b4",
+    hasCont: false,
   },
   {
     eco: "C20",
@@ -1447,6 +1635,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/1B2p3/3PP3/8/PPP2PPP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f1b5 g8f6 d2d4",
     an: "e4 e5 Bb5 Nf6 d4",
+    hasCont: false,
   },
   {
     eco: "C21",
@@ -1454,6 +1643,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/3QP3/8/PPP2PPP/RNB1KBNR b KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 d1d4",
     an: "e4 e5 d4 exd4 Qxd4",
+    hasCont: true,
   },
   {
     eco: "C21",
@@ -1461,6 +1651,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/3pP3/8/PPP2PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4",
     an: "e4 e5 d4 exd4",
+    hasCont: true,
   },
   {
     eco: "C21",
@@ -1468,6 +1659,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/3pPP2/8/PPP3PP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 f2f4",
     an: "e4 e5 d4 exd4 f4",
+    hasCont: true,
   },
   {
     eco: "C21",
@@ -1475,6 +1667,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/2b5/3pPP2/2P2N2/PP4PP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 f2f4 f8c5 g1f3 b8c6 c2c3",
     an: "e4 e5 d4 exd4 f4 Bc5 Nf3 Nc6 c3",
+    hasCont: false,
   },
   {
     eco: "C21",
@@ -1482,6 +1675,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/3pP3/5N2/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 g1f3",
     an: "e4 e5 d4 exd4 Nf3",
+    hasCont: true,
   },
   {
     eco: "C21",
@@ -1489,6 +1683,7 @@ export default [
     fen: "rnbqkbnr/pp1p1ppp/8/2p5/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 g1f3 c7c5",
     an: "e4 e5 d4 exd4 Nf3 c5",
+    hasCont: false,
   },
   {
     eco: "C21",
@@ -1496,6 +1691,7 @@ export default [
     fen: "rnbqkbnr/pp1p1ppp/8/2p5/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 g1f3 c7c5 f1c4",
     an: "e4 e5 d4 exd4 Nf3 c5 Bc4",
+    hasCont: false,
   },
   {
     eco: "C21",
@@ -1503,6 +1699,7 @@ export default [
     fen: "rnbqkbnr/p2p1ppp/8/1pp5/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 g1f3 c7c5 f1c4 b7b5",
     an: "e4 e5 d4 exd4 Nf3 c5 Bc4 b5",
+    hasCont: false,
   },
   {
     eco: "C21",
@@ -1510,6 +1707,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/8/2b5/3pP3/2P2N2/PP3PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 g1f3 f8c5 c2c3",
     an: "e4 e5 d4 exd4 Nf3 Bc5 c3",
+    hasCont: true,
   },
   {
     eco: "C21",
@@ -1517,6 +1715,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/8/2b5/2B1P3/2p2N2/PP3PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 g1f3 f8c5 c2c3 d4c3 f1c4",
     an: "e4 e5 d4 exd4 Nf3 Bc5 c3 dxc3 Bc4",
+    hasCont: false,
   },
   {
     eco: "C21",
@@ -1524,6 +1723,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/3pP3/3B4/PPP2PPP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 f1d3",
     an: "e4 e5 d4 exd4 Bd3",
+    hasCont: false,
   },
   {
     eco: "C21",
@@ -1531,6 +1731,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/2BpP3/8/PPP2PPP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 f1c4",
     an: "e4 e5 d4 exd4 Bc4",
+    hasCont: false,
   },
   {
     eco: "C21",
@@ -1538,6 +1739,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/3pP3/2P5/PP3PPP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 c2c3",
     an: "e4 e5 d4 exd4 c3",
+    hasCont: true,
   },
   {
     eco: "C21",
@@ -1545,6 +1747,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/2B1P3/8/PB3PPP/RN1QK1NR b KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 c2c3 d4c3 f1c4 c3b2 c1b2",
     an: "e4 e5 d4 exd4 c3 dxc3 Bc4 cxb2 Bxb2",
+    hasCont: true,
   },
   {
     eco: "C21",
@@ -1552,6 +1755,7 @@ export default [
     fen: "rnb1kbnr/ppppqppp/8/8/2B1P3/8/PB3PPP/RN1QK1NR w KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 c2c3 d4c3 f1c4 c3b2 c1b2 d8e7",
     an: "e4 e5 d4 exd4 c3 dxc3 Bc4 cxb2 Bxb2 Qe7",
+    hasCont: false,
   },
   {
     eco: "C21",
@@ -1559,6 +1763,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/8/2B1P3/8/PB3PPP/RN1QK1NR w KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 c2c3 d4c3 f1c4 c3b2 c1b2 g8f6",
     an: "e4 e5 d4 exd4 c3 dxc3 Bc4 cxb2 Bxb2 Nf6",
+    hasCont: false,
   },
   {
     eco: "C21",
@@ -1566,6 +1771,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/8/8/1bB1P3/8/PB3PPP/RN1QK1NR w KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 c2c3 d4c3 f1c4 c3b2 c1b2 f8b4",
     an: "e4 e5 d4 exd4 c3 dxc3 Bc4 cxb2 Bxb2 Bb4+",
+    hasCont: false,
   },
   {
     eco: "C21",
@@ -1573,6 +1779,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3p4/2B1P3/8/PB3PPP/RN1QK1NR w KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 c2c3 d4c3 f1c4 c3b2 c1b2 d7d5",
     an: "e4 e5 d4 exd4 c3 dxc3 Bc4 cxb2 Bxb2 d5",
+    hasCont: false,
   },
   {
     eco: "C21",
@@ -1580,6 +1787,7 @@ export default [
     fen: "rnbqkb1r/ppppnppp/8/8/3pP3/2P5/PP3PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 c2c3 g8e7",
     an: "e4 e5 d4 exd4 c3 Ne7",
+    hasCont: false,
   },
   {
     eco: "C21",
@@ -1587,6 +1795,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3p4/3pP3/2P5/PP3PPP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 c2c3 d7d5",
     an: "e4 e5 d4 exd4 c3 d5",
+    hasCont: false,
   },
   {
     eco: "C22",
@@ -1594,6 +1803,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/8/4P3/4Q3/PPP2PPP/RNB1KBNR w KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 d1d4 b8c6 d4e3 g8f6",
     an: "e4 e5 d4 exd4 Qxd4 Nc6 Qe3 Nf6",
+    hasCont: true,
   },
   {
     eco: "C22",
@@ -1601,6 +1811,7 @@ export default [
     fen: "r1bqk1nr/ppppbppp/2n5/8/4P3/2P1Q3/PP3PPP/RNB1KBNR w KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 d1d4 b8c6 d4e3 f8b4 c2c3 b4e7",
     an: "e4 e5 d4 exd4 Qxd4 Nc6 Qe3 Bb4+ c3 Be7",
+    hasCont: false,
   },
   {
     eco: "C22",
@@ -1608,6 +1819,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/8/2Q1P3/8/PPP2PPP/RNB1KBNR b KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 d1d4 b8c6 d4c4",
     an: "e4 e5 d4 exd4 Qxd4 Nc6 Qc4",
+    hasCont: false,
   },
   {
     eco: "C22",
@@ -1616,6 +1828,7 @@ export default [
     moves:
       "e2e4 e7e5 d2d4 e5d4 d1d4 b8c6 d4e3 g8f6 b1c3 f8b4 c1d2 e8g8 e1c1 f8e8 f1c4 d7d6 g1h3",
     an: "e4 e5 d4 exd4 Qxd4 Nc6 Qe3 Nf6 Nc3 Bb4 Bd2 O-O O-O-O Re8 Bc4 d6 Nh3",
+    hasCont: false,
   },
   {
     eco: "C22",
@@ -1623,6 +1836,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/8/3QP3/8/PPP2PPP/RNB1KBNR w KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 d1d4 b8c6",
     an: "e4 e5 d4 exd4 Qxd4 Nc6",
+    hasCont: true,
   },
   {
     eco: "C22",
@@ -1630,6 +1844,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/8/4P3/4Q3/PPP2PPP/RNB1KBNR b KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 d1d4 b8c6 d4e3",
     an: "e4 e5 d4 exd4 Qxd4 Nc6 Qe3",
+    hasCont: true,
   },
   {
     eco: "C22",
@@ -1637,6 +1852,7 @@ export default [
     fen: "r1bqkbnr/pppp2pp/2n5/5p2/4P3/4Q3/PPP2PPP/RNB1KBNR w KQkq -",
     moves: "e2e4 e7e5 d2d4 e5d4 d1d4 b8c6 d4e3 f7f5",
     an: "e4 e5 d4 exd4 Qxd4 Nc6 Qe3 f5",
+    hasCont: false,
   },
   {
     eco: "C23",
@@ -1644,6 +1860,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f1c4",
     an: "e4 e5 Bc4",
+    hasCont: true,
   },
   {
     eco: "C23",
@@ -1651,6 +1868,7 @@ export default [
     fen: "rnbqkbnr/p2p1ppp/2p5/1B2p3/4P3/8/PPPP1PPP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f1c4 b7b5 c4b5 c7c6",
     an: "e4 e5 Bc4 b5 Bxb5 c6",
+    hasCont: false,
   },
   {
     eco: "C23",
@@ -1658,6 +1876,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/8/2b1p3/2B1P3/8/PPPP1PPP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f1c4 f8c5",
     an: "e4 e5 Bc4 Bc5",
+    hasCont: true,
   },
   {
     eco: "C23",
@@ -1665,6 +1884,7 @@ export default [
     fen: "rnbqkbnr/pppp2pp/8/4pp2/2B1P3/8/PPPP1PPP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f1c4 f7f5",
     an: "e4 e5 Bc4 f5",
+    hasCont: true,
   },
   {
     eco: "C23",
@@ -1672,6 +1892,7 @@ export default [
     fen: "rnbqkbnr/pppp2pp/8/4pp2/2B1P3/3P4/PPP2PPP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f1c4 f7f5 d2d3",
     an: "e4 e5 Bc4 f5 d3",
+    hasCont: false,
   },
   {
     eco: "C23",
@@ -1680,6 +1901,7 @@ export default [
     moves:
       "e2e4 e7e5 f1c4 f8c5 b2b4 c5b4 f2f4 e5f4 g1f3 b4e7 d2d4 e7h4 g2g3 f4g3 e1g1 g3h2 g1h1",
     an: "e4 e5 Bc4 Bc5 b4 Bxb4 f4 exf4 Nf3 Be7 d4 Bh4+ g3 fxg3 O-O gxh2+ Kh1",
+    hasCont: false,
   },
   {
     eco: "C23",
@@ -1687,6 +1909,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3pp3/2B1P3/8/PPPP1PPP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f1c4 d7d5",
     an: "e4 e5 Bc4 d5",
+    hasCont: false,
   },
   {
     eco: "C23",
@@ -1694,6 +1917,7 @@ export default [
     fen: "rnbqk1nr/ppp2ppp/8/2bpp3/2B1P3/2P5/PP1P1PPP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f1c4 f8c5 c2c3 d7d5",
     an: "e4 e5 Bc4 Bc5 c3 d5",
+    hasCont: true,
   },
   {
     eco: "C23",
@@ -1701,6 +1925,7 @@ export default [
     fen: "rnbqk2r/ppp2ppp/5n2/2bBp3/4P3/2P5/PP1P1PPP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f1c4 f8c5 c2c3 d7d5 c4d5 g8f6",
     an: "e4 e5 Bc4 Bc5 c3 d5 Bxd5 Nf6",
+    hasCont: true,
   },
   {
     eco: "C23",
@@ -1708,6 +1933,7 @@ export default [
     fen: "rnbqk2r/ppp2ppp/5n2/2bBp3/3PP3/2P5/PP3PPP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f1c4 f8c5 c2c3 d7d5 c4d5 g8f6 d2d4",
     an: "e4 e5 Bc4 Bc5 c3 d5 Bxd5 Nf6 d4",
+    hasCont: false,
   },
   {
     eco: "C23",
@@ -1715,6 +1941,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/8/2b1p3/2BPP3/8/PPP2PPP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f1c4 f8c5 d2d4",
     an: "e4 e5 Bc4 Bc5 d4",
+    hasCont: false,
   },
   {
     eco: "C23",
@@ -1723,6 +1950,7 @@ export default [
     moves:
       "e2e4 e7e5 f1c4 c7c6 d2d4 d7d5 e4d5 c6d5 c4b5 c8d7 b5d7 b8d7 d4e5 d7e5 g1e2",
     an: "e4 e5 Bc4 c6 d4 d5 exd5 cxd5 Bb5+ Bd7 Bxd7+ Nxd7 dxe5 Nxe5 Ne2",
+    hasCont: false,
   },
   {
     eco: "C23",
@@ -1730,6 +1958,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1PP2/2P5/PP1PQ1PP/RNB1K1NR b KQkq -",
     moves: "e2e4 e7e5 f1c4 f8c5 d1e2 b8c6 c2c3 g8f6 f2f4",
     an: "e4 e5 Bc4 Bc5 Qe2 Nc6 c3 Nf6 f4",
+    hasCont: false,
   },
   {
     eco: "C23",
@@ -1737,6 +1966,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/8/2b1p3/2B1P3/8/PPPPQPPP/RNB1K1NR b KQkq -",
     moves: "e2e4 e7e5 f1c4 f8c5 d1e2",
     an: "e4 e5 Bc4 Bc5 Qe2",
+    hasCont: true,
   },
   {
     eco: "C23",
@@ -1744,6 +1974,7 @@ export default [
     fen: "rnbqk2r/pppp1ppp/5n2/2b1p3/2B1PP2/8/PPPPQ1PP/RNB1K1NR b KQkq -",
     moves: "e2e4 e7e5 f1c4 f8c5 d1e2 g8f6 f2f4",
     an: "e4 e5 Bc4 Bc5 Qe2 Nf6 f4",
+    hasCont: false,
   },
   {
     eco: "C23",
@@ -1751,6 +1982,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/8/2b1p3/1PB1P3/8/P1PP1PPP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f1c4 f8c5 b2b4",
     an: "e4 e5 Bc4 Bc5 b4",
+    hasCont: true,
   },
   {
     eco: "C23",
@@ -1758,6 +1990,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/8/4p3/1bB1P3/2P5/P2P1PPP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f1c4 f8c5 b2b4 c5b4 c2c3",
     an: "e4 e5 Bc4 Bc5 b4 Bxb4 c3",
+    hasCont: false,
   },
   {
     eco: "C23",
@@ -1765,6 +1998,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/8/4p3/1bB1PP2/8/P1PP2PP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f1c4 f8c5 b2b4 c5b4 f2f4",
     an: "e4 e5 Bc4 Bc5 b4 Bxb4 f4",
+    hasCont: true,
   },
   {
     eco: "C23",
@@ -1772,6 +2006,7 @@ export default [
     fen: "rnbqkbnr/pp1p1ppp/2p5/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f1c4 c7c6",
     an: "e4 e5 Bc4 c6",
+    hasCont: true,
   },
   {
     eco: "C23",
@@ -1779,6 +2014,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/8/2b1p3/2B1P3/2P5/PP1P1PPP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f1c4 f8c5 c2c3",
     an: "e4 e5 Bc4 Bc5 c3",
+    hasCont: true,
   },
   {
     eco: "C23",
@@ -1787,6 +2023,7 @@ export default [
     moves:
       "e2e4 e7e5 f1c4 f8c5 c2c3 g8f6 d2d4 e5d4 e4e5 d7d5 e5f6 d5c4 d1h5 e8g8",
     an: "e4 e5 Bc4 Bc5 c3 Nf6 d4 exd4 e5 d5 exf6 dxc4 Qh5 O-O",
+    hasCont: false,
   },
   {
     eco: "C23",
@@ -1794,6 +2031,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/8/2b1p3/2B1PP2/8/PPPP2PP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f1c4 f8c5 f2f4",
     an: "e4 e5 Bc4 Bc5 f4",
+    hasCont: false,
   },
   {
     eco: "C23",
@@ -1801,6 +2039,7 @@ export default [
     fen: "rnbqkbnr/p1pp2pp/8/1B2pp2/4P3/8/PPPP1PPP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f1c4 b7b5 c4b5 f7f5",
     an: "e4 e5 Bc4 b5 Bxb5 f5",
+    hasCont: false,
   },
   {
     eco: "C23",
@@ -1808,6 +2047,7 @@ export default [
     fen: "rnb1k1nr/pppp1ppp/8/2b1p1q1/2B1P3/2P5/PP1P1PPP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f1c4 f8c5 c2c3 d8g5",
     an: "e4 e5 Bc4 Bc5 c3 Qg5",
+    hasCont: false,
   },
   {
     eco: "C24",
@@ -1815,6 +2055,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f1c4 g8f6",
     an: "e4 e5 Bc4 Nf6",
+    hasCont: true,
   },
   {
     eco: "C24",
@@ -1822,6 +2063,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/4p3/2B1PP2/8/PPPP2PP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f1c4 g8f6 f2f4",
     an: "e4 e5 Bc4 Nf6 f4",
+    hasCont: false,
   },
   {
     eco: "C24",
@@ -1829,6 +2071,7 @@ export default [
     fen: "rnbq1rk1/ppppbppp/5n2/4p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQ -",
     moves: "e2e4 e7e5 f1c4 g8f6 d2d3 f8e7 g1f3 e8g8",
     an: "e4 e5 Bc4 Nf6 d3 Be7 Nf3 O-O",
+    hasCont: false,
   },
   {
     eco: "C24",
@@ -1836,6 +2079,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/2b1p3/1PB1P3/5P2/P1PPN1PP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 f1c4 g8f6 f2f3 f8c5 g1e2 b8c6 b2b4",
     an: "e4 e5 Bc4 Nf6 f3 Bc5 Ne2 Nc6 b4",
+    hasCont: false,
   },
   {
     eco: "C24",
@@ -1843,6 +2087,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/8/4p3/2B1n3/2N5/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 f1c4 g8f6 g1e2 f6e4 e2c3",
     an: "e4 e5 Bc4 Nf6 Ne2 Nxe4 Nec3",
+    hasCont: false,
   },
   {
     eco: "C24",
@@ -1850,6 +2095,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/4p3/2BPP3/8/PPP2PPP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f1c4 g8f6 d2d4",
     an: "e4 e5 Bc4 Nf6 d4",
+    hasCont: true,
   },
   {
     eco: "C24",
@@ -1857,6 +2103,7 @@ export default [
     fen: "rnb1k2r/ppp1qppp/5n2/3P4/1bBp4/2P2N2/PP3PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 f1c4 g8f6 d2d4 e5d4 g1f3 d7d5 e4d5 f8b4 c2c3 d8e7",
     an: "e4 e5 Bc4 Nf6 d4 exd4 Nf3 d5 exd5 Bb4+ c3 Qe7+",
+    hasCont: false,
   },
   {
     eco: "C24",
@@ -1864,6 +2111,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/2NP4/PPP2PPP/R1BQK1NR b KQkq -",
     moves: "e2e4 e7e5 f1c4 g8f6 d2d3 b8c6 b1c3",
     an: "e4 e5 Bc4 Nf6 d3 Nc6 Nc3",
+    hasCont: false,
   },
   {
     eco: "C24",
@@ -1871,6 +2119,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/8/2BpP3/2P5/PP3PPP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f1c4 g8f6 d2d4 e5d4 c2c3",
     an: "e4 e5 Bc4 Nf6 d4 exd4 c3",
+    hasCont: false,
   },
   {
     eco: "C25",
@@ -1878,6 +2127,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e5 b1c3",
     an: "e4 e5 Nc3",
+    hasCont: true,
   },
   {
     eco: "C25",
@@ -1885,6 +2135,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/8/2b1p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e5 b1c3 f8c5",
     an: "e4 e5 Nc3 Bc5",
+    hasCont: true,
   },
   {
     eco: "C25",
@@ -1892,6 +2143,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e5 b1c3 b8c6 d2d4",
     an: "e4 e5 Nc3 Nc6 d4",
+    hasCont: true,
   },
   {
     eco: "C25",
@@ -1899,6 +2151,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/8/2b1p3/4P1Q1/2N5/PPPP1PPP/R1B1KBNR b KQkq -",
     moves: "e2e4 e7e5 b1c3 f8c5 d1g4",
     an: "e4 e5 Nc3 Bc5 Qg4",
+    hasCont: false,
   },
   {
     eco: "C25",
@@ -1906,6 +2159,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/8/2b1p3/N3P3/8/PPPP1PPP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e5 b1c3 f8c5 c3a4",
     an: "e4 e5 Nc3 Bc5 Na4",
+    hasCont: false,
   },
   {
     eco: "C25",
@@ -1913,6 +2167,7 @@ export default [
     fen: "r1bqkbnr/pppp1p1p/2n5/8/2B1Ppp1/2N2N2/PPPP2PP/R1BQ1RK1 b kq -",
     moves: "e2e4 e7e5 b1c3 b8c6 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 e1g1",
     an: "e4 e5 Nc3 Nc6 f4 exf4 Nf3 g5 Bc4 g4 O-O",
+    hasCont: true,
   },
   {
     eco: "C25",
@@ -1921,6 +2176,7 @@ export default [
     moves:
       "e2e4 e7e5 b1c3 b8c6 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 e1g1 g4f3 d1f3 c6e5 f3f4 d8f6",
     an: "e4 e5 Nc3 Nc6 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Ne5 Qxf4 Qf6",
+    hasCont: false,
   },
   {
     eco: "C25",
@@ -1928,6 +2184,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e5 b1c3 b8c6",
     an: "e4 e5 Nc3 Nc6",
+    hasCont: true,
   },
   {
     eco: "C25",
@@ -1935,6 +2192,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/3p4/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e5 b1c3 d7d6 f2f4",
     an: "e4 e5 Nc3 d6 f4",
+    hasCont: false,
   },
   {
     eco: "C25",
@@ -1942,6 +2200,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2N3P1/PPPP1P1P/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e5 b1c3 b8c6 g2g3",
     an: "e4 e5 Nc3 Nc6 g3",
+    hasCont: true,
   },
   {
     eco: "C25",
@@ -1949,6 +2208,7 @@ export default [
     fen: "r1bqk2r/ppp2ppp/2n2n2/2bpp3/4P3/2N3P1/PPPPNPBP/R1BQK2R w KQkq -",
     moves: "e2e4 e7e5 b1c3 b8c6 g2g3 g8f6 f1g2 f8c5 g1e2 d7d5",
     an: "e4 e5 Nc3 Nc6 g3 Nf6 Bg2 Bc5 Nge2 d5",
+    hasCont: false,
   },
   {
     eco: "C25",
@@ -1956,6 +2216,7 @@ export default [
     fen: "r1bqk1nr/pppp1pp1/2n5/2b1p3/4P2p/2N2NP1/PPPP1PBP/R1BQK2R w KQkq -",
     moves: "e2e4 e7e5 b1c3 b8c6 g2g3 f8c5 f1g2 h7h5 g1f3 h5h4",
     an: "e4 e5 Nc3 Nc6 g3 Bc5 Bg2 h5 Nf3 h4",
+    hasCont: false,
   },
   {
     eco: "C25",
@@ -1963,6 +2224,7 @@ export default [
     fen: "r1bqkbnr/pppp2pp/2n5/4pp2/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e5 b1c3 b8c6 d2d4 f7f5",
     an: "e4 e5 Nc3 Nc6 d4 f5",
+    hasCont: false,
   },
   {
     eco: "C25",
@@ -1971,6 +2233,7 @@ export default [
     moves:
       "e2e4 e7e5 b1c3 b8c6 f2f4 e5f4 g1f3 g7g5 d2d4 g5g4 f1c4 g4f3 e1g1 d7d5 e4d5 c8g4 d5c6",
     an: "e4 e5 Nc3 Nc6 f4 exf4 Nf3 g5 d4 g4 Bc4 gxf3 O-O d5 exd5 Bg4 dxc6",
+    hasCont: false,
   },
   {
     eco: "C25",
@@ -1978,6 +2241,7 @@ export default [
     fen: "r1b1k1nr/pppp1ppp/2n2q2/2bNp3/2B1P1Q1/8/PPPP1PPP/R1B1K1NR b KQkq -",
     moves: "e2e4 e7e5 b1c3 b8c6 f1c4 f8c5 d1g4 d8f6 c3d5",
     an: "e4 e5 Nc3 Nc6 Bc4 Bc5 Qg4 Qf6 Nd5",
+    hasCont: false,
   },
   {
     eco: "C25",
@@ -1985,6 +2249,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e5 b1c3 b8c6 f2f4",
     an: "e4 e5 Nc3 Nc6 f4",
+    hasCont: true,
   },
   {
     eco: "C25",
@@ -1992,6 +2257,7 @@ export default [
     fen: "r1bqk1nr/ppppbppp/2n5/8/4Pp2/2N2N2/PPPP2PP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e5 b1c3 b8c6 f2f4 e5f4 g1f3 f8e7",
     an: "e4 e5 Nc3 Nc6 f4 exf4 Nf3 Be7",
+    hasCont: false,
   },
   {
     eco: "C25",
@@ -1999,23 +2265,24 @@ export default [
     fen: "r1bqkbnr/pppp1p1p/2n5/6N1/4PppP/2N5/PPPP2P1/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 b1c3 b8c6 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3g5",
     an: "e4 e5 Nc3 Nc6 f4 exf4 Nf3 g5 h4 g4 Ng5",
+    hasCont: true,
   },
   {
     eco: "C25",
-    name:
-      "Vienna Game: Vienna Gambit, Hamppe-Allgaier Gambit, Alapin Variation",
+    name: "Vienna Game: Vienna Gambit, Hamppe-Allgaier Gambit, Alapin Variation",
     fen: "r1bqkbnr/ppp2p1p/2np4/6N1/4PppP/2N5/PPPP2P1/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e5 b1c3 b8c6 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3g5 d7d6",
     an: "e4 e5 Nc3 Nc6 f4 exf4 Nf3 g5 h4 g4 Ng5 d6",
+    hasCont: false,
   },
   {
     eco: "C25",
-    name:
-      "Vienna Game: Vienna Gambit, Hamppe-Allgaier Gambit, Thorold Variation",
+    name: "Vienna Game: Vienna Gambit, Hamppe-Allgaier Gambit, Thorold Variation",
     fen: "r1bq1bnr/pppp1k2/2n4p/8/3PPppP/2N5/PPP3P1/R1BQKB1R b KQ -",
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 b8c6 b1c3 g7g5 h2h4 g5g4 f3g5 h7h6 g5f7 e8f7 d2d4",
     an: "e4 e5 f4 exf4 Nf3 Nc6 Nc3 g5 h4 g4 Ng5 h6 Nxf7 Kxf7 d4",
+    hasCont: false,
   },
   {
     eco: "C25",
@@ -2023,6 +2290,7 @@ export default [
     fen: "r1bqkbnr/pppp1p1p/2n5/8/2B1Pp2/2N2p2/PPPP2PP/R1BQ1RK1 w kq -",
     moves: "e2e4 e7e5 b1c3 b8c6 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 e1g1 g4f3",
     an: "e4 e5 Nc3 Nc6 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3",
+    hasCont: true,
   },
   {
     eco: "C25",
@@ -2030,6 +2298,7 @@ export default [
     fen: "r1bqkbnr/pppp1p1p/2n5/6p1/3PPp2/2N2N2/PPP3PP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 b1c3 b8c6 f2f4 e5f4 g1f3 g7g5 d2d4",
     an: "e4 e5 Nc3 Nc6 f4 exf4 Nf3 g5 d4",
+    hasCont: true,
   },
   {
     eco: "C25",
@@ -2037,6 +2306,7 @@ export default [
     fen: "r1bqk1nr/ppp2ppp/2np4/2b1P3/4P3/2N5/PPPP2PP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e5 b1c3 b8c6 f2f4 f8c5 f4e5 d7d6",
     an: "e4 e5 Nc3 Nc6 f4 Bc5 fxe5 d6",
+    hasCont: false,
   },
   {
     eco: "C25",
@@ -2044,14 +2314,15 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/8/3PPp2/2N5/PPP3PP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e5 b1c3 b8c6 f2f4 e5f4 d2d4",
     an: "e4 e5 Nc3 Nc6 f4 exf4 d4",
+    hasCont: true,
   },
   {
     eco: "C25",
-    name:
-      "Vienna Game: Vienna Gambit, Steinitz Gambit, Fraser-Minckwitz Defense",
+    name: "Vienna Game: Vienna Gambit, Steinitz Gambit, Fraser-Minckwitz Defense",
     fen: "r1b1kbnr/p1pp1ppp/1pn5/8/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR w kq -",
     moves: "e2e4 e7e5 b1c3 b8c6 f2f4 e5f4 d2d4 d8h4 e1e2 b7b6",
     an: "e4 e5 Nc3 Nc6 f4 exf4 d4 Qh4+ Ke2 b6",
+    hasCont: false,
   },
   {
     eco: "C25",
@@ -2059,6 +2330,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/8/4Pp2/2N2N2/PPPP2PP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 b1c3 b8c6 f2f4 e5f4 g1f3",
     an: "e4 e5 Nc3 Nc6 f4 exf4 Nf3",
+    hasCont: true,
   },
   {
     eco: "C25",
@@ -2066,6 +2338,7 @@ export default [
     fen: "r1b1kbnr/pppp1ppp/2n5/8/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR b kq -",
     moves: "e2e4 e7e5 b1c3 b8c6 f2f4 e5f4 d2d4 d8h4 e1e2",
     an: "e4 e5 Nc3 Nc6 f4 exf4 d4 Qh4+ Ke2",
+    hasCont: true,
   },
   {
     eco: "C25",
@@ -2073,6 +2346,7 @@ export default [
     fen: "r1b1kbnr/ppp2ppp/2np4/8/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR w kq -",
     moves: "e2e4 e7e5 b1c3 b8c6 f2f4 e5f4 d2d4 d8h4 e1e2 d7d6",
     an: "e4 e5 Nc3 Nc6 f4 exf4 d4 Qh4+ Ke2 d6",
+    hasCont: false,
   },
   {
     eco: "C25",
@@ -2080,6 +2354,7 @@ export default [
     fen: "r1b1kbnr/pppp1p1p/2n5/6p1/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR w kq -",
     moves: "e2e4 e7e5 b1c3 b8c6 f2f4 e5f4 d2d4 d8h4 e1e2 g7g5",
     an: "e4 e5 Nc3 Nc6 f4 exf4 d4 Qh4+ Ke2 g5",
+    hasCont: false,
   },
   {
     eco: "C25",
@@ -2087,6 +2362,7 @@ export default [
     fen: "r1b1kbnr/ppp2ppp/2n5/3p4/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR w kq -",
     moves: "e2e4 e7e5 b1c3 b8c6 f2f4 e5f4 d2d4 d8h4 e1e2 d7d5",
     an: "e4 e5 Nc3 Nc6 f4 exf4 d4 Qh4+ Ke2 d5",
+    hasCont: false,
   },
   {
     eco: "C25",
@@ -2094,6 +2370,7 @@ export default [
     fen: "rnbqk2r/pppp1ppp/5n2/4p3/1b2P1Q1/2N5/PPPP1PPP/R1B1KBNR w KQkq -",
     moves: "e2e4 e7e5 b1c3 f8b4 d1g4 g8f6",
     an: "e4 e5 Nc3 Bb4 Qg4 Nf6",
+    hasCont: false,
   },
   {
     eco: "C26",
@@ -2101,6 +2378,7 @@ export default [
     fen: "rnbqkb1r/p1pp1ppp/5n2/1p2p3/2B1P3/2N5/PPPP1PPP/R1BQK1NR w KQkq -",
     moves: "e2e4 e7e5 f1c4 g8f6 b1c3 b7b5",
     an: "e4 e5 Bc4 Nf6 Nc3 b5",
+    hasCont: false,
   },
   {
     eco: "C26",
@@ -2108,6 +2386,7 @@ export default [
     fen: "rnbqk2r/pppp1ppp/5n2/2b1p3/2B1P3/2NP4/PPP2PPP/R1BQK1NR b KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 f1c4 f8c5 d2d3",
     an: "e4 e5 Nc3 Nf6 Bc4 Bc5 d3",
+    hasCont: false,
   },
   {
     eco: "C26",
@@ -2115,6 +2394,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6",
     an: "e4 e5 Nc3 Nf6",
+    hasCont: true,
   },
   {
     eco: "C26",
@@ -2122,6 +2402,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/P1N5/1PPP1PPP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 a2a3",
     an: "e4 e5 Nc3 Nf6 a3",
+    hasCont: false,
   },
   {
     eco: "C26",
@@ -2129,6 +2410,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N3P1/PPPP1P1P/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 g2g3",
     an: "e4 e5 Nc3 Nf6 g3",
+    hasCont: true,
   },
   {
     eco: "C26",
@@ -2136,6 +2418,7 @@ export default [
     fen: "rnbqkb1r/pp3ppp/2p2n2/3Pp3/8/2N3P1/PPPP1P1P/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 g2g3 d7d5 e4d5 c7c6",
     an: "e4 e5 Nc3 Nf6 g3 d5 exd5 c6",
+    hasCont: false,
   },
   {
     eco: "C26",
@@ -2143,6 +2426,7 @@ export default [
     fen: "r1bqk2r/ppp2ppp/2n2n2/2bPp3/8/2N3P1/PPPPNPBP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 g2g3 f8c5 f1g2 b8c6 g1e2 d7d5 e4d5",
     an: "e4 e5 Nc3 Nf6 g3 Bc5 Bg2 Nc6 Nge2 d5 exd5",
+    hasCont: false,
   },
   {
     eco: "C26",
@@ -2150,6 +2434,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/4p3/2B1P3/2N5/PPPP1PPP/R1BQK1NR b KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 f1c4",
     an: "e4 e5 Nc3 Nf6 Bc4",
+    hasCont: true,
   },
   {
     eco: "C26",
@@ -2157,6 +2442,7 @@ export default [
     fen: "rnbqk2r/p1pp1ppp/5n2/1pb1p3/2B1P3/2N5/PPPPNPPP/R1BQK2R w KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 f1c4 f8c5 g1e2 b7b5",
     an: "e4 e5 Nc3 Nf6 Bc4 Bc5 Nge2 b5",
+    hasCont: false,
   },
   {
     eco: "C26",
@@ -2164,6 +2450,7 @@ export default [
     fen: "rnbqk2r/pppp1ppp/5n2/4p3/1bB1P3/2N5/PPPP1PPP/R1BQK1NR w KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 f1c4 f8b4",
     an: "e4 e5 Nc3 Nf6 Bc4 Bb4",
+    hasCont: false,
   },
   {
     eco: "C26",
@@ -2171,6 +2458,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 f2f4",
     an: "e4 e5 Nc3 Nf6 f4",
+    hasCont: true,
   },
   {
     eco: "C27",
@@ -2178,6 +2466,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/8/4p3/2B1n3/2N2N2/PPPP1PPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f1c4 f6e4 b1c3",
     an: "e4 e5 Nf3 Nf6 Bc4 Nxe4 Nc3",
+    hasCont: true,
   },
   {
     eco: "C27",
@@ -2185,6 +2474,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/8/3pp3/2B1n3/2N2N2/PPPP1PPP/R1BQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f1c4 f6e4 b1c3 d7d5",
     an: "e4 e5 Nf3 Nf6 Bc4 Nxe4 Nc3 d5",
+    hasCont: false,
   },
   {
     eco: "C27",
@@ -2192,6 +2482,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2nn4/4p2Q/3P4/1BN5/PPP2PPP/R1B1K1NR b KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 f1c4 f6e4 d1h5 e4d6 c4b3 b8c6 d2d4",
     an: "e4 e5 Nc3 Nf6 Bc4 Nxe4 Qh5 Nd6 Bb3 Nc6 d4",
+    hasCont: false,
   },
   {
     eco: "C27",
@@ -2199,6 +2490,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/8/4p3/2B1n3/2N5/PPPP1PPP/R1BQK1NR w KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 f1c4 f6e4",
     an: "e4 e5 Nc3 Nf6 Bc4 Nxe4",
+    hasCont: true,
   },
   {
     eco: "C27",
@@ -2206,6 +2498,7 @@ export default [
     fen: "r1bqk2r/ppppbppp/2nn4/4N2Q/8/1BN5/PPPP1PPP/R1B1K2R b KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 f1c4 f6e4 d1h5 e4d6 c4b3 f8e7 g1f3 b8c6 f3e5",
     an: "e4 e5 Nc3 Nf6 Bc4 Nxe4 Qh5 Nd6 Bb3 Be7 Nf3 Nc6 Nxe5",
+    hasCont: false,
   },
   {
     eco: "C27",
@@ -2213,8 +2506,8 @@ export default [
     fen: "N1bk1b1r/p2pq2p/1pnn2p1/3Qpp2/8/1B6/PPPP1PPP/R1B1K1NR w KQ -",
     moves:
       "e2e4 e7e5 b1c3 g8f6 f1c4 f6e4 d1h5 e4d6 c4b3 b8c6 c3b5 g7g6 h5f3 f7f5 f3d5 d8e7 b5c7 e8d8 c7a8 b7b6",
-    an:
-      "e4 e5 Nc3 Nf6 Bc4 Nxe4 Qh5 Nd6 Bb3 Nc6 Nb5 g6 Qf3 f5 Qd5 Qe7 Nxc7+ Kd8 Nxa8 b6",
+    an: "e4 e5 Nc3 Nf6 Bc4 Nxe4 Qh5 Nd6 Bb3 Nc6 Nb5 g6 Qf3 f5 Qd5 Qe7 Nxc7+ Kd8 Nxa8 b6",
+    hasCont: false,
   },
   {
     eco: "C27",
@@ -2222,6 +2515,7 @@ export default [
     fen: "rnbqk2r/ppppbppp/3n4/4p2Q/8/1BN5/PPPP1PPP/R1B1K1NR w KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 f1c4 f6e4 d1h5 e4d6 c4b3 f8e7",
     an: "e4 e5 Nc3 Nf6 Bc4 Nxe4 Qh5 Nd6 Bb3 Be7",
+    hasCont: true,
   },
   {
     eco: "C28",
@@ -2229,6 +2523,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/4p3/1bB1P3/2NP4/PPP1NPPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 b1c3 b8c6 f1c4 g8f6 d2d3 f8b4 g1e2",
     an: "e4 e5 Nc3 Nc6 Bc4 Nf6 d3 Bb4 Ne2",
+    hasCont: false,
   },
   {
     eco: "C28",
@@ -2236,6 +2531,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n5/4p3/2B1nP2/2N2N2/PPPP2PP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 b1c3 b8c6 f1c4 g8f6 f2f4 f6e4 g1f3",
     an: "e4 e5 Nc3 Nc6 Bc4 Nf6 f4 Nxe4 Nf3",
+    hasCont: false,
   },
   {
     eco: "C28",
@@ -2243,6 +2539,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/2N5/PPPP1PPP/R1BQK1NR w KQkq -",
     moves: "e2e4 e7e5 b1c3 b8c6 f1c4 g8f6",
     an: "e4 e5 Nc3 Nc6 Bc4 Nf6",
+    hasCont: true,
   },
   {
     eco: "C29",
@@ -2250,6 +2547,7 @@ export default [
     fen: "rnbqkb1r/ppp3pp/8/3pPp2/3Pn3/2N2Q2/PPP3PP/R1B1KBNR b KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 f2f4 d7d5 f4e5 f6e4 d1f3 f7f5 d2d4",
     an: "e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 Qf3 f5 d4",
+    hasCont: false,
   },
   {
     eco: "C29",
@@ -2257,6 +2555,7 @@ export default [
     fen: "rnbqkb1r/ppp3pp/8/3pPp2/4n3/2N2Q2/PPPP2PP/R1B1KBNR w KQkq f6",
     moves: "e2e4 e7e5 b1c3 g8f6 f2f4 d7d5 f4e5 f6e4 d1f3 f7f5",
     an: "e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 Qf3 f5",
+    hasCont: true,
   },
   {
     eco: "C29",
@@ -2264,6 +2563,7 @@ export default [
     fen: "rnbqk2r/ppp1bppp/8/3pP3/4n3/2N2N2/PPPP2PP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 f2f4 d7d5 f4e5 f6e4 g1f3 f8e7",
     an: "e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 Nf3 Be7",
+    hasCont: false,
   },
   {
     eco: "C29",
@@ -2271,6 +2571,7 @@ export default [
     fen: "rn1qkb1r/ppp2ppp/8/3pP3/4n1b1/2N2N2/PPPPQ1PP/R1B1KB1R b KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 f2f4 d7d5 f4e5 f6e4 g1f3 c8g4 d1e2",
     an: "e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 Nf3 Bg4 Qe2",
+    hasCont: false,
   },
   {
     eco: "C29",
@@ -2278,6 +2579,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/5n2/3pp3/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 f2f4 d7d5",
     an: "e4 e5 Nc3 Nf6 f4 d5",
+    hasCont: true,
   },
   {
     eco: "C29",
@@ -2285,6 +2587,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/8/3pP3/4n3/2NP4/PPP3PP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 f2f4 d7d5 f4e5 f6e4 d2d3",
     an: "e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 d3",
+    hasCont: true,
   },
   {
     eco: "C29",
@@ -2292,6 +2595,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/8/3pP3/4n3/2N2Q2/PPPP2PP/R1B1KBNR b KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 f2f4 d7d5 f4e5 f6e4 d1f3",
     an: "e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 Qf3",
+    hasCont: true,
   },
   {
     eco: "C29",
@@ -2299,6 +2603,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/5n2/3pp3/4PP2/2NP4/PPP3PP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 f2f4 d7d5 d2d3",
     an: "e4 e5 Nc3 Nf6 f4 d5 d3",
+    hasCont: false,
   },
   {
     eco: "C29",
@@ -2307,6 +2612,7 @@ export default [
     moves:
       "e2e4 e7e5 b1c3 g8f6 f2f4 d7d5 f4e5 f6e4 d2d3 d8h4 g2g3 e4g3 g1f3 h4h5 c3d5",
     an: "e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 d3 Qh4+ g3 Nxg3 Nf3 Qh5 Nxd5",
+    hasCont: false,
   },
   {
     eco: "C30",
@@ -2314,6 +2620,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4",
     an: "e4 e5 f4",
+    hasCont: true,
   },
   {
     eco: "C30",
@@ -2321,6 +2628,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 f2f4 f8c5",
     an: "e4 e5 f4 Bc5",
+    hasCont: true,
   },
   {
     eco: "C30",
@@ -2328,6 +2636,7 @@ export default [
     fen: "rnbqk1nr/ppp2ppp/3p4/2b1p3/4PP2/2P2N2/PP1P2PP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 f8c5 g1f3 d7d6 c2c3",
     an: "e4 e5 f4 Bc5 Nf3 d6 c3",
+    hasCont: true,
   },
   {
     eco: "C30",
@@ -2335,6 +2644,7 @@ export default [
     fen: "rn1qk1nr/ppp2ppp/8/2b1p3/Q3P1b1/2P2N2/PP1P2PP/RNB1KB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 f8c5 g1f3 d7d6 c2c3 c8g4 f4e5 d6e5 d1a4",
     an: "e4 e5 f4 Bc5 Nf3 d6 c3 Bg4 fxe5 dxe5 Qa4+",
+    hasCont: false,
   },
   {
     eco: "C30",
@@ -2342,14 +2652,15 @@ export default [
     fen: "rnbqk1nr/ppp2ppp/3p4/2b1p3/1P2PP2/5N2/P1PP2PP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 f8c5 g1f3 d7d6 b2b4",
     an: "e4 e5 f4 Bc5 Nf3 d6 b4",
+    hasCont: false,
   },
   {
     eco: "C30",
-    name:
-      "King's Gambit Declined: Classical Variation, Rubinstein Countergambit",
+    name: "King's Gambit Declined: Classical Variation, Rubinstein Countergambit",
     fen: "rnbqk1nr/ppp3pp/3p4/2b1pp2/4PP2/2P2N2/PP1P2PP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 f8c5 g1f3 d7d6 c2c3 f7f5",
     an: "e4 e5 f4 Bc5 Nf3 d6 c3 f5",
+    hasCont: true,
   },
   {
     eco: "C30",
@@ -2357,6 +2668,7 @@ export default [
     fen: "r1bqk1nr/pppn1ppp/3p4/2b1p3/4PP2/2N2N2/PPPP2PP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 f8c5 g1f3 d7d6 b1c3 b8d7",
     an: "e4 e5 f4 Bc5 Nf3 d6 Nc3 Nd7",
+    hasCont: false,
   },
   {
     eco: "C30",
@@ -2364,6 +2676,7 @@ export default [
     fen: "rnbqk1nr/ppp3pp/8/2b2p2/2BpP3/2P2N2/PP4PP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 f2f4 f8c5 g1f3 d7d6 c2c3 f7f5 f4e5 d6e5 d2d4 e5d4 f1c4",
     an: "e4 e5 f4 Bc5 Nf3 d6 c3 f5 fxe5 dxe5 d4 exd4 Bc4",
+    hasCont: false,
   },
   {
     eco: "C30",
@@ -2371,6 +2684,7 @@ export default [
     fen: "rnbqk1nr/ppp2ppp/3p4/2b1P3/4P3/5N2/PPPP2PP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 f8c5 g1f3 d7d6 f4e5",
     an: "e4 e5 f4 Bc5 Nf3 d6 fxe5",
+    hasCont: false,
   },
   {
     eco: "C30",
@@ -2379,6 +2693,7 @@ export default [
     moves:
       "e2e4 e7e5 f1c4 b8c6 b1c3 g8f6 d2d3 f8c5 f2f4 d7d6 g1f3 c8g4 h2h3 g4f3 d1f3 e5f4",
     an: "e4 e5 Bc4 Nc6 Nc3 Nf6 d3 Bc5 f4 d6 Nf3 Bg4 h3 Bxf3 Qxf3 exf4",
+    hasCont: false,
   },
   {
     eco: "C30",
@@ -2386,6 +2701,7 @@ export default [
     fen: "r1bqkbnr/pppp1p2/2n4p/4p1P1/4P3/5N2/PPPP2PP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 b8c6 g1f3 g7g5 f4g5 h7h6",
     an: "e4 e5 f4 Nc6 Nf3 g5 fxg5 h6",
+    hasCont: false,
   },
   {
     eco: "C30",
@@ -2393,6 +2709,7 @@ export default [
     fen: "rnb1kbnr/ppppqppp/8/4p3/4PP2/6P1/PPPP3P/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 f2f4 d8h4 g2g3 h4e7",
     an: "e4 e5 f4 Qh4+ g3 Qe7",
+    hasCont: false,
   },
   {
     eco: "C30",
@@ -2400,6 +2717,7 @@ export default [
     fen: "rnb1kbnr/pppp1ppp/8/4p3/4PP1q/8/PPPP2PP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 f2f4 d8h4",
     an: "e4 e5 f4 Qh4+",
+    hasCont: true,
   },
   {
     eco: "C30",
@@ -2407,6 +2725,7 @@ export default [
     fen: "rnb1kbnr/pppp1ppp/8/4p3/4PP1q/6P1/PPPP3P/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 d8h4 g2g3",
     an: "e4 e5 f4 Qh4+ g3",
+    hasCont: true,
   },
   {
     eco: "C30",
@@ -2414,6 +2733,7 @@ export default [
     fen: "rnbqkbnr/pp1p1ppp/8/2p1p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq -",
     moves: "e2e4 c7c5 f2f4 e7e5",
     an: "e4 c5 f4 e5",
+    hasCont: false,
   },
   {
     eco: "C30",
@@ -2421,6 +2741,7 @@ export default [
     fen: "r1bqkbnr/pppp2pp/2n5/4pp2/4PP2/5N2/PPPP2PP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 b8c6 g1f3 f7f5",
     an: "e4 e5 f4 Nc6 Nf3 f5",
+    hasCont: false,
   },
   {
     eco: "C30",
@@ -2428,6 +2749,7 @@ export default [
     fen: "rnb1kbnr/pppp1ppp/5q2/4p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 f2f4 d8f6",
     an: "e4 e5 f4 Qf6",
+    hasCont: true,
   },
   {
     eco: "C30",
@@ -2435,6 +2757,7 @@ export default [
     fen: "rnb1k1nr/pppp1ppp/8/4p3/1bB1Pq2/2N2N2/PPPP2PP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 f2f4 d8f6 b1c3 f6f4 g1f3 f8b4 f1c4",
     an: "e4 e5 f4 Qf6 Nc3 Qxf4 Nf3 Bb4 Bc4",
+    hasCont: false,
   },
   {
     eco: "C30",
@@ -2442,6 +2765,7 @@ export default [
     fen: "rnb1kbnr/pppp1ppp/8/4p3/3PPq2/2N5/PPP3PP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 d8f6 b1c3 f6f4 d2d4",
     an: "e4 e5 f4 Qf6 Nc3 Qxf4 d4",
+    hasCont: false,
   },
   {
     eco: "C30",
@@ -2449,6 +2773,7 @@ export default [
     fen: "rnbqkbnr/pppp2pp/8/4pp2/4PP2/8/PPPP2PP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 f2f4 f7f5",
     an: "e4 e5 f4 f5",
+    hasCont: true,
   },
   {
     eco: "C30",
@@ -2456,22 +2781,23 @@ export default [
     fen: "rnb1kbnr/pppp2pp/8/4pP2/5P1q/8/PPPP2PP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 f2f4 f7f5 e4f5 d8h4",
     an: "e4 e5 f4 f5 exf5 Qh4+",
+    hasCont: false,
   },
   {
     eco: "C30",
-    name:
-      "King's Gambit Declined: Panteldakis Countergambit, Pawn Sacrifice Line",
+    name: "King's Gambit Declined: Panteldakis Countergambit, Pawn Sacrifice Line",
     fen: "rnb1kbnr/ppppq2p/6P1/7Q/5p2/8/PPPP2PP/RNBK1BNR b kq -",
     moves: "e2e4 e7e5 f2f4 f7f5 e4f5 e5f4 d1h5 g7g6 f5g6 d8e7 e1d1",
     an: "e4 e5 f4 f5 exf5 exf4 Qh5+ g6 fxg6 Qe7+ Kd1",
+    hasCont: false,
   },
   {
     eco: "C30",
-    name:
-      "King's Gambit Declined: Panteldakis Countergambit, Schiller's Defense",
+    name: "King's Gambit Declined: Panteldakis Countergambit, Schiller's Defense",
     fen: "rnbqk1nr/pppp2pp/8/2b1pP2/5P2/8/PPPP2PP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 f2f4 f7f5 e4f5 f8c5",
     an: "e4 e5 f4 f5 exf5 Bc5",
+    hasCont: false,
   },
   {
     eco: "C30",
@@ -2479,14 +2805,15 @@ export default [
     fen: "rnbq1bnr/ppppk1pp/8/5P1Q/5p2/8/PPPP2PP/RNB1KBNR w KQ -",
     moves: "e2e4 e7e5 f2f4 f7f5 e4f5 e5f4 d1h5 e8e7",
     an: "e4 e5 f4 f5 exf5 exf4 Qh5+ Ke7",
+    hasCont: false,
   },
   {
     eco: "C30",
-    name:
-      "King's Gambit Declined: Panteldakis Countergambit, Symmetrical Variation",
+    name: "King's Gambit Declined: Panteldakis Countergambit, Symmetrical Variation",
     fen: "rnbqk1nr/ppp3pp/3b4/3p1P2/3P1p2/3B1N2/PPP3PP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 f2f4 f7f5 e4f5 e5f4 g1f3 d7d5 d2d4 f8d6 f1d3",
     an: "e4 e5 f4 f5 exf5 exf4 Nf3 d5 d4 Bd6 Bd3",
+    hasCont: false,
   },
   {
     eco: "C30",
@@ -2494,6 +2821,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/4p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 f2f4 g8f6",
     an: "e4 e5 f4 Nf6",
+    hasCont: false,
   },
   {
     eco: "C30",
@@ -2501,6 +2829,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/4p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 f2f4 b8c6",
     an: "e4 e5 f4 Nc6",
+    hasCont: true,
   },
   {
     eco: "C30",
@@ -2508,6 +2837,7 @@ export default [
     fen: "rnbqk1nr/pppp1p1p/8/2b1p1p1/4PP2/5N2/PPPP2PP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 f8c5 g1f3 g7g5",
     an: "e4 e5 f4 Bc5 Nf3 g5",
+    hasCont: false,
   },
   {
     eco: "C30",
@@ -2515,6 +2845,7 @@ export default [
     fen: "r1bqkbnr/pppp2pp/2n2p2/4P3/4P3/8/PPPP2PP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 f2f4 f7f6 f4e5 b8c6",
     an: "e4 e5 f4 f6 fxe5 Nc6",
+    hasCont: false,
   },
   {
     eco: "C30",
@@ -2522,6 +2853,7 @@ export default [
     fen: "r1bqkbnr/pppp1p1p/2n5/4p1p1/4PP2/5N2/PPPP2PP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 b8c6 g1f3 g7g5",
     an: "e4 e5 f4 Nc6 Nf3 g5",
+    hasCont: true,
   },
   {
     eco: "C30",
@@ -2529,6 +2861,7 @@ export default [
     fen: "rnbqkbnr/pppp1p1p/8/4p1p1/4PP2/8/PPPP2PP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 f2f4 g7g5",
     an: "e4 e5 f4 g5",
+    hasCont: false,
   },
   {
     eco: "C31",
@@ -2536,6 +2869,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3pp3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 f2f4 d7d5",
     an: "e4 e5 f4 d5",
+    hasCont: true,
   },
   {
     eco: "C31",
@@ -2543,6 +2877,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3Pp3/5P2/8/PPPP2PP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 d7d5 e4d5",
     an: "e4 e5 f4 d5 exd5",
+    hasCont: true,
   },
   {
     eco: "C31",
@@ -2550,6 +2885,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/1B1P4/4pP2/8/PPPP2PP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f2f4 d7d5 e4d5 e5e4 f1b5",
     an: "e4 e5 f4 d5 exd5 e4 Bb5+",
+    hasCont: false,
   },
   {
     eco: "C31",
@@ -2557,6 +2893,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3pp3/4PP2/5N2/PPPP2PP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 d7d5 g1f3",
     an: "e4 e5 f4 d5 Nf3",
+    hasCont: false,
   },
   {
     eco: "C31",
@@ -2564,14 +2901,15 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3P4/4pP2/3P4/PPP3PP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 d7d5 e4d5 e5e4 d2d3",
     an: "e4 e5 f4 d5 exd5 e4 d3",
+    hasCont: true,
   },
   {
     eco: "C31",
-    name:
-      "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit, Morphy Defense",
+    name: "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit, Morphy Defense",
     fen: "rnbqk2r/ppp2ppp/5n2/3P4/1b3P2/2NPp3/PPPB2PP/R2QKBNR w KQkq -",
     moves: "e2e4 e7e5 b1c3 g8f6 f2f4 d7d5 e4d5 e5e4 d2d3 f8b4 c1d2 e4e3",
     an: "e4 e5 Nc3 Nf6 f4 d5 exd5 e4 d3 Bb4 Bd2 e3",
+    hasCont: false,
   },
   {
     eco: "C31",
@@ -2579,6 +2917,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3pp3/3PPP2/8/PPP3PP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 d7d5 d2d4",
     an: "e4 e5 f4 d5 d4",
+    hasCont: false,
   },
   {
     eco: "C31",
@@ -2586,14 +2925,15 @@ export default [
     fen: "rnbqk1nr/ppp2ppp/8/2bPp3/5P2/8/PPPP2PP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 f2f4 d7d5 e4d5 f8c5",
     an: "e4 e5 f4 d5 exd5 Bc5",
+    hasCont: false,
   },
   {
     eco: "C31",
-    name:
-      "King's Gambit Declined: Falkbeer Countergambit, Milner-Barry Variation",
+    name: "King's Gambit Declined: Falkbeer Countergambit, Milner-Barry Variation",
     fen: "rnbqkbnr/ppp2ppp/8/3pp3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 d7d5 b1c3",
     an: "e4 e5 f4 d5 Nc3",
+    hasCont: true,
   },
   {
     eco: "C31",
@@ -2601,14 +2941,15 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3P4/5p2/8/PPPP2PP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 f2f4 d7d5 e4d5 e5f4",
     an: "e4 e5 f4 d5 exd5 exf4",
+    hasCont: false,
   },
   {
     eco: "C31",
-    name:
-      "King's Gambit Declined: Falkbeer Countergambit, Nimzowitsch-Marshall Countergambit",
+    name: "King's Gambit Declined: Falkbeer Countergambit, Nimzowitsch-Marshall Countergambit",
     fen: "rnbqkbnr/pp3ppp/2p5/3Pp3/5P2/8/PPPP2PP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 f2f4 d7d5 e4d5 c7c6",
     an: "e4 e5 f4 d5 exd5 c6",
+    hasCont: true,
   },
   {
     eco: "C31",
@@ -2616,14 +2957,15 @@ export default [
     fen: "rnbqk1nr/pp3ppp/2P5/2b1p3/5P2/8/PPPP2PP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 f2f4 d7d5 e4d5 c7c6 d5c6 f8c5",
     an: "e4 e5 f4 d5 exd5 c6 dxc6 Bc5",
+    hasCont: false,
   },
   {
     eco: "C31",
-    name:
-      "King's Gambit Declined: Falkbeer Countergambit, Rubinstein Variation",
+    name: "King's Gambit Declined: Falkbeer Countergambit, Rubinstein Variation",
     fen: "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2N5/PPPPQ1PP/R1B1KBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 d7d5 e4d5 e5e4 b1c3 g8f6 d1e2",
     an: "e4 e5 f4 d5 exd5 e4 Nc3 Nf6 Qe2",
+    hasCont: false,
   },
   {
     eco: "C31",
@@ -2631,6 +2973,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3P4/4pP2/8/PPPP2PP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 f2f4 d7d5 e4d5 e5e4",
     an: "e4 e5 f4 d5 exd5 e4",
+    hasCont: true,
   },
   {
     eco: "C31",
@@ -2638,6 +2981,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/4p3/4NP2/8/PPPP2PP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 d7d5 b1c3 d5e4 c3e4",
     an: "e4 e5 f4 d5 Nc3 dxe4 Nxe4",
+    hasCont: false,
   },
   {
     eco: "C32",
@@ -2646,6 +2990,7 @@ export default [
     moves:
       "e2e4 e7e5 f2f4 d7d5 e4d5 e5e4 d2d3 g8f6 d3e4 f6e4 g1f3 f8c5 d1e2 c5f2 e1d1 d8d5 f3d2",
     an: "e4 e5 f4 d5 exd5 e4 d3 Nf6 dxe4 Nxe4 Nf3 Bc5 Qe2 Bf2+ Kd1 Qxd5+ Nfd2",
+    hasCont: false,
   },
   {
     eco: "C32",
@@ -2653,39 +2998,40 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/8/3P4/4nP2/8/PPP1Q1PP/RNB1KBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 d7d5 e4d5 e5e4 d2d3 g8f6 d3e4 f6e4 d1e2",
     an: "e4 e5 f4 d5 exd5 e4 d3 Nf6 dxe4 Nxe4 Qe2",
+    hasCont: true,
   },
   {
     eco: "C32",
-    name:
-      "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit Accepted",
+    name: "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit Accepted",
     fen: "rnbqkb1r/ppp2ppp/5n2/3P4/4PP2/8/PPP3PP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 d7d5 e4d5 e5e4 d2d3 g8f6 d3e4",
     an: "e4 e5 f4 d5 exd5 e4 d3 Nf6 dxe4",
+    hasCont: true,
   },
   {
     eco: "C32",
-    name:
-      "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit, Keres Variation",
+    name: "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit, Keres Variation",
     fen: "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/3P4/PPPN2PP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 d7d5 e4d5 e5e4 d2d3 g8f6 b1d2",
     an: "e4 e5 f4 d5 exd5 e4 d3 Nf6 Nd2",
+    hasCont: false,
   },
   {
     eco: "C32",
-    name:
-      "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit, Main Line",
+    name: "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit, Main Line",
     fen: "rn1qk2r/ppp2ppp/8/2bP1b2/4nP2/5N2/PPP1Q1PP/RNB1KB1R w KQkq -",
     moves:
       "e2e4 e7e5 f2f4 d7d5 e4d5 e5e4 d2d3 g8f6 d3e4 f6e4 g1f3 f8c5 d1e2 c8f5",
     an: "e4 e5 f4 d5 exd5 e4 d3 Nf6 dxe4 Nxe4 Nf3 Bc5 Qe2 Bf5",
+    hasCont: true,
   },
   {
     eco: "C32",
-    name:
-      "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit, Old Line",
+    name: "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit, Old Line",
     fen: "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/3P4/PPP1Q1PP/RNB1KBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 d7d5 e4d5 e5e4 d2d3 g8f6 d1e2",
     an: "e4 e5 f4 d5 exd5 e4 d3 Nf6 Qe2",
+    hasCont: false,
   },
   {
     eco: "C32",
@@ -2694,6 +3040,7 @@ export default [
     moves:
       "e2e4 e7e5 f2f4 d7d5 e4d5 e5e4 d2d3 g8f6 d3e4 f6e4 d1e2 d8d5 b1d2 f7f5 g2g4",
     an: "e4 e5 f4 d5 exd5 e4 d3 Nf6 dxe4 Nxe4 Qe2 Qxd5 Nd2 f5 g4",
+    hasCont: false,
   },
   {
     eco: "C32",
@@ -2702,6 +3049,7 @@ export default [
     moves:
       "e2e4 e7e5 f2f4 d7d5 e4d5 e5e4 d2d3 g8f6 d3e4 f6e4 g1f3 f8c5 d1e2 c8f5 g2g4 e8g8",
     an: "e4 e5 f4 d5 exd5 e4 d3 Nf6 dxe4 Nxe4 Nf3 Bc5 Qe2 Bf5 g4 O-O",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2709,6 +3057,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/4Pp2/8/PPPP2PP/RNBQKBNR w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4",
     an: "e4 e5 f4 exf4",
+    hasCont: true,
   },
   {
     eco: "C33",
@@ -2716,6 +3065,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/4Pp2/8/PPPPQ1PP/RNB1KBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 d1e2",
     an: "e4 e5 f4 exf4 Qe2",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2723,6 +3073,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/2B1Pp2/8/PPPP2PP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4",
     an: "e4 e5 f4 exf4 Bc4",
+    hasCont: true,
   },
   {
     eco: "C33",
@@ -2730,6 +3081,7 @@ export default [
     fen: "rnbqkbnr/pppp1p1p/8/6p1/2B1Pp2/8/PPPP2PP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 g7g5",
     an: "e4 e5 f4 exf4 Bc4 g5",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2737,6 +3089,7 @@ export default [
     fen: "rnbqkbnr/pp3ppp/2p5/3B4/4Pp2/8/PPPP2PP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 d7d5 c4d5 c7c6",
     an: "e4 e5 f4 exf4 Bc4 d5 Bxd5 c6",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2744,6 +3097,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/5n2/3B4/4Pp2/8/PPPP2PP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 d7d5 c4d5 g8f6",
     an: "e4 e5 f4 exf4 Bc4 d5 Bxd5 Nf6",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2751,6 +3105,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3p4/2B1Pp2/8/PPPP2PP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 d7d5",
     an: "e4 e5 f4 exf4 Bc4 d5",
+    hasCont: true,
   },
   {
     eco: "C33",
@@ -2758,6 +3113,7 @@ export default [
     fen: "r1b1kbnr/pppp1ppp/2n5/8/2B1Pp1q/8/PPPP2PP/RNBQ1KNR w kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 d8h4 e1f1 b8c6",
     an: "e4 e5 f4 exf4 Bc4 Qh4+ Kf1 Nc6",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2765,6 +3121,7 @@ export default [
     fen: "rnbqkb1r/pp1p1ppp/2p2n2/8/2B1Pp2/2N5/PPPP2PP/R1BQK1NR w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 g8f6 b1c3 c7c6",
     an: "e4 e5 f4 exf4 Bc4 Nf6 Nc3 c6",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2772,6 +3129,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/8/2B1Pp2/2N5/PPPP2PP/R1BQK1NR b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 g8f6 b1c3",
     an: "e4 e5 f4 exf4 Bc4 Nf6 Nc3",
+    hasCont: true,
   },
   {
     eco: "C33",
@@ -2779,6 +3137,7 @@ export default [
     fen: "rnb1k1nr/ppp2ppp/3b4/3B4/4Pp1q/8/PPPP2PP/RNBQ1KNR w kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 d7d5 c4d5 d8h4 e1f1 f8d6",
     an: "e4 e5 f4 exf4 Bc4 d5 Bxd5 Qh4+ Kf1 Bd6",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2786,6 +3145,7 @@ export default [
     fen: "rnb1kbnr/p1pp1ppp/8/1p6/2B1Pp1q/8/PPPP2PP/RNBQ1KNR w kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 d8h4 e1f1 b7b5",
     an: "e4 e5 f4 exf4 Bc4 Qh4+ Kf1 b5",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2793,6 +3153,7 @@ export default [
     fen: "rnb1kbnr/ppp2p1p/8/3B2p1/4Pp1q/6P1/PPPP3P/RNBQ1KNR b kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 d8h4 e1f1 d7d5 c4d5 g7g5 g2g3",
     an: "e4 e5 f4 exf4 Bc4 Qh4+ Kf1 d5 Bxd5 g5 g3",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2800,14 +3161,15 @@ export default [
     fen: "rnb1k2r/ppppnpbp/8/6p1/2BPPp1q/2N5/PPP3PP/R1BQ1KNR w kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 d8h4 e1f1 g8e7 b1c3 g7g5 d2d4 f8g7",
     an: "e4 e5 f4 exf4 Bc4 Qh4+ Kf1 Ne7 Nc3 g5 d4 Bg7",
+    hasCont: false,
   },
   {
     eco: "C33",
-    name:
-      "King's Gambit Accepted: Bishop's Gambit, Classical Defense, Cozio Attack",
+    name: "King's Gambit Accepted: Bishop's Gambit, Classical Defense, Cozio Attack",
     fen: "rnb1kbnr/pppp1p1p/8/6p1/2B1Pp1q/5Q2/PPPP2PP/RNB2KNR b kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 d8h4 e1f1 g7g5 d1f3",
     an: "e4 e5 f4 exf4 Bc4 Qh4+ Kf1 g5 Qf3",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2815,6 +3177,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/8/2B1Pp2/8/PPPP2PP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 g8f6",
     an: "e4 e5 f4 exf4 Bc4 Nf6",
+    hasCont: true,
   },
   {
     eco: "C33",
@@ -2822,6 +3185,7 @@ export default [
     fen: "rnb1kbnr/ppp2ppp/3p4/8/2B1Pp1q/8/PPPP2PP/RNBQ1KNR w kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 d8h4 e1f1 d7d6",
     an: "e4 e5 f4 exf4 Bc4 Qh4+ Kf1 d6",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2829,6 +3193,7 @@ export default [
     fen: "rnb1kb1r/pppp1ppp/5n2/8/2B1Pp1q/8/PPPP2PP/RNBQ1KNR w kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 d8h4 e1f1 g8f6",
     an: "e4 e5 f4 exf4 Bc4 Qh4+ Kf1 Nf6",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2836,6 +3201,7 @@ export default [
     fen: "rnb1k1nr/pppp1pbp/8/6p1/2B1P2q/2N2Qp1/PPPP3P/R1B2KNR b kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 d8h4 e1f1 g7g5 b1c3 f8g7 g2g3 f4g3 d1f3",
     an: "e4 e5 f4 exf4 Bc4 Qh4+ Kf1 g5 Nc3 Bg7 g3 fxg3 Qf3",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2843,6 +3209,7 @@ export default [
     fen: "rnbqkbnr/pppp2pp/8/5p2/2B1Pp2/8/PPPP2PP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 f7f5",
     an: "e4 e5 f4 exf4 Bc4 f5",
+    hasCont: true,
   },
   {
     eco: "C33",
@@ -2850,6 +3217,7 @@ export default [
     fen: "rnb1k1nr/pppp1ppp/8/2b5/2B1Pp1q/8/PPPP2PP/RNBQ1KNR w kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 d8h4 e1f1 f8c5",
     an: "e4 e5 f4 exf4 Bc4 Qh4+ Kf1 Bc5",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2857,6 +3225,7 @@ export default [
     fen: "rnb1k1nr/ppp2pbp/3p4/4P1p1/2BP1p1q/2N5/PPP3PP/R1BQ1KNR b kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 d8h4 e1f1 g7g5 b1c3 f8g7 d2d4 d7d6 e4e5",
     an: "e4 e5 f4 exf4 Bc4 Qh4+ Kf1 g5 Nc3 Bg7 d4 d6 e5",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2864,6 +3233,7 @@ export default [
     fen: "rnbqkbnr/p1pp1ppp/8/1p6/2B1Pp2/8/PPPP2PP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 b7b5",
     an: "e4 e5 f4 exf4 Bc4 b5",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2871,6 +3241,7 @@ export default [
     fen: "rnbqkbnr/pp1p1ppp/2p5/8/2B1Pp2/8/PPPP2PP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 c7c6",
     an: "e4 e5 f4 exf4 Bc4 c6",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2878,6 +3249,7 @@ export default [
     fen: "rnb1kbnr/pppp1p1p/8/6p1/2B1Pp1q/8/PPPP2PP/RNBQ1KNR w kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 d8h4 e1f1 g7g5",
     an: "e4 e5 f4 exf4 Bc4 Qh4+ Kf1 g5",
+    hasCont: true,
   },
   {
     eco: "C33",
@@ -2885,6 +3257,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/8/2B1Pp2/8/PPPP2PP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 b8c6",
     an: "e4 e5 f4 exf4 Bc4 Nc6",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2892,6 +3265,7 @@ export default [
     fen: "rnb1k2r/ppppnpbp/8/6p1/2BPPp1q/2N3P1/PPP4P/R1BQ1KNR b kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 d8h4 e1f1 g7g5 b1c3 f8g7 d2d4 g8e7 g2g3",
     an: "e4 e5 f4 exf4 Bc4 Qh4+ Kf1 g5 Nc3 Bg7 d4 Ne7 g3",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2899,6 +3273,7 @@ export default [
     fen: "rnb1k1nr/pppp1pbp/8/6p1/2B1Pp1q/2N3P1/PPPP3P/R1BQ1KNR b kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 d8h4 e1f1 g7g5 b1c3 f8g7 g2g3",
     an: "e4 e5 f4 exf4 Bc4 Qh4+ Kf1 g5 Nc3 Bg7 g3",
+    hasCont: true,
   },
   {
     eco: "C33",
@@ -2906,6 +3281,7 @@ export default [
     fen: "rnbqk2r/pppp1ppp/5n2/4P3/1bB2p2/2N5/PPPP2PP/R1BQK1NR b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 g8f6 b1c3 f8b4 e4e5",
     an: "e4 e5 f4 exf4 Bc4 Nf6 Nc3 Bb4 e5",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2913,6 +3289,7 @@ export default [
     fen: "rnbqkb1r/ppppnppp/8/8/2B1Pp2/8/PPPP2PP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 g8e7",
     an: "e4 e5 f4 exf4 Bc4 Ne7",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2920,6 +3297,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/4Pp2/5Q2/PPPP2PP/RNB1KBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 d1f3",
     an: "e4 e5 f4 exf4 Qf3",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2927,6 +3305,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/7Q/4Pp2/8/PPPP2PP/RNB1KBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 d1h5",
     an: "e4 e5 f4 exf4 Qh5",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2934,6 +3313,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/4PpQ1/8/PPPP2PP/RNB1KBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 d1g4",
     an: "e4 e5 f4 exf4 Qg4",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2941,6 +3321,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/4Pp2/7N/PPPP2PP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1h3",
     an: "e4 e5 f4 exf4 Nh3",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2948,14 +3329,15 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/4Pp2/6P1/PPPP3P/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g2g3",
     an: "e4 e5 f4 exf4 g3",
+    hasCont: false,
   },
   {
     eco: "C33",
-    name:
-      "King's Gambit Accepted: Lopez-Gianutio Countergambit, Hein Variation",
+    name: "King's Gambit Accepted: Lopez-Gianutio Countergambit, Hein Variation",
     fen: "rnbk1bnr/pppp2pp/8/8/2B1pp1q/2N5/PPPPQ1PP/R1BK2NR w - -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1c4 f7f5 d1e2 d8h4 e1d1 f5e4 b1c3 e8d8",
     an: "e4 e5 f4 exf4 Bc4 f5 Qe2 Qh4+ Kd1 fxe4 Nc3 Kd8",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2963,6 +3345,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/4Pp2/1P6/P1PP2PP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 b2b3",
     an: "e4 e5 f4 exf4 b3",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2970,6 +3353,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/4Pp2/8/PPPPN1PP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1e2",
     an: "e4 e5 f4 exf4 Ne2",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2977,6 +3361,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/3PPp2/8/PPP3PP/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 d2d4",
     an: "e4 e5 f4 exf4 d4",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2984,6 +3369,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/1B6/4Pp2/8/PPPP2PP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1b5",
     an: "e4 e5 f4 exf4 Bb5",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2991,6 +3377,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/4Pp2/3B4/PPPP2PP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1d3",
     an: "e4 e5 f4 exf4 Bd3",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -2998,6 +3385,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/4Pp1P/8/PPPP2P1/RNBQKBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 h2h4",
     an: "e4 e5 f4 exf4 h4",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -3005,6 +3393,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/4Pp2/8/PPPPB1PP/RNBQK1NR b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1e2",
     an: "e4 e5 f4 exf4 Be2",
+    hasCont: true,
   },
   {
     eco: "C33",
@@ -3012,6 +3401,7 @@ export default [
     fen: "rnbqkbnr/ppp3pp/3p4/5P2/5p2/8/PPPPB1PP/RNBQK1NR w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 f1e2 f7f5 e4f5 d7d6",
     an: "e4 e5 f4 exf4 Be2 f5 exf5 d6",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -3019,6 +3409,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/4Pp2/8/PPPP1KPP/RNBQ1BNR b kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 e1f2",
     an: "e4 e5 f4 exf4 Kf2",
+    hasCont: false,
   },
   {
     eco: "C33",
@@ -3026,6 +3417,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/4Pp2/2N5/PPPP2PP/R1BQKBNR b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 b1c3",
     an: "e4 e5 f4 exf4 Nc3",
+    hasCont: false,
   },
   {
     eco: "C34",
@@ -3033,6 +3425,7 @@ export default [
     fen: "rnbqkbnr/pppp1pp1/7p/8/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 h7h6",
     an: "e4 e5 f4 exf4 Nf3 h6",
+    hasCont: true,
   },
   {
     eco: "C34",
@@ -3040,6 +3433,7 @@ export default [
     fen: "rnbqkb1r/ppppnppp/8/8/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g8e7",
     an: "e4 e5 f4 exf4 Nf3 Ne7",
+    hasCont: false,
   },
   {
     eco: "C34",
@@ -3047,6 +3441,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/3p4/8/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 d7d6",
     an: "e4 e5 f4 exf4 Nf3 d6",
+    hasCont: true,
   },
   {
     eco: "C34",
@@ -3054,6 +3449,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/3p4/8/1P2Pp2/5N2/P1PP2PP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 d7d6 b2b4",
     an: "e4 e5 f4 exf4 Nf3 d6 b4",
+    hasCont: false,
   },
   {
     eco: "C34",
@@ -3061,6 +3457,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p1n2/8/3PPp2/3B1N2/PPP3PP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 d7d6 d2d4 g8f6 f1d3",
     an: "e4 e5 f4 exf4 Nf3 d6 d4 Nf6 Bd3",
+    hasCont: false,
   },
   {
     eco: "C34",
@@ -3068,6 +3465,7 @@ export default [
     fen: "rnbqkbnr/pppp2pp/8/5p2/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 f7f5",
     an: "e4 e5 f4 exf4 Nf3 f5",
+    hasCont: false,
   },
   {
     eco: "C34",
@@ -3075,6 +3473,7 @@ export default [
     fen: "rnbqk1nr/ppp2pb1/3p3p/6p1/2BPPp1P/5N2/PPP3P1/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 d7d6 f1c4 h7h6 d2d4 g7g5 h2h4 f8g7",
     an: "e4 e5 f4 exf4 Nf3 d6 Bc4 h6 d4 g5 h4 Bg7",
+    hasCont: false,
   },
   {
     eco: "C34",
@@ -3082,6 +3481,7 @@ export default [
     fen: "rnbqkbnr/pppp1p1p/8/6p1/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5",
     an: "e4 e5 f4 exf4 Nf3 g5",
+    hasCont: true,
   },
   {
     eco: "C34",
@@ -3089,6 +3489,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/8/4Pp2/5N2/PPPP2PP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3",
     an: "e4 e5 f4 exf4 Nf3",
+    hasCont: true,
   },
   {
     eco: "C34",
@@ -3096,6 +3497,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/8/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 b8c6",
     an: "e4 e5 f4 exf4 Nf3 Nc6",
+    hasCont: true,
   },
   {
     eco: "C34",
@@ -3103,6 +3505,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/8/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g8f6",
     an: "e4 e5 f4 exf4 Nf3 Nf6",
+    hasCont: true,
   },
   {
     eco: "C34",
@@ -3110,6 +3513,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/8/4P2n/5pP1/5N2/PPPP3P/RNBQKB1R b KQkq g3",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g8f6 e4e5 f6h5 g2g4",
     an: "e4 e5 f4 exf4 Nf3 Nf6 e5 Nh5 g4",
+    hasCont: false,
   },
   {
     eco: "C35",
@@ -3117,6 +3521,7 @@ export default [
     fen: "rnbqk1nr/ppppbppp/8/8/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 f8e7",
     an: "e4 e5 f4 exf4 Nf3 Be7",
+    hasCont: true,
   },
   {
     eco: "C35",
@@ -3124,6 +3529,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/8/8/2B1Pp1b/5NP1/PPPP3P/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 f8e7 f1c4 e7h4 g2g3",
     an: "e4 e5 f4 exf4 Nf3 Be7 Bc4 Bh4+ g3",
+    hasCont: false,
   },
   {
     eco: "C35",
@@ -3131,6 +3537,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/8/8/2B1P2b/5N2/PPPP3p/RNBQ1R1K b kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 f8e7 f1c4 e7h4 g2g3 f4g3 e1g1 g3h2 g1h1",
     an: "e4 e5 f4 exf4 Nf3 Be7 Bc4 Bh4+ g3 fxg3 O-O gxh2+ Kh1",
+    hasCont: false,
   },
   {
     eco: "C35",
@@ -3138,6 +3545,7 @@ export default [
     fen: "rnbqk2r/ppppbppp/5n2/8/2B1Pp2/5N2/PPPP2PP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 f8e7 f1c4 g8f6",
     an: "e4 e5 f4 exf4 Nf3 Be7 Bc4 Nf6",
+    hasCont: false,
   },
   {
     eco: "C36",
@@ -3145,6 +3553,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/5n2/3P4/5p2/5N2/PPPP2PP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 d7d5 e4d5 g8f6",
     an: "e4 e5 f4 exf4 Nf3 d5 exd5 Nf6",
+    hasCont: true,
   },
   {
     eco: "C36",
@@ -3153,6 +3562,7 @@ export default [
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 d7d5 e4d5 g8f6 f1b5 c7c6 d5c6 b7c6 b5c4 f6d5",
     an: "e4 e5 f4 exf4 Nf3 d5 exd5 Nf6 Bb5+ c6 dxc6 bxc6 Bc4 Nd5",
+    hasCont: false,
   },
   {
     eco: "C36",
@@ -3160,6 +3570,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3p4/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 d7d5",
     an: "e4 e5 f4 exf4 Nf3 d5",
+    hasCont: true,
   },
   {
     eco: "C36",
@@ -3167,6 +3578,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3P4/5p2/5N2/PPPP2PP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 d7d5 e4d5",
     an: "e4 e5 f4 exf4 Nf3 d5 exd5",
+    hasCont: true,
   },
   {
     eco: "C37",
@@ -3174,6 +3586,7 @@ export default [
     fen: "rnbqkbnr/pppp1p1p/8/8/2B1PppP/5N2/PPPP2P1/RNBQK2R b KQkq h3",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 h2h4",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 h4",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3181,6 +3594,7 @@ export default [
     fen: "r1bqkbnr/pppp1p1p/2n5/6p1/2B1Pp2/5N2/PPPP2PP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 b8c6 f1c4 g7g5",
     an: "e4 e5 f4 exf4 Nf3 Nc6 Bc4 g5",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3189,6 +3603,7 @@ export default [
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 e1g1 g4f3 d1f3 d8f6 e4e5 f6e5 c4f7",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Qf6 e5 Qxe5 Bxf7+",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3197,6 +3612,7 @@ export default [
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 e1g1 g4f3 d1f3 d8f6 b1c3 f6d4 g1h1 d4c4 c3d5",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Qf6 Nc3 Qd4+ Kh1 Qxc4 Nd5",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3204,6 +3620,7 @@ export default [
     fen: "rnb1kbnr/pppp1p1p/5q2/8/2B1Pp2/2N2Q2/PPPP2PP/R1B2RK1 b kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 e1g1 g4f3 d1f3 d8f6 b1c3",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Qf6 Nc3",
+    hasCont: true,
   },
   {
     eco: "C37",
@@ -3211,8 +3628,8 @@ export default [
     fen: "r1b1k2r/ppppnp1p/2n4b/4q3/2B2p2/2NP1Q2/PPPB2PP/4RRK1 b kq -",
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 e1g1 g4f3 d1f3 d8f6 e4e5 f6e5 d2d3 f8h6 b1c3 g8e7 c1d2 b8c6 a1e1",
-    an:
-      "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Qf6 e5 Qxe5 d3 Bh6 Nc3 Ne7 Bd2 Nbc6 Rae1",
+    an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Qf6 e5 Qxe5 d3 Bh6 Nc3 Ne7 Bd2 Nbc6 Rae1",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3220,8 +3637,8 @@ export default [
     fen: "rnb2bnr/pppp1k1p/5q2/8/4P3/2N1pQ2/PPP3PP/R4RK1 w - -",
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 e1g1 g4f3 d1f3 d8f6 c4f7 e8f7 d2d4 f6d4 c1e3 d4f6 b1c3 f4e3",
-    an:
-      "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Qf6 Bxf7+ Kxf7 d4 Qxd4+ Be3 Qf6 Nc3 fxe3",
+    an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Qf6 Bxf7+ Kxf7 d4 Qxd4+ Be3 Qf6 Nc3 fxe3",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3229,6 +3646,7 @@ export default [
     fen: "rnbqkbnr/pppp1p1p/8/8/2BPPpp1/5N2/PPP3PP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 d2d4",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 d4",
+    hasCont: true,
   },
   {
     eco: "C37",
@@ -3236,6 +3654,7 @@ export default [
     fen: "rnbqkbnr/pppp1p1p/8/8/2BPPp2/5Q2/PPP3PP/RNB1K2R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 d2d4 g4f3 d1f3",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 d4 gxf3 Qxf3",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3243,6 +3662,7 @@ export default [
     fen: "rnbqkbnr/pppp1p1p/8/6p1/2B1Pp2/5N2/PPPP2PP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4",
+    hasCont: true,
   },
   {
     eco: "C37",
@@ -3250,6 +3670,7 @@ export default [
     fen: "rnbqkbnr/pppp1p1p/8/8/2BPPB2/5p2/PPP3PP/RN1QK2R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 d2d4 g4f3 c1f4",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 d4 gxf3 Bxf4",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3257,6 +3678,7 @@ export default [
     fen: "rnbqkbnr/pppp1B1p/8/8/4Ppp1/5N2/PPPP2PP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 c4f7",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Bxf7+",
+    hasCont: true,
   },
   {
     eco: "C37",
@@ -3264,8 +3686,8 @@ export default [
     fen: "rnb2bnr/pppp1k1p/5q2/8/4Pp2/2N1BQ2/PPP3PP/R4RK1 b - -",
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 c4f7 e8f7 e1g1 g4f3 d1f3 d8f6 d2d4 f6d4 c1e3 d4f6 b1c3",
-    an:
-      "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Bxf7+ Kxf7 O-O gxf3 Qxf3 Qf6 d4 Qxd4+ Be3 Qf6 Nc3",
+    an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Bxf7+ Kxf7 O-O gxf3 Qxf3 Qf6 d4 Qxd4+ Be3 Qf6 Nc3",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3273,6 +3695,7 @@ export default [
     fen: "rnbqkbnr/pppp1p1p/8/8/2B1Ppp1/2N2N2/PPPP2PP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 b1c3",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Nc3",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3281,6 +3704,7 @@ export default [
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 d7d6 e1g1 c8g4 h2h3 h7h5 h3g4 h5g4",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 d6 O-O Bg4 h3 h5 hxg4 hxg4",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3288,6 +3712,7 @@ export default [
     fen: "rnb1kbnr/ppppqp1p/8/8/2B1Pp2/5Q2/PPPP2PP/RNB2RK1 w kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 e1g1 g4f3 d1f3 d8e7",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Qe7",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3295,6 +3720,7 @@ export default [
     fen: "rnbqkbnr/ppp2p1p/8/3p4/2B1Ppp1/5N2/PPPP2PP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 e1g1 d7d5",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O d5",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3302,14 +3728,15 @@ export default [
     fen: "r1bqkbnr/pppp1p1p/2n5/8/2B1Pp2/5Q2/PPPP2PP/RNB2RK1 w kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 e1g1 g4f3 d1f3 b8c6",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Nc6",
+    hasCont: false,
   },
   {
     eco: "C37",
-    name:
-      "King's Gambit Accepted: Muzio Gambit, Kling and Horwitz Counterattack",
+    name: "King's Gambit Accepted: Muzio Gambit, Kling and Horwitz Counterattack",
     fen: "rnb1kbnr/ppppqp1p/8/8/2B1Ppp1/5N2/PPPP2PP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 e1g1 d8e7",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O Qe7",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3317,6 +3744,7 @@ export default [
     fen: "rnb1kbnr/pppp1p1p/5q2/8/2B1Pp2/5Q2/PPPP2PP/RNB2RK1 w kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 e1g1 g4f3 d1f3 d8f6",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Qf6",
+    hasCont: true,
   },
   {
     eco: "C37",
@@ -3324,6 +3752,7 @@ export default [
     fen: "rnbqkbnr/pppp1p1p/8/8/2B1Ppp1/5N2/PPPP2PP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 e1g1",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O",
+    hasCont: true,
   },
   {
     eco: "C37",
@@ -3331,6 +3760,7 @@ export default [
     fen: "rnbqkbnr/pppp1p1p/8/6p1/4Pp2/2N2N2/PPPP2PP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 b1c3",
     an: "e4 e5 f4 exf4 Nf3 g5 Nc3",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3338,6 +3768,7 @@ export default [
     fen: "rnbqkbnr/pppp1p1p/8/6p1/3PPp2/5N2/PPP3PP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 d2d4",
     an: "e4 e5 f4 exf4 Nf3 g5 d4",
+    hasCont: true,
   },
   {
     eco: "C37",
@@ -3345,6 +3776,7 @@ export default [
     fen: "rnb1kbnr/pppp1p1p/8/4N3/3PPppq/6P1/PPP4P/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 d2d4 g5g4 f3e5 d8h4 g2g3",
     an: "e4 e5 f4 exf4 Nf3 g5 d4 g4 Ne5 Qh4+ g3",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3352,6 +3784,7 @@ export default [
     fen: "rnbqkbnr/pppp1p1p/8/8/3PPpp1/2N2N2/PPP3PP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 d2d4 g5g4 b1c3",
     an: "e4 e5 f4 exf4 Nf3 g5 d4 g4 Nc3",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3359,6 +3792,7 @@ export default [
     fen: "rnbqkbnr/pppp1p1p/8/8/3PPBp1/5N2/PPP3PP/RN1QKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 d2d4 g5g4 c1f4",
     an: "e4 e5 f4 exf4 Nf3 g5 d4 g4 Bxf4",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3366,6 +3800,7 @@ export default [
     fen: "rnbqkbnr/pppp1p1p/8/4N3/2B1Ppp1/8/PPPP2PP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 f3e5",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Ne5",
+    hasCont: true,
   },
   {
     eco: "C37",
@@ -3374,6 +3809,7 @@ export default [
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 f3e5 d8h4 e1f1 g8h6 d2d4 d7d6",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Ne5 Qh4+ Kf1 Nh6 d4 d6",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3381,6 +3817,7 @@ export default [
     fen: "rnb1kbnr/pppp1p1p/8/4N3/2B1P1pq/5p2/PPPP2PP/RNBQ1K1R w kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 f3e5 d8h4 e1f1 f4f3",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Ne5 Qh4+ Kf1 f3",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3388,6 +3825,7 @@ export default [
     fen: "rnb1kb1r/pppp1p1p/5n2/4N3/2B1Pppq/8/PPPP2PP/RNBQ1K1R w kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 f3e5 d8h4 e1f1 g8f6",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Ne5 Qh4+ Kf1 Nf6",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3395,6 +3833,7 @@ export default [
     fen: "rnb1kb1r/pppp1p1p/7n/4N3/2B1Pppq/8/PPPP2PP/RNBQ1K1R w kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 f3e5 d8h4 e1f1 g8h6",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Ne5 Qh4+ Kf1 Nh6",
+    hasCont: true,
   },
   {
     eco: "C37",
@@ -3402,6 +3841,7 @@ export default [
     fen: "r1b1kbnr/pppp1p1p/2n5/4N3/2B1Pppq/8/PPPP2PP/RNBQ1K1R w kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 f3e5 d8h4 e1f1 b8c6",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Ne5 Qh4+ Kf1 Nc6",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3410,6 +3850,7 @@ export default [
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 f3e5 d8h4 e1f1 g8h6 d2d4 f4f3",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Ne5 Qh4+ Kf1 Nh6 d4 f3",
+    hasCont: false,
   },
   {
     eco: "C37",
@@ -3417,6 +3858,7 @@ export default [
     fen: "rnbqkbnr/pppp1p1p/8/4N3/3PPpp1/8/PPP3PP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 d2d4 g5g4 f3e5",
     an: "e4 e5 f4 exf4 Nf3 g5 d4 g4 Ne5",
+    hasCont: true,
   },
   {
     eco: "C38",
@@ -3424,8 +3866,8 @@ export default [
     fen: "rnbqk1nb/pp3p2/2pp4/4N1p1/2BPPp2/2N5/PPP3P1/R1BQK3 b Qq -",
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 f8g7 h2h4 h7h6 d2d4 d7d6 b1c3 c7c6 h4g5 h6g5 h1h8 g7h8 f3e5",
-    an:
-      "e4 e5 f4 exf4 Nf3 g5 Bc4 Bg7 h4 h6 d4 d6 Nc3 c6 hxg5 hxg5 Rxh8 Bxh8 Ne5",
+    an: "e4 e5 f4 exf4 Nf3 g5 Bc4 Bg7 h4 h6 d4 d6 Nc3 c6 hxg5 hxg5 Rxh8 Bxh8 Ne5",
+    hasCont: false,
   },
   {
     eco: "C38",
@@ -3433,6 +3875,7 @@ export default [
     fen: "rnbqk1nr/pppp1pbp/8/6p1/2B1Pp2/5N2/PPPP2PP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 f8g7 e1g1",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 Bg7 O-O",
+    hasCont: false,
   },
   {
     eco: "C38",
@@ -3440,6 +3883,7 @@ export default [
     fen: "rnbqk1nr/ppp2pbp/3p4/6p1/2BPPp2/2P2N2/PP4PP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 f8g7 d2d4 d7d6 c2c3",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 Bg7 d4 d6 c3",
+    hasCont: false,
   },
   {
     eco: "C38",
@@ -3447,6 +3891,7 @@ export default [
     fen: "rnbqk1nr/pppp1pbp/8/6p1/2B1Pp1P/5N2/PPPP2P1/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 f8g7 h2h4",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 Bg7 h4",
+    hasCont: true,
   },
   {
     eco: "C38",
@@ -3454,6 +3899,7 @@ export default [
     fen: "rnbqk1nr/ppp2pb1/3p3p/6p1/2BPPp1P/3Q1N2/PPP3P1/RNB1K2R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 h7h6 f1c4 d7d6 d2d4 g7g5 h2h4 f8g7 d1d3",
     an: "e4 e5 f4 exf4 Nf3 h6 Bc4 d6 d4 g5 h4 Bg7 Qd3",
+    hasCont: false,
   },
   {
     eco: "C38",
@@ -3461,6 +3907,7 @@ export default [
     fen: "rnbqk1nr/pppp1pbp/8/6p1/2B1Pp2/5N2/PPPP2PP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 f8g7",
     an: "e4 e5 f4 exf4 Nf3 g5 Bc4 Bg7",
+    hasCont: true,
   },
   {
     eco: "C39",
@@ -3468,6 +3915,7 @@ export default [
     fen: "rnbqkbnr/pppp1p1p/8/6N1/4PppP/8/PPPP2P1/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3g5",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ng5",
+    hasCont: true,
   },
   {
     eco: "C39",
@@ -3475,6 +3923,7 @@ export default [
     fen: "rnbq1bnr/pppp1k2/7p/8/3PPppP/8/PPP3P1/RNBQKB1R b KQ -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3g5 h7h6 g5f7 e8f7 d2d4",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ng5 h6 Nxf7 Kxf7 d4",
+    hasCont: true,
   },
   {
     eco: "C39",
@@ -3482,6 +3931,7 @@ export default [
     fen: "rnbq1bnr/pppp1k2/7p/8/2B1PppP/8/PPPP2P1/RNBQK2R b KQ -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3g5 h7h6 g5f7 e8f7 f1c4",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ng5 h6 Nxf7 Kxf7 Bc4+",
+    hasCont: true,
   },
   {
     eco: "C39",
@@ -3489,6 +3939,7 @@ export default [
     fen: "rnbq1bnr/pppp1k2/7p/8/4PppP/2N5/PPPP2P1/R1BQKB1R b KQ -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3g5 h7h6 g5f7 e8f7 b1c3",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ng5 h6 Nxf7 Kxf7 Nc3",
+    hasCont: false,
   },
   {
     eco: "C39",
@@ -3496,8 +3947,8 @@ export default [
     fen: "rnbq1bnr/ppp3k1/7p/4B3/2BPp1pP/8/PPP3P1/RN1QK2R b KQ -",
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3g5 h7h6 g5f7 e8f7 d2d4 d7d5 c1f4 d5e4 f1c4 f7g7 f4e5",
-    an:
-      "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ng5 h6 Nxf7 Kxf7 d4 d5 Bxf4 dxe4 Bc4+ Kg7 Be5+",
+    an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ng5 h6 Nxf7 Kxf7 d4 d5 Bxf4 dxe4 Bc4+ Kg7 Be5+",
+    hasCont: false,
   },
   {
     eco: "C39",
@@ -3506,6 +3957,7 @@ export default [
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3g5 h7h6 g5f7 e8f7 d1g4 g8f6 g4f4 f8d6",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ng5 h6 Nxf7 Kxf7 Qxg4 Nf6 Qxf4 Bd6",
+    hasCont: false,
   },
   {
     eco: "C39",
@@ -3513,6 +3965,7 @@ export default [
     fen: "rnbqkb1r/pppp1p1p/5n2/6N1/4PppP/8/PPPP2P1/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3g5 g8f6",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ng5 Nf6",
+    hasCont: false,
   },
   {
     eco: "C39",
@@ -3521,6 +3974,7 @@ export default [
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3g5 h7h6 g5f7 e8f7 f1c4 d7d5 c4d5 f7g7 d2d4",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ng5 h6 Nxf7 Kxf7 Bc4+ d5 Bxd5+ Kg7 d4",
+    hasCont: false,
   },
   {
     eco: "C39",
@@ -3528,6 +3982,7 @@ export default [
     fen: "rnbqkbnr/pppp1p1p/8/4N3/4PppP/8/PPPP2P1/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5",
+    hasCont: true,
   },
   {
     eco: "C39",
@@ -3536,6 +3991,7 @@ export default [
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 g8f6 f1c4 d7d5 e4d5 f8d6",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Nf6 Bc4 d5 exd5 Bd6",
+    hasCont: true,
   },
   {
     eco: "C39",
@@ -3544,6 +4000,7 @@ export default [
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 g8f6 f1c4 d7d5 e4d5 f8d6 d2d4 f6h5 c1f4 h5f4",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Nf6 Bc4 d5 exd5 Bd6 d4 Nh5 Bxf4 Nxf4",
+    hasCont: false,
   },
   {
     eco: "C39",
@@ -3551,22 +4008,23 @@ export default [
     fen: "rnbqkb1r/pppp1p1p/5n2/4N3/4PppP/8/PPPP2P1/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 g8f6",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Nf6",
+    hasCont: true,
   },
   {
     eco: "C39",
-    name:
-      "King's Gambit Accepted: Kieseritzky Gambit, Berlin Defense, Rubinstein Variation",
+    name: "King's Gambit Accepted: Kieseritzky Gambit, Berlin Defense, Rubinstein Variation",
     fen: "rnbqkb1r/pppp1p1p/5n2/4N3/3PPppP/8/PPP3P1/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 g8f6 d2d4",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Nf6 d4",
+    hasCont: false,
   },
   {
     eco: "C39",
-    name:
-      "King's Gambit Accepted: Kieseritzky Gambit, Berlin Defense, de Riviere Variation",
+    name: "King's Gambit Accepted: Kieseritzky Gambit, Berlin Defense, de Riviere Variation",
     fen: "rnbqkb1r/ppp2p1p/5n2/3p4/4PpNP/8/PPPP2P1/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 g8f6 e5g4 d7d5",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Nf6 Nxg4 d5",
+    hasCont: false,
   },
   {
     eco: "C39",
@@ -3574,6 +4032,7 @@ export default [
     fen: "rnbqkbnr/ppp2p1p/8/3pN3/4PppP/8/PPPP2P1/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 d7d5",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 d5",
+    hasCont: true,
   },
   {
     eco: "C39",
@@ -3581,24 +4040,25 @@ export default [
     fen: "rnbqkb1r/ppp2p1p/5n2/3pN3/3PPBpP/8/PPP3P1/RN1QKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 d7d5 d2d4 g8f6 c1f4",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 d5 d4 Nf6 Bxf4",
+    hasCont: true,
   },
   {
     eco: "C39",
-    name:
-      "King's Gambit Accepted: Kieseritzky Gambit, Brentano Defense, Caro Variation",
+    name: "King's Gambit Accepted: Kieseritzky Gambit, Brentano Defense, Caro Variation",
     fen: "rnbqkb1r/ppp2p1p/8/3pN3/3PnBpP/8/PPPN2P1/R2QKB1R b KQkq -",
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 d7d5 d2d4 g8f6 c1f4 f6e4 b1d2",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 d5 d4 Nf6 Bxf4 Nxe4 Nd2",
+    hasCont: false,
   },
   {
     eco: "C39",
-    name:
-      "King's Gambit Accepted: Kieseritzky Gambit, Brentano Defense, Kaplanek Variation",
+    name: "King's Gambit Accepted: Kieseritzky Gambit, Brentano Defense, Kaplanek Variation",
     fen: "rnb1k2r/ppp2p1p/5n2/3qN3/1b1P1ppP/2N5/PPP2KP1/R1BQ1B1R b kq -",
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 d7d5 d2d4 g8f6 e4d5 d8d5 b1c3 f8b4 e1f2",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 d5 d4 Nf6 exd5 Qxd5 Nc3 Bb4 Kf2",
+    hasCont: false,
   },
   {
     eco: "C39",
@@ -3606,6 +4066,7 @@ export default [
     fen: "rnbqkbnr/pppp1N2/7p/8/4PppP/8/PPPP2P1/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3g5 h7h6 g5f7",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ng5 h6 Nxf7",
+    hasCont: true,
   },
   {
     eco: "C39",
@@ -3613,6 +4074,7 @@ export default [
     fen: "rnbqkbnr/ppp2p1p/3p4/4N3/4PppP/8/PPPP2P1/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 d7d6",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 d6",
+    hasCont: false,
   },
   {
     eco: "C39",
@@ -3620,6 +4082,7 @@ export default [
     fen: "rnbqkbnr/pppp1p2/8/4N2p/4PppP/8/PPPP2P1/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 h7h5",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 h5",
+    hasCont: true,
   },
   {
     eco: "C39",
@@ -3627,6 +4090,7 @@ export default [
     fen: "r1bqkbnr/pppp1p1p/2n5/4N3/4PppP/8/PPPP2P1/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 b8c6",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Nc6",
+    hasCont: false,
   },
   {
     eco: "C39",
@@ -3634,15 +4098,16 @@ export default [
     fen: "rnbqk1nr/pppp1pbp/8/4N3/4PppP/8/PPPP2P1/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 f8g7",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Bg7",
+    hasCont: false,
   },
   {
     eco: "C39",
-    name:
-      "King's Gambit Accepted: Kieseritzky Gambit, Paulsen Defense Deferred",
+    name: "King's Gambit Accepted: Kieseritzky Gambit, Paulsen Defense Deferred",
     fen: "rnbqk2r/ppp2pbp/5n2/3PN3/2B2ppP/8/PPPP2P1/RNBQK2R w KQkq -",
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 g8f6 f1c4 d7d5 e4d5 f8g7",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Nf6 Bc4 d5 exd5 Bg7",
+    hasCont: false,
   },
   {
     eco: "C39",
@@ -3651,6 +4116,7 @@ export default [
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 g8f6 f1c4 d7d5 e4d5 f8d6 e1g1 d6e5",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Nf6 Bc4 d5 exd5 Bd6 O-O Bxe5",
+    hasCont: false,
   },
   {
     eco: "C39",
@@ -3658,15 +4124,16 @@ export default [
     fen: "rnb1kbnr/ppppqp1p/8/4N3/4PppP/8/PPPP2P1/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 d8e7",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Qe7",
+    hasCont: true,
   },
   {
     eco: "C39",
-    name:
-      "King's Gambit Accepted: Kieseritzky, Long Whip Defense, Jaenisch Variation",
+    name: "King's Gambit Accepted: Kieseritzky, Long Whip Defense, Jaenisch Variation",
     fen: "rnbqk1n1/pppp1p1r/7b/4N2p/2BPPppP/2N5/PPP3P1/R1BQK2R b KQq -",
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 h7h5 f1c4 h8h7 d2d4 f8h6 b1c3",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 h5 Bc4 Rh7 d4 Bh6 Nc3",
+    hasCont: false,
   },
   {
     eco: "C39",
@@ -3674,6 +4141,7 @@ export default [
     fen: "rnbqk1nr/ppppbp1p/8/4N3/4PppP/8/PPPP2P1/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 f8e7",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Be7",
+    hasCont: false,
   },
   {
     eco: "C39",
@@ -3682,14 +4150,15 @@ export default [
     moves:
       "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 g8f6 f1c4 d7d5 e4d5 f8d6 e1g1",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Nf6 Bc4 d5 exd5 Bd6 O-O",
+    hasCont: true,
   },
   {
     eco: "C39",
-    name:
-      "King's Gambit Accepted: Kieseritzky, Salvio Defense, Cozio Variation",
+    name: "King's Gambit Accepted: Kieseritzky, Salvio Defense, Cozio Variation",
     fen: "rnb1kbnr/ppppq2p/8/4Np2/2BPPppP/8/PPP3P1/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3e5 d8e7 d2d4 f7f5 f1c4",
     an: "e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Qe7 d4 f5 Bc4",
+    hasCont: false,
   },
   {
     eco: "C39",
@@ -3697,6 +4166,7 @@ export default [
     fen: "rnbqkbnr/pppp1p1p/8/6p1/4Pp1P/5N2/PPPP2P1/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4",
     an: "e4 e5 f4 exf4 Nf3 g5 h4",
+    hasCont: true,
   },
   {
     eco: "C40",
@@ -3704,6 +4174,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3pp3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d5",
     an: "e4 e5 Nf3 d5",
+    hasCont: true,
   },
   {
     eco: "C40",
@@ -3711,6 +4182,7 @@ export default [
     fen: "rnbqk1nr/ppp2ppp/3b4/3Pp3/8/5N2/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d5 e4d5 f8d6",
     an: "e4 e5 Nf3 d5 exd5 Bd6",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3718,6 +4190,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3P4/4p3/5N2/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d5 e4d5 e5e4",
     an: "e4 e5 Nf3 d5 exd5 e4",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3725,6 +4198,7 @@ export default [
     fen: "rnb1kbnr/ppp2ppp/8/4N1q1/2B1p3/8/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d5 f3e5 d5e4 f1c4 d8g5",
     an: "e4 e5 Nf3 d5 Nxe5 dxe4 Bc4 Qg5",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3732,6 +4206,7 @@ export default [
     fen: "rnb1kbnr/ppppqppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d8e7",
     an: "e4 e5 Nf3 Qe7",
+    hasCont: true,
   },
   {
     eco: "C40",
@@ -3739,6 +4214,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3",
     an: "e4 e5 Nf3",
+    hasCont: true,
   },
   {
     eco: "C40",
@@ -3746,6 +4222,7 @@ export default [
     fen: "rnbqk1nr/pppp1ppp/8/2b1p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 f8c5",
     an: "e4 e5 Nf3 Bc5",
+    hasCont: true,
   },
   {
     eco: "C40",
@@ -3753,6 +4230,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/2b1N3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 f8c5 f3e5 b8c6",
     an: "e4 e5 Nf3 Bc5 Nxe5 Nc6",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3760,6 +4238,7 @@ export default [
     fen: "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f6",
     an: "e4 e5 Nf3 f6",
+    hasCont: true,
   },
   {
     eco: "C40",
@@ -3767,6 +4246,7 @@ export default [
     fen: "rnb1kbnQ/ppppq2p/6p1/8/4P3/8/PPPP1PPP/RNB1KB1R b KQq -",
     moves: "e2e4 e7e5 g1f3 f7f6 f3e5 f6e5 d1h5 g7g6 h5e5 d8e7 e5h8",
     an: "e4 e5 Nf3 f6 Nxe5 fxe5 Qh5+ g6 Qxe5+ Qe7 Qxh8",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3774,6 +4254,7 @@ export default [
     fen: "rnb1kbnr/ppp1q1pp/5p2/3p4/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f6 f3e5 d8e7 e5f3 d7d5",
     an: "e4 e5 Nf3 f6 Nxe5 Qe7 Nf3 d5",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3781,6 +4262,7 @@ export default [
     fen: "rnb1kbnr/ppppq1pp/8/4pp2/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d8e7 f1c4 f7f5",
     an: "e4 e5 Nf3 Qe7 Bc4 f5",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3788,6 +4270,7 @@ export default [
     fen: "rnbqkbnr/pp1p1ppp/2p5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 c7c6",
     an: "e4 e5 Nf3 c6",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3795,6 +4278,7 @@ export default [
     fen: "rnb1kbnr/pppp1ppp/6q1/4p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 d8f6 f1c4 f6g6 e1g1",
     an: "e4 e5 Nf3 Qf6 Bc4 Qg6 O-O",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3802,6 +4286,7 @@ export default [
     fen: "rnb1kbnr/pppp1ppp/5q2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d8f6",
     an: "e4 e5 Nf3 Qf6",
+    hasCont: true,
   },
   {
     eco: "C40",
@@ -3809,6 +4294,7 @@ export default [
     fen: "rnbqkbnr/pppp2pp/8/4pp2/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5",
     an: "e4 e5 Nf3 f5",
+    hasCont: true,
   },
   {
     eco: "C40",
@@ -3816,6 +4302,7 @@ export default [
     fen: "rnbqkbnr/pppp2pp/8/4pP2/8/5N2/PPPP1PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 e4f5",
     an: "e4 e5 Nf3 f5 exf5",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3823,6 +4310,7 @@ export default [
     fen: "rnb1kbnr/ppp3pp/3p1q2/5p2/2NPP3/8/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 f3e5 d8f6 d2d4 d7d6 e5c4",
     an: "e4 e5 Nf3 f5 Nxe5 Qf6 d4 d6 Nc4",
+    hasCont: true,
   },
   {
     eco: "C40",
@@ -3830,6 +4318,7 @@ export default [
     fen: "rnb1kbnr/ppp3pp/3p1q2/8/2NPp3/8/PPP1BPPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 f3e5 d8f6 d2d4 d7d6 e5c4 f5e4 f1e2",
     an: "e4 e5 Nf3 f5 Nxe5 Qf6 d4 d6 Nc4 fxe4 Be2",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3837,6 +4326,7 @@ export default [
     fen: "rnb1kbnr/ppp4p/3p1qp1/8/2NPp3/8/PPP1QPPP/RNB1KB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 f3e5 d8f6 d2d4 d7d6 e5c4 f5e4 d1h5 g7g6 h5e2",
     an: "e4 e5 Nf3 f5 Nxe5 Qf6 d4 d6 Nc4 fxe4 Qh5+ g6 Qe2",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3844,6 +4334,7 @@ export default [
     fen: "rnb1kbnr/pppp2pp/5q2/8/2N1p3/3P4/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 f3e5 d8f6 e5c4 f5e4 d2d3",
     an: "e4 e5 Nf3 f5 Nxe5 Qf6 Nc4 fxe4 d3",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3851,6 +4342,7 @@ export default [
     fen: "rnb1kbnr/pppp2pp/5q2/5p2/2N1P3/8/PPPP1PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 f3e5 d8f6 e5c4",
     an: "e4 e5 Nf3 f5 Nxe5 Qf6 Nc4",
+    hasCont: true,
   },
   {
     eco: "C40",
@@ -3858,6 +4350,7 @@ export default [
     fen: "rnb1kbnr/pppp2pp/5q2/8/2N1p3/2N5/PPPP1PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 f3e5 d8f6 e5c4 f5e4 b1c3",
     an: "e4 e5 Nf3 f5 Nxe5 Qf6 Nc4 fxe4 Nc3",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3865,6 +4358,7 @@ export default [
     fen: "rnb1kbnr/pppp2pp/5q2/4Np2/3PP3/8/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 f3e5 d8f6 d2d4",
     an: "e4 e5 Nf3 f5 Nxe5 Qf6 d4",
+    hasCont: true,
   },
   {
     eco: "C40",
@@ -3872,6 +4366,7 @@ export default [
     fen: "rnb1kbnr/ppp3pp/3p1q2/8/3Pp3/4N3/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 f3e5 d8f6 d2d4 d7d6 e5c4 f5e4 c4e3",
     an: "e4 e5 Nf3 f5 Nxe5 Qf6 d4 d6 Nc4 fxe4 Ne3",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3880,6 +4375,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 f7f5 f1c4 f5e4 f3e5 d8g5 e5f7 g5g2 h1f1 d7d5 f7h8 g8f6",
     an: "e4 e5 Nf3 f5 Bc4 fxe4 Nxe5 Qg5 Nf7 Qxg2 Rf1 d5 Nxh8 Nf6",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3887,6 +4383,7 @@ export default [
     fen: "rnbqkb1r/pppp2pp/5n2/4N3/2B1p3/8/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 f1c4 f5e4 f3e5 g8f6",
     an: "e4 e5 Nf3 f5 Bc4 fxe4 Nxe5 Nf6",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3894,6 +4391,7 @@ export default [
     fen: "rnb1kb1N/ppp1q1pp/5n2/3p4/2B1p3/8/PPPP1PPP/RNBQK2R w KQq -",
     moves: "e2e4 e7e5 g1f3 f7f5 f3e5 g8f6 f1c4 f5e4 e5f7 d8e7 f7h8 d7d5",
     an: "e4 e5 Nf3 f5 Nxe5 Nf6 Bc4 fxe4 Nf7 Qe7 Nxh8 d5",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3901,6 +4399,7 @@ export default [
     fen: "rnbqkbnr/pppp2pp/8/4pp2/2P1P3/5N2/PP1P1PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 c2c4",
     an: "e4 e5 Nf3 f5 c4",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3908,6 +4407,7 @@ export default [
     fen: "r1bqkbnr/pppp2pp/2n5/4Np2/4P3/8/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 f3e5 b8c6",
     an: "e4 e5 Nf3 f5 Nxe5 Nc6",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3915,6 +4415,7 @@ export default [
     fen: "rnb1kbnr/ppppq1pp/8/4Np2/4P3/8/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 f3e5 d8e7",
     an: "e4 e5 Nf3 f5 Nxe5 Qe7",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3922,6 +4423,7 @@ export default [
     fen: "rnbqkbnr/pppp2pp/8/4pp2/4P1P1/5N2/PPPP1P1P/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 g2g4",
     an: "e4 e5 Nf3 f5 g4",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3929,6 +4431,7 @@ export default [
     fen: "rnbqkbnr/pppp2pp/8/4pp2/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 d2d4",
     an: "e4 e5 Nf3 f5 d4",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3936,6 +4439,7 @@ export default [
     fen: "rnbqkbnr/pppp2pp/8/4pp2/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 f1c4",
     an: "e4 e5 Nf3 f5 Bc4",
+    hasCont: true,
   },
   {
     eco: "C40",
@@ -3943,6 +4447,7 @@ export default [
     fen: "rnbqkb1r/pppp2pp/5n2/4pp2/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 f1c4 g8f6",
     an: "e4 e5 Nf3 f5 Bc4 Nf6",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3950,6 +4455,7 @@ export default [
     fen: "rnb1kbnr/pppp2pp/8/4N3/2BPp3/8/PPP2PqP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 f1c4 f5e4 f3e5 d8g5 d2d4 g5g2",
     an: "e4 e5 Nf3 f5 Bc4 fxe4 Nxe5 Qg5 d4 Qxg2",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3957,6 +4463,7 @@ export default [
     fen: "rnbqkbnr/ppp3pp/8/3pN3/2B1p3/8/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 f1c4 f5e4 f3e5 d7d5",
     an: "e4 e5 Nf3 f5 Bc4 fxe4 Nxe5 d5",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3964,6 +4471,7 @@ export default [
     fen: "rnbqkbnr/p1pp2pp/8/1p2pp2/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 f1c4 b7b5",
     an: "e4 e5 Nf3 f5 Bc4 b5",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3971,6 +4479,7 @@ export default [
     fen: "rnbqkbnr/pppp2pp/8/4pp2/4P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 b1c3",
     an: "e4 e5 Nf3 f5 Nc3",
+    hasCont: false,
   },
   {
     eco: "C40",
@@ -3978,6 +4487,7 @@ export default [
     fen: "rnbqkbnr/pppp2pp/8/4pp2/1P2P3/5N2/P1PP1PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 f7f5 b2b4",
     an: "e4 e5 Nf3 f5 b4",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -3985,6 +4495,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/3p4/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6",
     an: "e4 e5 Nf3 d6",
+    hasCont: true,
   },
   {
     eco: "C41",
@@ -3992,6 +4503,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/3p4/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4",
     an: "e4 e5 Nf3 d6 d4",
+    hasCont: true,
   },
   {
     eco: "C41",
@@ -3999,6 +4511,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/3p4/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 f1c4",
     an: "e4 e5 Nf3 d6 Bc4",
+    hasCont: true,
   },
   {
     eco: "C41",
@@ -4006,6 +4519,7 @@ export default [
     fen: "rnbqk1nr/ppp1bppp/3p4/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 f1c4 f8e7",
     an: "e4 e5 Nf3 d6 Bc4 Be7",
+    hasCont: true,
   },
   {
     eco: "C41",
@@ -4013,6 +4527,7 @@ export default [
     fen: "r2qkbnr/pppn1ppp/3p4/4P3/4P1b1/5N2/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 c8g4 d4e5 b8d7",
     an: "e4 e5 Nf3 d6 d4 Bg4 dxe5 Nd7",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4020,8 +4535,8 @@ export default [
     fen: "r2q1rk1/pp2bppp/2npbn2/2p3B1/4P3/2N2N2/PPP1BPPP/R2QR1K1 b - -",
     moves:
       "e2e4 e7e5 g1f3 d7d6 d2d4 e5d4 f3d4 g8f6 b1c3 f8e7 f1e2 e8g8 e1g1 c7c5 d4f3 b8c6 c1g5 c8e6 f1e1",
-    an:
-      "e4 e5 Nf3 d6 d4 exd4 Nxd4 Nf6 Nc3 Be7 Be2 O-O O-O c5 Nf3 Nc6 Bg5 Be6 Re1",
+    an: "e4 e5 Nf3 d6 d4 exd4 Nxd4 Nf6 Nc3 Be7 Be2 O-O O-O c5 Nf3 Nc6 Bg5 Be6 Re1",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4029,6 +4544,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/3p4/8/3pP3/2P2N2/PP3PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 e5d4 c2c3",
     an: "e4 e5 Nf3 d6 d4 exd4 c3",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4036,6 +4552,7 @@ export default [
     fen: "rn1qkbnr/pppb1ppp/3p4/8/3QP3/5N2/PPP2PPP/RNB1KB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 e5d4 d1d4 c8d7",
     an: "e4 e5 Nf3 d6 d4 exd4 Qxd4 Bd7",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4043,6 +4560,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 e5d4",
     an: "e4 e5 Nf3 d6 d4 exd4",
+    hasCont: true,
   },
   {
     eco: "C41",
@@ -4050,6 +4568,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 e5d4 f3d4",
     an: "e4 e5 Nf3 d6 d4 exd4 Nxd4",
+    hasCont: true,
   },
   {
     eco: "C41",
@@ -4057,6 +4576,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 e5d4 f3d4 g8f6",
     an: "e4 e5 Nf3 d6 d4 exd4 Nxd4 Nf6",
+    hasCont: true,
   },
   {
     eco: "C41",
@@ -4064,6 +4584,7 @@ export default [
     fen: "r1bqkbnr/pppn1ppp/3p4/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 b8d7",
     an: "e4 e5 Nf3 d6 d4 Nd7",
+    hasCont: true,
   },
   {
     eco: "C41",
@@ -4071,6 +4592,7 @@ export default [
     fen: "r1bqkbnr/pp1n1ppp/2pp4/4p3/2BPP3/2P2N2/PP3PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 b8d7 f1c4 c7c6 c2c3",
     an: "e4 e5 Nf3 d6 d4 Nd7 Bc4 c6 c3",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4078,6 +4600,7 @@ export default [
     fen: "r1bqkbnr/pp1n1ppp/2pp4/4p3/2BPP3/5N2/PPP2PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 b8d7 f1c4 c7c6 e1g1",
     an: "e4 e5 Nf3 d6 d4 Nd7 Bc4 c6 O-O",
+    hasCont: true,
   },
   {
     eco: "C41",
@@ -4085,6 +4608,7 @@ export default [
     fen: "r1bqkbnr/pp1n1ppp/2pp4/4p3/2BPP3/2N2N2/PPP2PPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 b8d7 f1c4 c7c6 b1c3",
     an: "e4 e5 Nf3 d6 d4 Nd7 Bc4 c6 Nc3",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4092,6 +4616,7 @@ export default [
     fen: "r1bqkbnr/ppp2ppp/1n1p4/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 b8d7 f1c4 d7b6",
     an: "e4 e5 Nf3 d6 d4 Nd7 Bc4 Nb6",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4099,6 +4624,7 @@ export default [
     fen: "r1bqk1nr/pp1nbppp/2pp4/4P3/2B1P3/5N2/PPP2PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 b8d7 f1c4 c7c6 e1g1 f8e7 d4e5",
     an: "e4 e5 Nf3 d6 d4 Nd7 Bc4 c6 O-O Be7 dxe5",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4107,6 +4633,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 d7d6 d2d4 b8d7 f1c4 c7c6 f3g5 g8h6 f2f4 f8e7 e1g1 e8g8 c2c3 d6d5",
     an: "e4 e5 Nf3 d6 d4 Nd7 Bc4 c6 Ng5 Nh6 f4 Be7 O-O O-O c3 d5",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4114,6 +4641,7 @@ export default [
     fen: "r1bqkbnr/pp1n1ppp/2pp4/4p1N1/2BPP3/8/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 b8d7 f1c4 c7c6 f3g5",
     an: "e4 e5 Nf3 d6 d4 Nd7 Bc4 c6 Ng5",
+    hasCont: true,
   },
   {
     eco: "C41",
@@ -4121,6 +4649,7 @@ export default [
     fen: "rnbqkbnr/ppp2p1p/3p2p1/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 e5d4 f3d4 g7g6",
     an: "e4 e5 Nf3 d6 d4 exd4 Nxd4 g6",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4128,6 +4657,7 @@ export default [
     fen: "r1bqkb1r/pppn1ppp/3p1n2/4p3/3PP3/2N2N2/PPP2PPP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 g8f6 b1c3 b8d7",
     an: "e4 e5 Nf3 d6 d4 Nf6 Nc3 Nbd7",
+    hasCont: true,
   },
   {
     eco: "C41",
@@ -4135,6 +4665,7 @@ export default [
     fen: "r1bqk2r/pppnbBpp/3p1n2/4p3/3PP3/2N2N2/PPP2PPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 g8f6 b1c3 b8d7 f1c4 f8e7 c4f7",
     an: "e4 e5 Nf3 d6 d4 Nf6 Nc3 Nbd7 Bc4 Be7 Bxf7+",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4142,6 +4673,7 @@ export default [
     fen: "r1bqk2r/pppnbBpp/5n2/4p3/4P3/2N2N2/PPP2PPP/R1BQK2R b KQkq -",
     moves: "e2e4 d7d6 d2d4 g8f6 b1c3 b8d7 g1f3 e7e5 f1c4 f8e7 d4e5 d6e5 c4f7",
     an: "e4 d6 d4 Nf6 Nc3 Nbd7 Nf3 e5 Bc4 Be7 dxe5 dxe5 Bxf7+",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4150,6 +4682,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 d7d6 d2d4 g8f6 b1c3 b8d7 f1c4 f8e7 f3g5 e8g8 c4f7 f8f7 g5e6",
     an: "e4 e5 Nf3 d6 d4 Nf6 Nc3 Nbd7 Bc4 Be7 Ng5 O-O Bxf7+ Rxf7 Ne6",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4157,6 +4690,7 @@ export default [
     fen: "r1bqk2r/pppnbpp1/3p1n1p/4p3/2BPP3/2N2N2/PPP2PPP/R1BQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 g8f6 b1c3 b8d7 f1c4 h7h6 e1g1 f8e7",
     an: "e4 e5 Nf3 d6 d4 Nf6 Nc3 Nbd7 Bc4 h6 O-O Be7",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4164,6 +4698,7 @@ export default [
     fen: "r1bqkb1r/pppn1ppp/3p1n2/4p3/3PP1P1/2N2N2/PPP2P1P/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 b8d7 b1c3 g8f6 g2g4",
     an: "e4 e5 Nf3 d6 d4 Nd7 Nc3 Ngf6 g4",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4172,6 +4707,7 @@ export default [
     moves:
       "e2e4 d7d6 d2d4 g8f6 b1c3 e7e5 g1f3 b8d7 f1c4 f8e7 e1g1 e8g8 d1e2 c7c6 a2a4 e5d4",
     an: "e4 d6 d4 Nf6 Nc3 e5 Nf3 Nbd7 Bc4 Be7 O-O O-O Qe2 c6 a4 exd4",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4179,6 +4715,7 @@ export default [
     fen: "rnbqkbnr/ppp3pp/3p4/4pp2/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 f1c4 f7f5",
     an: "e4 e5 Nf3 d6 Bc4 f5",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4186,6 +4723,7 @@ export default [
     fen: "rnbqkb1r/ppp3pN/3p3n/5p2/2BpP3/8/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 f7f5 f1c4 e5d4 f3g5 g8h6 g5h7",
     an: "e4 e5 Nf3 d6 d4 f5 Bc4 exd4 Ng5 Nh6 Nxh7",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4193,6 +4731,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/3p4/8/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 e5d4 f1c4",
     an: "e4 e5 Nf3 d6 d4 exd4 Bc4",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4200,6 +4739,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p1n2/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 g8f6",
     an: "e4 e5 Nf3 d6 d4 Nf6",
+    hasCont: true,
   },
   {
     eco: "C41",
@@ -4207,6 +4747,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p1n2/4P3/4P3/5N2/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 g8f6 d4e5",
     an: "e4 e5 Nf3 d6 d4 Nf6 dxe5",
+    hasCont: true,
   },
   {
     eco: "C41",
@@ -4214,6 +4755,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p1n2/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 g8f6 f1c4",
     an: "e4 e5 Nf3 d6 d4 Nf6 Bc4",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4221,6 +4763,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p4/3QP3/4n3/5N2/PPP2PPP/RNB1KB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 g8f6 d4e5 f6e4 d1d5",
     an: "e4 e5 Nf3 d6 d4 Nf6 dxe5 Nxe4 Qd5",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4228,6 +4771,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p4/4P3/4n3/5N2/PPPN1PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 g8f6 d4e5 f6e4 b1d2",
     an: "e4 e5 Nf3 d6 d4 Nf6 dxe5 Nxe4 Nbd2",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4235,6 +4779,7 @@ export default [
     fen: "r1bq1rk1/pppnbBpp/3p1n2/4p1N1/3PP3/2N5/PPP2PPP/R1BQK2R b KQ -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 g8f6 b1c3 b8d7 f1c4 f8e7 f3g5 e8g8 c4f7",
     an: "e4 e5 Nf3 d6 d4 Nf6 Nc3 Nbd7 Bc4 Be7 Ng5 O-O Bxf7+",
+    hasCont: true,
   },
   {
     eco: "C41",
@@ -4242,6 +4787,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p1n2/4p1N1/3PP3/8/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 g8f6 f3g5",
     an: "e4 e5 Nf3 d6 d4 Nf6 Ng5",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4249,6 +4795,7 @@ export default [
     fen: "rnbqkbnr/ppp2ppp/8/3P4/3N4/8/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 e5d4 f3d4 d6d5 e4d5",
     an: "e4 e5 Nf3 d6 d4 exd4 Nxd4 d5 exd5",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4256,6 +4803,7 @@ export default [
     fen: "rnbqkbnr/ppp3pp/3p4/4pp2/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 f7f5",
     an: "e4 e5 Nf3 d6 d4 f5",
+    hasCont: true,
   },
   {
     eco: "C41",
@@ -4263,6 +4811,7 @@ export default [
     fen: "rnbqk1nr/ppp3pp/4P3/2bp2N1/4p3/2N5/PPP2PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 f7f5 d4e5 f5e4 f3g5 d6d5 e5e6 f8c5 b1c3",
     an: "e4 e5 Nf3 d6 d4 f5 dxe5 fxe4 Ng5 d5 e6 Bc5 Nc3",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4270,6 +4819,7 @@ export default [
     fen: "rnbqkbnr/ppp3pp/3p4/4pp2/3PP3/2N2N2/PPP2PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 f7f5 b1c3",
     an: "e4 e5 Nf3 d6 d4 f5 Nc3",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4277,6 +4827,7 @@ export default [
     fen: "rnbqkbnr/ppp3pp/4P3/3p2N1/4p3/8/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 f7f5 d4e5 f5e4 f3g5 d6d5 e5e6",
     an: "e4 e5 Nf3 d6 d4 f5 dxe5 fxe4 Ng5 d5 e6",
+    hasCont: true,
   },
   {
     eco: "C41",
@@ -4284,6 +4835,7 @@ export default [
     fen: "rn1qkbnr/pppb1ppp/3p4/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 d2d4 c8d7",
     an: "e4 e5 Nf3 d6 d4 Bd7",
+    hasCont: false,
   },
   {
     eco: "C41",
@@ -4291,6 +4843,7 @@ export default [
     fen: "rnbqk1nr/ppp1bppp/3p4/4p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 d7d6 f1c4 f8e7 c2c3",
     an: "e4 e5 Nf3 d6 Bc4 Be7 c3",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4298,6 +4851,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6",
     an: "e4 e5 Nf3 Nf6",
+    hasCont: true,
   },
   {
     eco: "C42",
@@ -4305,6 +4859,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/4N3/4P3/8/PPPP1PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5",
     an: "e4 e5 Nf3 Nf6 Nxe5",
+    hasCont: true,
   },
   {
     eco: "C42",
@@ -4312,6 +4867,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p1n2/4N3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6",
+    hasCont: true,
   },
   {
     eco: "C42",
@@ -4319,6 +4875,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p1n2/8/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3",
+    hasCont: true,
   },
   {
     eco: "C42",
@@ -4326,6 +4883,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p4/8/4n3/5N2/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4",
+    hasCont: true,
   },
   {
     eco: "C42",
@@ -4333,6 +4891,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p4/8/3Pn3/5N2/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 d2d4",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4",
+    hasCont: true,
   },
   {
     eco: "C42",
@@ -4340,8 +4899,8 @@ export default [
     fen: "r2qk2r/ppp1b1pp/2n5/3p1p2/3Pn1b1/2PB1N2/PP1N1PPP/R1BQR1K1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 d2d4 d6d5 f1d3 f8e7 e1g1 b8c6 f1e1 c8g4 c2c3 f7f5 b1d2",
-    an:
-      "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Be7 O-O Nc6 Re1 Bg4 c3 f5 Nbd2",
+    an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Be7 O-O Nc6 Re1 Bg4 c3 f5 Nbd2",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4350,6 +4909,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 d2d4 d6d5 f1d3 f8e7 e1g1 b8c6 f1e1",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Be7 O-O Nc6 Re1",
+    hasCont: true,
   },
   {
     eco: "C42",
@@ -4358,6 +4918,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 d2d4 d6d5 f1d3 b8c6 e1g1 f8e7 c2c4 c6b4 c4d5",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Nc6 O-O Be7 c4 Nb4 cxd5",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4366,6 +4927,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 d2d4 d6d5 f1d3 b8c6 e1g1 f8e7 c2c4 c6b4 d3e2",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Nc6 O-O Be7 c4 Nb4 Be2",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4373,6 +4935,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p1n2/8/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 d2d4 e4f6",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 Nf6",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4381,6 +4944,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 d2d4 d6d5 f1d3 b8c6 e1g1 f8e7 c2c4",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Nc6 O-O Be7 c4",
+    hasCont: true,
   },
   {
     eco: "C42",
@@ -4389,6 +4953,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 d2d4 d6d5 f1d3 b8c6 e1g1 f8e7 f1e1 c8g4 c2c3 f7f5 c3c4",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Nc6 O-O Be7 Re1 Bg4 c3 f5 c4",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4396,8 +4961,8 @@ export default [
     fen: "rn1q1rk1/ppp3pp/8/3P1p2/3Pn1b1/3B1N2/PP3PPb/RNBQR1K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 d2d4 d6d5 f1d3 f8d6 e1g1 e8g8 c2c4 c8g4 c4d5 f7f5 f1e1 d6h2",
-    an:
-      "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Bd6 O-O O-O c4 Bg4 cxd5 f5 Re1 Bxh2+",
+    an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Bd6 O-O O-O c4 Bg4 cxd5 f5 Re1 Bxh2+",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4405,6 +4970,7 @@ export default [
     fen: "rnbqk2r/ppp2ppp/3b4/3p4/3Pn3/3B1N2/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 d2d4 d6d5 f1d3 f8d6",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Bd6",
+    hasCont: true,
   },
   {
     eco: "C42",
@@ -4413,6 +4979,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 d2d4 d6d5 f1d3 f8d6 e1g1 e8g8 c2c4 c7c6 f1e1 c8g4",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Bd6 O-O O-O c4 c6 Re1 Bg4",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4420,8 +4987,8 @@ export default [
     fen: "r2qk2r/ppp3pp/2n5/3p1p2/2PPn1bb/3B1N2/PP3PPP/RNBQR1K1 w kq -",
     moves:
       "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 d2d4 d6d5 f1d3 f8e7 e1g1 b8c6 f1e1 c8g4 c2c3 f7f5 c3c4 e7h4",
-    an:
-      "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Be7 O-O Nc6 Re1 Bg4 c3 f5 c4 Bh4",
+    an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Be7 O-O Nc6 Re1 Bg4 c3 f5 c4 Bh4",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4430,6 +4997,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 d2d4 d6d5 f1d3 f8e7 e1g1 e8g8",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Be7 O-O O-O",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4437,6 +5005,7 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 d2d4 d6d5 f1d3 b8c6",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Nc6",
+    hasCont: true,
   },
   {
     eco: "C42",
@@ -4445,6 +5014,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 d2d4 d6d5 f1d3 f8d6 e1g1 e8g8 c2c4 c7c6",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Bd6 O-O O-O c4 c6",
+    hasCont: true,
   },
   {
     eco: "C42",
@@ -4453,6 +5023,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 d2d4 d6d5 f1d3 f8d6 e1g1 e8g8 c2c4 c8g4",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Bd6 O-O O-O c4 Bg4",
+    hasCont: true,
   },
   {
     eco: "C42",
@@ -4460,6 +5031,7 @@ export default [
     fen: "rnbqkb1r/ppp2Npp/3p1n2/8/4P3/8/PPPP1PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f7",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nxf7",
+    hasCont: true,
   },
   {
     eco: "C42",
@@ -4467,6 +5039,7 @@ export default [
     fen: "rnbq1b1r/ppp2kpp/3p1n2/8/2B1P3/8/PPPP1PPP/RNBQK2R b KQ -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f7 e8f7 f1c4",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nxf7 Kxf7 Bc4+",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4474,6 +5047,7 @@ export default [
     fen: "rnbq1b1r/ppp2kpp/3p1n2/8/3PP3/8/PPP2PPP/RNBQKB1R b KQ -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f7 e8f7 d2d4",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nxf7 Kxf7 d4",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4481,6 +5055,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p4/8/4n3/5N2/PPPPQPPP/RNB1KB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 d1e2",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 Qe2",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4488,6 +5063,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 f6e4",
     an: "e4 e5 Nf3 Nf6 Nxe5 Nxe4",
+    hasCont: true,
   },
   {
     eco: "C42",
@@ -4495,6 +5071,7 @@ export default [
     fen: "rnb1kb1r/ppppqppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 f6e4 d1e2 d8e7",
     an: "e4 e5 Nf3 Nf6 Nxe5 Nxe4 Qe2 Qe7",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4502,6 +5079,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p4/8/4n3/3P1N2/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 d2d3",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d3",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4509,6 +5087,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f1c4",
     an: "e4 e5 Nf3 Nf6 Bc4",
+    hasCont: true,
   },
   {
     eco: "C42",
@@ -4516,6 +5095,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p1n2/8/4P3/3N4/PPPP1PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5d3",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nd3",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4523,6 +5103,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p4/8/2P1n3/5N2/PP1P1PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 c2c4",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 c4",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4530,6 +5111,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p4/8/4n3/3B1N2/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 f1d3",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 Bd3",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4537,6 +5119,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4p3/3PP3/5N2/PPP1QPPP/RNB1KB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 d1e2 b8c6 d2d4",
     an: "e4 e5 Nf3 Nf6 Qe2 Nc6 d4",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4544,6 +5127,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p4/8/4n3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 b1c3",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 Nc3",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4551,6 +5135,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/3p1n2/8/2N1P3/8/PPPP1PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5c4",
     an: "e4 e5 Nf3 Nf6 Nxe5 d6 Nc4",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4558,6 +5143,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4N3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 b8c6",
     an: "e4 e5 Nf3 Nf6 Nxe5 Nc6",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4565,6 +5151,7 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/2p2n2/8/4P3/8/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 f3e5 b8c6 e5c6 d7c6",
     an: "e4 e5 Nf3 Nf6 Nxe5 Nc6 Nxc6 dxc6",
+    hasCont: false,
   },
   {
     eco: "C42",
@@ -4572,6 +5159,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 b1c3",
     an: "e4 e5 Nf3 Nf6 Nc3",
+    hasCont: true,
   },
   {
     eco: "C43",
@@ -4579,6 +5167,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/8/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 f1c4 g8f6 d2d4 e5d4 g1f3",
     an: "e4 e5 Bc4 Nf6 d4 exd4 Nf3",
+    hasCont: true,
   },
   {
     eco: "C43",
@@ -4586,6 +5175,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/8/8/2BQn3/5N2/PPP2PPP/RNB1K2R b KQkq -",
     moves: "e2e4 e7e5 f1c4 g8f6 d2d4 e5d4 g1f3 f6e4 d1d4",
     an: "e4 e5 Bc4 Nf6 d4 exd4 Nf3 Nxe4 Qxd4",
+    hasCont: false,
   },
   {
     eco: "C43",
@@ -4593,6 +5183,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 d2d4",
     an: "e4 e5 Nf3 Nf6 d4",
+    hasCont: true,
   },
   {
     eco: "C43",
@@ -4600,6 +5191,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/5n2/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 d2d4 e5d4",
     an: "e4 e5 Nf3 Nf6 d4 exd4",
+    hasCont: true,
   },
   {
     eco: "C43",
@@ -4607,6 +5199,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n5/2n1P3/3N4/8/PPP1QPPP/RNB1KB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 d2d4 e5d4 e4e5 f6e4 d1e2 e4c5 f3d4 b8c6",
     an: "e4 e5 Nf3 Nf6 d4 exd4 e5 Ne4 Qe2 Nc5 Nxd4 Nc6",
+    hasCont: false,
   },
   {
     eco: "C43",
@@ -4614,6 +5207,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/8/4P3/3Qn3/5N2/PPP2PPP/RNB1KB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 d2d4 e5d4 e4e5 f6e4 d1d4",
     an: "e4 e5 Nf3 Nf6 d4 exd4 e5 Ne4 Qxd4",
+    hasCont: false,
   },
   {
     eco: "C43",
@@ -4621,6 +5215,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/8/4p3/3Pn3/3B1N2/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 d2d4 f6e4 f1d3",
     an: "e4 e5 Nf3 Nf6 d4 Nxe4 Bd3",
+    hasCont: true,
   },
   {
     eco: "C43",
@@ -4628,6 +5223,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n5/4p3/3Pn3/3B1N2/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 d2d4 f6e4 f1d3 b8c6",
     an: "e4 e5 Nf3 Nf6 d4 Nxe4 Bd3 Nc6",
+    hasCont: false,
   },
   {
     eco: "C43",
@@ -4635,6 +5231,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/8/4P3/3pn3/5N2/PPP1QPPP/RNB1KB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 d2d4 e5d4 e4e5 f6e4 d1e2",
     an: "e4 e5 Nf3 Nf6 d4 exd4 e5 Ne4 Qe2",
+    hasCont: true,
   },
   {
     eco: "C43",
@@ -4642,6 +5239,7 @@ export default [
     fen: "rnbqkb1r/ppp2ppp/5n2/3pp3/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 d2d4 d7d5",
     an: "e4 e5 Nf3 Nf6 d4 d5",
+    hasCont: false,
   },
   {
     eco: "C43",
@@ -4649,6 +5247,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/8/4p3/3Pn3/5N2/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 d2d4 f6e4",
     an: "e4 e5 Nf3 Nf6 d4 Nxe4",
+    hasCont: true,
   },
   {
     eco: "C43",
@@ -4656,6 +5255,7 @@ export default [
     fen: "rnbqkb1r/pppp1ppp/8/1B2P3/3pn3/5N2/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 d2d4 e5d4 e4e5 f6e4 f1b5",
     an: "e4 e5 Nf3 Nf6 d4 exd4 e5 Ne4 Bb5",
+    hasCont: false,
   },
   {
     eco: "C43",
@@ -4664,6 +5264,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 g8f6 d2d4 f6e4 f1d3 d7d5 f3e5 f8d6 e1g1 e8g8 c2c4 d6e5",
     an: "e4 e5 Nf3 Nf6 d4 Nxe4 Bd3 d5 Nxe5 Bd6 O-O O-O c4 Bxe5",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4671,6 +5272,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4N3/2P1P3/8/PP1P1PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 c2c4 g8f6 f3e5",
     an: "e4 e5 Nf3 Nc6 c4 Nf6 Nxe5",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4678,6 +5280,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/4N3/4P3/8/PPPP1PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f3e5",
     an: "e4 e5 Nf3 Nc6 Nxe5",
+    hasCont: true,
   },
   {
     eco: "C44",
@@ -4685,6 +5288,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5NP1/PPPP1P1P/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 g2g3",
     an: "e4 e5 Nf3 Nc6 g3",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4692,6 +5296,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6",
     an: "e4 e5 Nf3 Nc6",
+    hasCont: true,
   },
   {
     eco: "C44",
@@ -4699,6 +5304,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/4p3/2P1P3/5N2/PP1P1PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 c2c4",
     an: "e4 e5 Nf3 Nc6 c4",
+    hasCont: true,
   },
   {
     eco: "C44",
@@ -4706,6 +5312,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/4p3/1P2P3/5N2/P1PP1PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b2b4",
     an: "e4 e5 Nf3 Nc6 b4",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4713,6 +5320,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/8/4n3/3PP3/8/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f3e5 c6e5 d2d4",
     an: "e4 e5 Nf3 Nc6 Nxe5 Nxe5 d4",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4720,6 +5328,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPPBPPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1e2",
     an: "e4 e5 Nf3 Nc6 Be2",
+    hasCont: true,
   },
   {
     eco: "C44",
@@ -4727,6 +5336,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4P3/3p4/5N2/PPP1BPPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1e2 g8f6 d2d4 e5d4 e4e5",
     an: "e4 e5 Nf3 Nc6 Be2 Nf6 d4 exd4 e5",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4734,6 +5344,7 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/2n2n2/3pp3/4P3/3P1N2/PPPNBPPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1e2 g8f6 d2d3 d7d5 b1d2",
     an: "e4 e5 Nf3 Nc6 Be2 Nf6 d3 d5 Nbd2",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4741,6 +5352,7 @@ export default [
     fen: "r1bqkbnr/pppp2pp/2n5/4pP2/8/3P1N2/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d3 f7f5 e4f5",
     an: "e4 e5 Nf3 Nc6 d3 f5 exf5",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4748,6 +5360,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2P2N2/PP1P1PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 c2c3",
     an: "e4 e5 Nf3 Nc6 c3",
+    hasCont: true,
   },
   {
     eco: "C44",
@@ -4755,6 +5368,7 @@ export default [
     fen: "r2qkbnr/pppb1ppp/2n5/3pp3/Q3P3/2P2N2/PP1P1PPP/RNB1KB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 c2c3 d7d5 d1a4 c8d7",
     an: "e4 e5 Nf3 Nc6 c3 d5 Qa4 Bd7",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4762,6 +5376,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/2P2N2/PP1P1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 c2c3 g8f6",
     an: "e4 e5 Nf3 Nc6 c3 Nf6",
+    hasCont: true,
   },
   {
     eco: "C44",
@@ -4769,6 +5384,7 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/2n2n2/3pp3/Q3P3/2P2N2/PP1P1PPP/RNB1KB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 c2c3 d7d5 d1a4 g8f6",
     an: "e4 e5 Nf3 Nc6 c3 d5 Qa4 Nf6",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4776,6 +5392,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 c2c3 g8f6 f1c4",
     an: "e4 e5 Nf3 Nc6 c3 Nf6 Bc4",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4783,6 +5400,7 @@ export default [
     fen: "r1bqkbnr/pppp2pp/2n5/4pp2/4P3/2P2N2/PP1P1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 c2c3 f7f5",
     an: "e4 e5 Nf3 Nc6 c3 f5",
+    hasCont: true,
   },
   {
     eco: "C44",
@@ -4791,6 +5409,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 c2c3 f7f5 d2d4 d7d6 d4d5 f5e4 f3g5 c6b8 g5e4 g8f6 f1d3 f8e7",
     an: "e4 e5 Nf3 Nc6 c3 f5 d4 d6 d5 fxe4 Ng5 Nb8 Nxe4 Nf6 Bd3 Be7",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4798,6 +5417,7 @@ export default [
     fen: "r1bqkbnr/ppp3pp/2np4/3Ppp2/4P3/2P2N2/PP3PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 c2c3 f7f5 d2d4 d7d6 d4d5",
     an: "e4 e5 Nf3 Nc6 c3 f5 d4 d6 d5",
+    hasCont: true,
   },
   {
     eco: "C44",
@@ -4805,6 +5425,7 @@ export default [
     fen: "r1bqk1nr/ppppbppp/2n5/4p3/4P3/2P2N2/PP1P1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 c2c3 f8e7",
     an: "e4 e5 Nf3 Nc6 c3 Be7",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4812,6 +5433,7 @@ export default [
     fen: "r1bqkb1r/ppppnppp/2n5/4p3/4P3/2P2N2/PP1P1PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 c2c3 g8e7",
     an: "e4 e5 Nf3 Nc6 c3 Nge7",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4819,14 +5441,15 @@ export default [
     fen: "r1bqkbnr/ppp2ppp/2n5/1B1pp3/4P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 c2c3 d7d5 f1b5",
     an: "e4 e5 Nf3 Nc6 c3 d5 Bb5",
+    hasCont: true,
   },
   {
     eco: "C44",
-    name:
-      "Ponziani Opening: Spanish Variation, Harrwitz Attack, Nikitin Gambit",
+    name: "Ponziani Opening: Spanish Variation, Harrwitz Attack, Nikitin Gambit",
     fen: "r1b1kbnr/ppp2ppp/2n5/1B1qN3/Q3p3/2P5/PP1P1PPP/RNB1K2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 c2c3 d7d5 f1b5 d5e4 f3e5 d8d5 d1a4",
     an: "e4 e5 Nf3 Nc6 c3 d5 Bb5 dxe4 Nxe5 Qd5 Qa4",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4834,6 +5457,7 @@ export default [
     fen: "r1bqkbnr/ppp3pp/2n2p2/3pp3/Q3P3/2P2N2/PP1P1PPP/RNB1KB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 c2c3 d7d5 d1a4 f7f6",
     an: "e4 e5 Nf3 Nc6 c3 d5 Qa4 f6",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4841,6 +5465,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n5/2bPp3/4n3/2P2N2/PP3PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 c2c3 g8f6 d2d4 f6e4 d4d5 f8c5",
     an: "e4 e5 Nf3 Nc6 c3 Nf6 d4 Nxe4 d5 Bc5",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4848,6 +5473,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4",
     an: "e4 e5 Nf3 Nc6 d4",
+    hasCont: true,
   },
   {
     eco: "C44",
@@ -4855,6 +5481,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4",
     an: "e4 e5 Nf3 Nc6 d4 exd4",
+    hasCont: true,
   },
   {
     eco: "C44",
@@ -4862,6 +5489,7 @@ export default [
     fen: "r1bqk1nr/ppppbppp/2n5/8/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8e7 d2d4 e5d4",
     an: "e4 e5 Nf3 Nc6 Bc4 Be7 d4 exd4",
+    hasCont: true,
   },
   {
     eco: "C44",
@@ -4869,6 +5497,7 @@ export default [
     fen: "r1bqkb1r/pp1p1Npp/2p1nn2/8/2B1P3/8/PPP2PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 c6d4 f3e5 d4e6 f1c4 c7c6 e1g1 g8f6 e5f7",
     an: "e4 e5 Nf3 Nc6 d4 Nxd4 Nxe5 Ne6 Bc4 c6 O-O Nf6 Nxf7",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4876,6 +5505,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/b3P3/2B5/2P2N2/P4PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4 f8b4 c2c3 d4c3 b2c3 b4a5 e4e5",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bb4+ c3 dxc3 bxc3 Ba5 e5",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4883,8 +5513,8 @@ export default [
     fen: "r1bq3r/ppp2k1p/2n3p1/2Qp4/3pP3/8/PPP2PPP/RNB1K2R w KQ -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4 f8c5 f3g5 g8h6 g5f7 h6f7 c4f7 e8f7 d1h5 g7g6 h5c5 d7d5",
-    an:
-      "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bc5 Ng5 Nh6 Nxf7 Nxf7 Bxf7+ Kxf7 Qh5+ g6 Qxc5 d5",
+    an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bc5 Ng5 Nh6 Nxf7 Nxf7 Bxf7+ Kxf7 Qh5+ g6 Qxc5 d5",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4892,6 +5522,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/8/3pP3/2P2N2/PP3PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 c2c3",
     an: "e4 e5 Nf3 Nc6 d4 exd4 c3",
+    hasCont: true,
   },
   {
     eco: "C44",
@@ -4899,6 +5530,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/8/1bB1P3/2N2N2/PP3PPP/R1BQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 c2c3 d4c3 f1c4 g8f6 b1c3 f8b4",
     an: "e4 e5 Nf3 Nc6 d4 exd4 c3 dxc3 Bc4 Nf6 Nxc3 Bb4",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4906,6 +5538,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/8/2B1P3/2p2N2/PP3PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 c2c3 d4c3 f1c4",
     an: "e4 e5 Nf3 Nc6 d4 exd4 c3 dxc3 Bc4",
+    hasCont: true,
   },
   {
     eco: "C44",
@@ -4913,6 +5546,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/8/1b2P3/2N2N2/PP3PPP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 c2c3 d4c3 b1c3 f8b4",
     an: "e4 e5 Nf3 Nc6 d4 exd4 c3 dxc3 Nxc3 Bb4",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4920,8 +5554,8 @@ export default [
     fen: "r1bq1rk1/pppp1ppp/5n2/4n1N1/1bB5/8/PB3PPP/RN1Q1RK1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4 f8b4 c2c3 d4c3 e1g1 c3b2 c1b2 g8f6 f3g5 e8g8 e4e5 c6e5",
-    an:
-      "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bb4+ c3 dxc3 O-O cxb2 Bxb2 Nf6 Ng5 O-O e5 Nxe5",
+    an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bb4+ c3 dxc3 O-O cxb2 Bxb2 Nf6 Ng5 O-O e5 Nxe5",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4929,6 +5563,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/2b5/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4 f8c5",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bc5",
+    hasCont: true,
   },
   {
     eco: "C44",
@@ -4936,6 +5571,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/8/4p3/3nP3/5N2/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 c6d4",
     an: "e4 e5 Nf3 Nc6 d4 Nxd4",
+    hasCont: true,
   },
   {
     eco: "C44",
@@ -4943,6 +5579,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/8/8/2BpP3/8/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 c6d4 f3d4 e5d4 f1c4",
     an: "e4 e5 Nf3 Nc6 d4 Nxd4 Nxd4 exd4 Bc4",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4950,6 +5587,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/1B6/3pP3/5N2/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1b5",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Bb5",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4957,6 +5595,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/8/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4",
+    hasCont: true,
   },
   {
     eco: "C44",
@@ -4964,6 +5603,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4P3/2Bp4/5N2/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4 g8f6 e4e5",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Nf6 e5",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4971,6 +5611,7 @@ export default [
     fen: "r2qk1nr/ppp2ppp/2np4/2b5/2BpP1b1/2P2N2/PP3PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4 f8c5 e1g1 d7d6 c2c3 c8g4",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bc5 O-O d6 c3 Bg4",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4978,6 +5619,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/8/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d4 e5d4",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4",
+    hasCont: true,
   },
   {
     eco: "C44",
@@ -4985,6 +5627,7 @@ export default [
     fen: "r1bqkbnr/ppp2ppp/2n5/3p4/3pP3/2P2N2/PP3PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 c2c3 d7d5",
     an: "e4 e5 Nf3 Nc6 d4 exd4 c3 d5",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4992,6 +5635,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n5/4P3/2Bp2n1/5N2/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d4 e5d4 e4e5 f6g4",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 e5 Ng4",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -4999,6 +5643,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/8/1bBpP3/5N2/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4 f8b4",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bb4+",
+    hasCont: true,
   },
   {
     eco: "C44",
@@ -5006,6 +5651,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/2b3N1/2BpP3/8/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4 f8c5 f3g5",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bc5 Ng5",
+    hasCont: true,
   },
   {
     eco: "C44",
@@ -5013,8 +5659,8 @@ export default [
     fen: "r2q1bnr/ppp1kBpp/3p4/3NN3/4P3/8/PP3PPP/R1Bb1RK1 b - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 c2c3 d4c3 b1c3 d7d6 f1c4 c8g4 e1g1 c6e5 f3e5 g4d1 c4f7 e8e7 c3d5",
-    an:
-      "e4 e5 Nf3 Nc6 d4 exd4 c3 dxc3 Nxc3 d6 Bc4 Bg4 O-O Ne5 Nxe5 Bxd1 Bxf7+ Ke7 Nd5#",
+    an: "e4 e5 Nf3 Nc6 d4 exd4 c3 dxc3 Nxc3 d6 Bc4 Bg4 O-O Ne5 Nxe5 Bxd1 Bxf7+ Ke7 Nd5#",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -5022,6 +5668,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n4n/2b3NQ/2BpP3/8/PPP2PPP/RNB1K2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4 f8c5 f3g5 g8h6 d1h5",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bc5 Ng5 Nh6 Qh5",
+    hasCont: false,
   },
   {
     eco: "C44",
@@ -5029,6 +5676,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4p3/3PP3/5N2/PPP1BPPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1e2 g8f6 d2d4",
     an: "e4 e5 Nf3 Nc6 Be2 Nf6 d4",
+    hasCont: true,
   },
   {
     eco: "C45",
@@ -5036,6 +5684,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4",
+    hasCont: true,
   },
   {
     eco: "C45",
@@ -5043,6 +5692,7 @@ export default [
     fen: "r1b1k1nr/pppp1ppp/2n5/1N6/1b2P2q/8/PPPB1PPP/RN1QKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 d8h4 d4b5 f8b4 c1d2",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nb5 Bb4+ Bd2",
+    hasCont: true,
   },
   {
     eco: "C45",
@@ -5050,6 +5700,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4P3/3N4/8/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 g8f6 e4e5",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6 e5",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5057,8 +5708,8 @@ export default [
     fen: "N1bk3r/pp1p1ppp/2n2n2/8/1b6/P4B1q/1PPN1P1P/R1BQK2R b KQ -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 d8h4 d4b5 f8b4 b1d2 h4e4 f1e2 e4g2 e2f3 g2h3 b5c7 e8d8 c7a8 g8f6 a2a3",
-    an:
-      "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nb5 Bb4+ Nd2 Qxe4+ Be2 Qxg2 Bf3 Qh3 Nxc7+ Kd8 Nxa8 Nf6 a3",
+    an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nb5 Bb4+ Nd2 Qxe4+ Be2 Qxg2 Bf3 Qh3 Nxc7+ Kd8 Nxa8 Nf6 a3",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5066,6 +5717,7 @@ export default [
     fen: "r1b1k1nr/pppp1ppp/2n2q2/1Nb5/4P3/4B3/PPP2PPP/RN1QKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 f8c5 c1e3 d8f6 d4b5",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 Nb5",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5073,6 +5725,7 @@ export default [
     fen: "r1b1kbnr/pppp1ppp/2n5/8/3NP2q/4B3/PPP2PPP/RN1QKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 d8h4 c1e3",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Be3",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5080,6 +5733,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/2b5/3NP3/8/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 f8c5",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5",
+    hasCont: true,
   },
   {
     eco: "C45",
@@ -5087,6 +5741,7 @@ export default [
     fen: "r1b1k2r/ppppnppp/2n2q2/2b5/3NP3/2P1B3/PP1Q1PPP/RN2KB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 f8c5 c1e3 d8f6 c2c3 g8e7 d1d2",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Nge7 Qd2",
+    hasCont: true,
   },
   {
     eco: "C45",
@@ -5094,6 +5749,7 @@ export default [
     fen: "r1b1k1nr/pppp1ppp/2N2q2/2b5/4P3/8/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 f8c5 d4c6 d8f6",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nxc6 Qf6",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5101,6 +5757,7 @@ export default [
     fen: "r1b1k1nr/pppp1ppp/2n3q1/2b5/3NP3/2P1B3/PP3PPP/RN1QKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 f8c5 c1e3 d8f6 c2c3 f6g6",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Qg6",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5108,6 +5765,7 @@ export default [
     fen: "r1b1kbnr/pppp1ppp/2n5/8/4P2q/5N2/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 d8h4 d4f3",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nf3",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5115,6 +5773,7 @@ export default [
     fen: "r1bqkbnr/ppp2ppp/3p4/8/3QP3/3B4/PPP2PPP/RNB1K2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 c6d4 d1d4 d7d6 f1d3",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nxd4 Qxd4 d6 Bd3",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5122,8 +5781,8 @@ export default [
     fen: "1rb2rk1/pp3ppp/5q2/3P4/1n6/2P1Q3/PP3PPP/RN2KB1R w KQ -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 f8c5 c1e3 d8f6 c2c3 g8e7 d1d2 d7d5 d4b5 c5e3 d2e3 e8g8 b5c7 a8b8 c7d5 e7d5 e4d5 c6b4",
-    an:
-      "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Nge7 Qd2 d5 Nb5 Bxe3 Qxe3 O-O Nxc7 Rb8 Nxd5 Nxd5 exd5 Nb4",
+    an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Nge7 Qd2 d5 Nb5 Bxe3 Qxe3 O-O Nxc7 Rb8 Nxd5 Nxd5 exd5 Nb4",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5131,6 +5790,7 @@ export default [
     fen: "r1b1kbnr/pppp1ppp/2n5/1N6/4P2q/8/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 d8h4 d4b5",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nb5",
+    hasCont: true,
   },
   {
     eco: "C45",
@@ -5138,8 +5798,8 @@ export default [
     fen: "r1bk2nr/pppp1ppp/2n5/1N6/4q3/8/PPPQBPPP/RN3RK1 b - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 d8h4 d4b5 f8b4 c1d2 h4e4 f1e2 e8d8 e1g1 b4d2 d1d2",
-    an:
-      "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nb5 Bb4+ Bd2 Qxe4+ Be2 Kd8 O-O Bxd2 Qxd2",
+    an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nb5 Bb4+ Bd2 Qxe4+ Be2 Kd8 O-O Bxd2 Qxd2",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5147,8 +5807,8 @@ export default [
     fen: "r1bk2nr/pppp1ppp/2n5/1N6/P4q2/8/1PPNBPPP/R2Q1RK1 b - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 d8h4 d4b5 f8b4 c1d2 h4e4 f1e2 e8d8 e1g1 b4d2 b1d2 e4f4 a2a4",
-    an:
-      "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nb5 Bb4+ Bd2 Qxe4+ Be2 Kd8 O-O Bxd2 Nxd2 Qf4 a4",
+    an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nb5 Bb4+ Bd2 Qxe4+ Be2 Kd8 O-O Bxd2 Nxd2 Qf4 a4",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5156,8 +5816,8 @@ export default [
     fen: "r1bk2nr/pppp1ppp/2n5/1N6/2P2q2/8/PP1NBPPP/R2Q1RK1 b - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 d8h4 d4b5 f8b4 c1d2 h4e4 f1e2 e8d8 e1g1 b4d2 b1d2 e4f4 c2c4",
-    an:
-      "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nb5 Bb4+ Bd2 Qxe4+ Be2 Kd8 O-O Bxd2 Nxd2 Qf4 c4",
+    an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nb5 Bb4+ Bd2 Qxe4+ Be2 Kd8 O-O Bxd2 Nxd2 Qf4 c4",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5165,6 +5825,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/8/1b1NP3/8/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 f8b4",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bb4+",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5172,6 +5833,7 @@ export default [
     fen: "r1b1k2r/ppppnppp/2n2q2/2b5/4P3/2P1B3/PPN2PPP/RN1QKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 f8c5 c1e3 d8f6 c2c3 g8e7 d4c2",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Nge7 Nc2",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5179,6 +5841,7 @@ export default [
     fen: "r1bqkb1r/p1pp1ppp/2p2n2/4P3/8/8/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 g8f6 d4c6 b7c6 e4e5",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6 Nxc6 bxc6 e5",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5186,6 +5849,7 @@ export default [
     fen: "r1b1k1nr/pppp1ppp/2n5/8/1b1NP2q/2N5/PPP2PPP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 d8h4 b1c3 f8b4",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nc3 Bb4",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5193,6 +5857,7 @@ export default [
     fen: "r1b1k2r/ppppnppp/2n2q2/1Bb5/3NP3/2P1B3/PP3PPP/RN1QK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 f8c5 c1e3 d8f6 c2c3 g8e7 f1b5",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Nge7 Bb5",
+    hasCont: true,
   },
   {
     eco: "C45",
@@ -5200,6 +5865,7 @@ export default [
     fen: "r1b1kbnr/pppp1ppp/2n5/5N2/4P2q/8/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 d8h4 d4f5",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nf5",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5208,6 +5874,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 f8c5 c1e3 d8f6 c2c3 g8e7 f1b5 c6d8",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Nge7 Bb5 Nd8",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5215,6 +5882,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/2b5/4P3/1N6/PPP2PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 f8c5 d4b3",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3",
+    hasCont: true,
   },
   {
     eco: "C45",
@@ -5222,6 +5890,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/8/1b2P3/1N6/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 f8c5 d4b3 c5b4",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb4+",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5229,8 +5898,8 @@ export default [
     fen: "r1bk2nr/pppp1ppp/2n3q1/1N6/8/8/PPPNBPPP/R2Q1RK1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 d8h4 d4b5 f8b4 c1d2 h4e4 f1e2 e8d8 e1g1 b4d2 b1d2 e4g6",
-    an:
-      "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nb5 Bb4+ Bd2 Qxe4+ Be2 Kd8 O-O Bxd2 Nxd2 Qg6",
+    an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nb5 Bb4+ Bd2 Qxe4+ Be2 Kd8 O-O Bxd2 Nxd2 Qg6",
+    hasCont: false,
   },
   {
     eco: "C45",
@@ -5238,6 +5907,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 g8f6",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6",
+    hasCont: true,
   },
   {
     eco: "C45",
@@ -5245,6 +5915,7 @@ export default [
     fen: "r1b1kbnr/pppp1ppp/2n5/8/3NP2q/8/PPP2PPP/RNBQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 d8h4",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4",
+    hasCont: true,
   },
   {
     eco: "C45",
@@ -5252,6 +5923,7 @@ export default [
     fen: "r1b1kbnr/pppp1ppp/2n5/8/3NP2q/2N5/PPP2PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 d8h4 b1c3",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nc3",
+    hasCont: true,
   },
   {
     eco: "C45",
@@ -5259,6 +5931,7 @@ export default [
     fen: "r1bqkb1r/p1pp1ppp/2p2n2/8/4P3/8/PPPN1PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 g8f6 d4c6 b7c6 b1d2",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6 Nxc6 bxc6 Nd2",
+    hasCont: false,
   },
   {
     eco: "C46",
@@ -5266,6 +5939,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6",
+    hasCont: true,
   },
   {
     eco: "C46",
@@ -5273,6 +5947,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/P1N2N2/1PPP1PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 a2a3",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 a3",
+    hasCont: false,
   },
   {
     eco: "C46",
@@ -5280,6 +5955,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4N3/4P3/2N5/PPPP1PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f3e5",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Nxe5",
+    hasCont: true,
   },
   {
     eco: "C46",
@@ -5288,6 +5964,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f3e5 c6e5 d2d4 e5g6 e4e5 f6g8 f1c4 f8b4 d1f3 f7f5",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Nxe5 Nxe5 d4 Ng6 e5 Ng8 Bc4 Bb4 Qf3 f5",
+    hasCont: false,
   },
   {
     eco: "C46",
@@ -5295,8 +5972,8 @@ export default [
     fen: "1rb1kbnr/pp1p1ppp/3P1qn1/1N6/5P2/8/PPP3PP/R1BQKB1R w KQk -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f3e5 c6e5 d2d4 e5c6 d4d5 c6e5 f2f4 e5g6 e4e5 f6g8 d5d6 c7d6 e5d6 d8f6 c3b5 a8b8",
-    an:
-      "e4 e5 Nf3 Nc6 Nc3 Nf6 Nxe5 Nxe5 d4 Nc6 d5 Ne5 f4 Ng6 e5 Ng8 d6 cxd6 exd6 Qf6 Nb5 Rb8",
+    an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Nxe5 Nxe5 d4 Nc6 d5 Ne5 f4 Ng6 e5 Ng8 d6 cxd6 exd6 Qf6 Nb5 Rb8",
+    hasCont: false,
   },
   {
     eco: "C46",
@@ -5304,6 +5981,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 b1c3",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Nc3",
+    hasCont: true,
   },
   {
     eco: "C46",
@@ -5311,6 +5989,7 @@ export default [
     fen: "r1bqkb1r/pppp1Bpp/2n5/4p3/4n3/2N2N2/PPPP1PPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 b1c3 f6e4 c4f7",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Nc3 Nxe4 Bxf7+",
+    hasCont: false,
   },
   {
     eco: "C46",
@@ -5318,6 +5997,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3",
     an: "e4 e5 Nf3 Nc6 Nc3",
+    hasCont: true,
   },
   {
     eco: "C46",
@@ -5325,6 +6005,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/4p3/1b2P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 f8b4",
     an: "e4 e5 Nf3 Nc6 Nc3 Bb4",
+    hasCont: true,
   },
   {
     eco: "C46",
@@ -5332,6 +6013,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/3Np3/1b2P3/5N2/PPPP1PPP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 f8b4 c3d5 g8f6",
     an: "e4 e5 Nf3 Nc6 Nc3 Bb4 Nd5 Nf6",
+    hasCont: false,
   },
   {
     eco: "C46",
@@ -5339,6 +6021,7 @@ export default [
     fen: "r1bqkbnr/pppp1p1p/2n3p1/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g7g6",
     an: "e4 e5 Nf3 Nc6 Nc3 g6",
+    hasCont: true,
   },
   {
     eco: "C46",
@@ -5346,6 +6029,7 @@ export default [
     fen: "r1bqkbnr/pppp1p1p/2n3p1/3N4/3pP3/5N2/PPP2PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g7g6 d2d4 e5d4 c3d5",
     an: "e4 e5 Nf3 Nc6 Nc3 g6 d4 exd4 Nd5",
+    hasCont: false,
   },
   {
     eco: "C46",
@@ -5353,6 +6037,7 @@ export default [
     fen: "r1bqkbnr/pppp2pp/2n5/4pp2/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 f7f5",
     an: "e4 e5 Nf3 Nc6 Nc3 f5",
+    hasCont: false,
   },
   {
     eco: "C47",
@@ -5360,6 +6045,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4p3/3PP3/2N2N2/PPP2PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 d2d4",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 d4",
+    hasCont: true,
   },
   {
     eco: "C47",
@@ -5367,6 +6053,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/8/3pP3/2N2N2/PPP2PPP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 d2d4 e5d4",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 d4 exd4",
+    hasCont: true,
   },
   {
     eco: "C47",
@@ -5374,14 +6061,15 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/3N4/3pP3/5N2/PPP2PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 d2d4 e5d4 c3d5",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 d4 exd4 Nd5",
+    hasCont: true,
   },
   {
     eco: "C47",
-    name:
-      "Four Knights Game: Scotch Variation, Belgrade Gambit, Modern Defense",
+    name: "Four Knights Game: Scotch Variation, Belgrade Gambit, Modern Defense",
     fen: "r1bqkb1r/pppp2pp/2n5/3N1p2/3pn3/5N2/PPP1QPPP/R1B1KB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 d2d4 e5d4 c3d5 f6e4 d1e2 f7f5",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 d4 exd4 Nd5 Nxe4 Qe2 f5",
+    hasCont: false,
   },
   {
     eco: "C47",
@@ -5389,14 +6077,15 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/4N3/1b1PP3/2N5/PPP2PPP/R1BQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 d2d4 f8b4 f3e5",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 d4 Bb4 Nxe5",
+    hasCont: true,
   },
   {
     eco: "C47",
-    name:
-      "Four Knights Game: Scotch Variation, Krause Gambit, Leonhardt Defense",
+    name: "Four Knights Game: Scotch Variation, Krause Gambit, Leonhardt Defense",
     fen: "r1b1k2r/ppppqppp/2n2n2/4N3/1b1PP3/2N5/PPP2PPP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 d2d4 f8b4 f3e5 d8e7",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 d4 Bb4 Nxe5 Qe7",
+    hasCont: false,
   },
   {
     eco: "C47",
@@ -5404,6 +6093,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/5n2/3Pp3/1b1nP3/2N2N2/PPP2PPP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 d2d4 f8b4 d4d5 c6d4",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 d4 Bb4 d5 Nd4",
+    hasCont: false,
   },
   {
     eco: "C47",
@@ -5411,6 +6101,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n5/8/3Nn3/2N5/PPP2PPP/R1BQKB1R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 d2d4 e5d4 f3d4 f6e4",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 d4 exd4 Nxd4 Nxe4",
+    hasCont: false,
   },
   {
     eco: "C48",
@@ -5419,6 +6110,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8c5 e1g1 e8g8 f3e5 c6e5 d2d4 c5d6 f2f4 e5c6 e4e5 d6b4",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bc5 O-O O-O Nxe5 Nxe5 d4 Bd6 f4 Nc6 e5 Bb4",
+    hasCont: false,
   },
   {
     eco: "C48",
@@ -5426,6 +6118,7 @@ export default [
     fen: "r1bq1rk1/pppp1ppp/5n2/1Bb1N3/3nP3/2N5/PPPP1PPP/R1BQ1RK1 w - -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 c6d4 f3e5 f8c5 e1g1 e8g8",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Nd4 Nxe5 Bc5 O-O O-O",
+    hasCont: false,
   },
   {
     eco: "C48",
@@ -5433,6 +6126,7 @@ export default [
     fen: "r1bqkb1r/1ppp1ppp/p1B2n2/4p3/4P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 a7a6 b5c6",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 a6 Bxc6",
+    hasCont: true,
   },
   {
     eco: "C48",
@@ -5440,6 +6134,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/5n2/4p3/3nP3/2N2N2/PPPPBPPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 c6d4 b5e2",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Nd4 Be2",
+    hasCont: true,
   },
   {
     eco: "C48",
@@ -5447,6 +6142,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/5n2/1B2p3/3nP3/2N2N2/PPPP1PPP/R1BQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 g8f6 b1c3 b8c6 f1b5 c6d4 e1g1",
     an: "e4 e5 Nf3 Nf6 Nc3 Nc6 Bb5 Nd4 O-O",
+    hasCont: false,
   },
   {
     eco: "C48",
@@ -5454,8 +6150,8 @@ export default [
     fen: "r1bq1rk1/ppp2ppp/1b1p1n2/4p3/N3P3/3P1B2/PPP2PPP/R1BQ1RK1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 c6d4 b5e2 d4f3 e2f3 f8c5 e1g1 e8g8 d2d3 d7d6 c3a4 c5b6",
-    an:
-      "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Nd4 Be2 Nxf3+ Bxf3 Bc5 O-O O-O d3 d6 Na4 Bb6",
+    an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Nd4 Be2 Nxf3+ Bxf3 Bc5 O-O O-O d3 d6 Na4 Bb6",
+    hasCont: false,
   },
   {
     eco: "C48",
@@ -5463,6 +6159,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5",
+    hasCont: true,
   },
   {
     eco: "C48",
@@ -5470,14 +6167,15 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/1Bb1p3/4P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8c5",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bc5",
+    hasCont: true,
   },
   {
     eco: "C48",
-    name:
-      "Four Knights Game: Spanish Variation, Classical Variation, Marshall Gambit",
+    name: "Four Knights Game: Spanish Variation, Classical Variation, Marshall Gambit",
     fen: "r1bq1rk1/pppp1ppp/5n2/2b1N3/B2nP3/2N5/PPPP1PPP/R1BQK2R w KQ -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 c6d4 b5a4 f8c5 f3e5 e8g8",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Nd4 Ba4 Bc5 Nxe5 O-O",
+    hasCont: false,
   },
   {
     eco: "C48",
@@ -5485,6 +6183,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/5n2/1B2p3/3nP3/2N2N2/PPPP1PPP/R1BQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 c6d4",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Nd4",
+    hasCont: true,
   },
   {
     eco: "C48",
@@ -5492,6 +6191,7 @@ export default [
     fen: "r1b1kb1r/ppppqppp/5n2/1B2N3/3nPP2/2N5/PPPP2PP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 g8f6 b1c3 b8c6 f1b5 c6d4 f3e5 d8e7 f2f4",
     an: "e4 e5 Nf3 Nf6 Nc3 Nc6 Bb5 Nd4 Nxe5 Qe7 f4",
+    hasCont: false,
   },
   {
     eco: "C48",
@@ -5499,6 +6199,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/5n2/1B2p3/3NP3/2N5/PPPP1PPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 c6d4 f3d4",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Nd4 Nxd4",
+    hasCont: false,
   },
   {
     eco: "C48",
@@ -5506,8 +6207,8 @@ export default [
     fen: "r3kb1r/1pp2ppp/p1p1b3/3q4/3PN3/8/PPP2PPP/R1BQR1K1 w kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 a7a6 b5c6 d7c6 f3e5 f6e4 c3e4 d8d4 e1g1 d4e5 f1e1 c8e6 d2d4 e5d5",
-    an:
-      "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 a6 Bxc6 dxc6 Nxe5 Nxe4 Nxe4 Qd4 O-O Qxe5 Re1 Be6 d4 Qd5",
+    an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 a6 Bxc6 dxc6 Nxe5 Nxe4 Nxe4 Qd4 O-O Qxe5 Re1 Be6 d4 Qd5",
+    hasCont: false,
   },
   {
     eco: "C49",
@@ -5516,6 +6217,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4 e1g1 e8g8 d2d3 d8e7 c3e2 d7d5",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 Qe7 Ne2 d5",
+    hasCont: false,
   },
   {
     eco: "C49",
@@ -5523,6 +6225,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/1B2p3/1b2P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4",
+    hasCont: true,
   },
   {
     eco: "C49",
@@ -5530,6 +6233,7 @@ export default [
     fen: "r1bq1rk1/pppp1ppp/2n2n2/1B2p3/1b2P3/2NP1N2/PPP2PPP/R1BQ1RK1 b - -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4 e1g1 e8g8 d2d3",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3",
+    hasCont: true,
   },
   {
     eco: "C49",
@@ -5538,6 +6242,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 g8f6 b1c3 b8c6 f1b5 f8b4 e1g1 e8g8 c3d5 f6d5 e4d5 e5e4",
     an: "e4 e5 Nf3 Nf6 Nc3 Nc6 Bb5 Bb4 O-O O-O Nd5 Nxd5 exd5 e4",
+    hasCont: false,
   },
   {
     eco: "C49",
@@ -5546,6 +6251,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4 e1g1 e8g8 d2d3 b4c3 b2c3 d7d6 f1e1",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 Bxc3 bxc3 d6 Re1",
+    hasCont: false,
   },
   {
     eco: "C49",
@@ -5553,6 +6259,7 @@ export default [
     fen: "r1bq1rk1/pppp1ppp/2B2n2/4p3/1b2P3/2N2N2/PPPP1PPP/R1BQ1RK1 b - -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4 e1g1 e8g8 b5c6",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O Bxc6",
+    hasCont: false,
   },
   {
     eco: "C49",
@@ -5560,6 +6267,7 @@ export default [
     fen: "r1bq1rk1/pppp1ppp/2n2n2/1B2p3/4P3/2bP1N2/PPP2PPP/R1BQ1RK1 w - -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4 e1g1 e8g8 d2d3 b4c3",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 Bxc3",
+    hasCont: true,
   },
   {
     eco: "C49",
@@ -5567,6 +6275,7 @@ export default [
     fen: "r1bq1rk1/ppp2ppp/2np1n2/1B2p3/1b2P3/2NP1N2/PPP2PPP/R1BQ1RK1 w - -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4 e1g1 e8g8 d2d3 d7d6",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 d6",
+    hasCont: true,
   },
   {
     eco: "C49",
@@ -5574,8 +6283,8 @@ export default [
     fen: "r2n1rk1/ppp1qppp/3p1n2/1B2p1B1/3PP1b1/2P2N2/P1P2PPP/R2QR1K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4 e1g1 e8g8 d2d3 d7d6 c1g5 b4c3 b2c3 d8e7 f1e1 c6d8 d3d4 c8g4",
-    an:
-      "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 d6 Bg5 Bxc3 bxc3 Qe7 Re1 Nd8 d4 Bg4",
+    an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 d6 Bg5 Bxc3 bxc3 Qe7 Re1 Nd8 d4 Bg4",
+    hasCont: false,
   },
   {
     eco: "C49",
@@ -5584,6 +6293,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4 e1g1 e8g8 d2d3 d7d6 c1g5 c6e7",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 d6 Bg5 Ne7",
+    hasCont: true,
   },
   {
     eco: "C49",
@@ -5591,6 +6301,7 @@ export default [
     fen: "r1bq1rk1/ppp2ppp/2np1n2/1B2p3/1b2P3/3P1N2/PPP1NPPP/R1BQ1RK1 b - -",
     moves: "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4 e1g1 e8g8 d2d3 d7d6 c3e2",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 d6 Ne2",
+    hasCont: false,
   },
   {
     eco: "C49",
@@ -5599,6 +6310,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4 e1g1 e8g8 d2d3 b4c3 b2c3 d7d5",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 Bxc3 bxc3 d5",
+    hasCont: false,
   },
   {
     eco: "C49",
@@ -5606,8 +6318,8 @@ export default [
     fen: "r1b2rk1/pp2nppp/2pq1n2/3pp1B1/1b2P2N/1BNP4/PPP2PPP/R2Q1RK1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4 e1g1 e8g8 d2d3 d7d6 c1g5 c6e7 f3h4 c7c6 b5c4 d6d5 c4b3 d8d6",
-    an:
-      "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 d6 Bg5 Ne7 Nh4 c6 Bc4 d5 Bb3 Qd6",
+    an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 d6 Bg5 Ne7 Nh4 c6 Bc4 d5 Bb3 Qd6",
+    hasCont: false,
   },
   {
     eco: "C49",
@@ -5616,6 +6328,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4 e1g1 e8g8 d2d3 d7d6 c1g5 b4c3 b2c3 d8e7",
     an: "e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 d6 Bg5 Bxc3 bxc3 Qe7",
+    hasCont: true,
   },
   {
     eco: "C49",
@@ -5624,6 +6337,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 g8f6 b1c3 b8c6 f1b5 f8b4 e1g1 e8g8 d2d3 d7d6 c1g5 c8e6",
     an: "e4 e5 Nf3 Nf6 Nc3 Nc6 Bb5 Bb4 O-O O-O d3 d6 Bg5 Be6",
+    hasCont: false,
   },
   {
     eco: "C50",
@@ -5632,6 +6346,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 c6d4 f3e5 d8g5 e5f7 g5g2 h1f1 g2e4 c4e2 d4f3",
     an: "e4 e5 Nf3 Nc6 Bc4 Nd4 Nxe5 Qg5 Nxf7 Qxg2 Rf1 Qxe4+ Be2 Nf3#",
+    hasCont: false,
   },
   {
     eco: "C50",
@@ -5639,6 +6354,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b1c3 g8f6",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 Nc3 Nf6",
+    hasCont: false,
   },
   {
     eco: "C50",
@@ -5646,6 +6362,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5",
+    hasCont: true,
   },
   {
     eco: "C50",
@@ -5653,6 +6370,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4",
     an: "e4 e5 Nf3 Nc6 Bc4",
+    hasCont: true,
   },
   {
     eco: "C50",
@@ -5660,6 +6378,7 @@ export default [
     fen: "r1bqkbnr/pppp1pp1/2n4p/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 h7h6",
     an: "e4 e5 Nf3 Nc6 Bc4 h6",
+    hasCont: false,
   },
   {
     eco: "C50",
@@ -5667,6 +6386,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 e1g1 g8f6 c2c3",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 O-O Nf6 c3",
+    hasCont: false,
   },
   {
     eco: "C50",
@@ -5674,6 +6394,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2BPP3/5N2/PPP2PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 e1g1 g8f6 d2d4",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 O-O Nf6 d4",
+    hasCont: true,
   },
   {
     eco: "C50",
@@ -5681,6 +6402,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 d2d3",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 d3",
+    hasCont: true,
   },
   {
     eco: "C50",
@@ -5688,6 +6410,7 @@ export default [
     fen: "r1bqk2r/ppp2ppp/2np1n2/2b1p1B1/2B1P3/2NP1N2/PPP2PPP/R2QK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 d2d3 g8f6 b1c3 d7d6 c1g5",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 d3 Nf6 Nc3 d6 Bg5",
+    hasCont: false,
   },
   {
     eco: "C50",
@@ -5695,6 +6418,7 @@ export default [
     fen: "r1bqk1nr/pppp2pp/2n5/2b1p1N1/2B1Pp2/3P4/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 d2d3 f7f5 f3g5 f5f4",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 d3 f5 Ng5 f4",
+    hasCont: false,
   },
   {
     eco: "C50",
@@ -5702,6 +6426,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2NP1N2/PPP2PPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 d2d3 g8f6 b1c3",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 d3 Nf6 Nc3",
+    hasCont: true,
   },
   {
     eco: "C50",
@@ -5709,6 +6434,7 @@ export default [
     fen: "r1bqk1nr/pppp2pp/2n5/2b1pp2/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 d2d3 f7f5",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 d3 f5",
+    hasCont: true,
   },
   {
     eco: "C50",
@@ -5716,6 +6442,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d3 f8c5",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 d3 Bc5",
+    hasCont: false,
   },
   {
     eco: "C50",
@@ -5723,6 +6450,7 @@ export default [
     fen: "r1bqk1nr/ppppbppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8e7",
     an: "e4 e5 Nf3 Nc6 Bc4 Be7",
+    hasCont: true,
   },
   {
     eco: "C50",
@@ -5730,6 +6458,7 @@ export default [
     fen: "r1bqk2r/ppppbppp/2n5/4P3/2Bpn3/2P2N2/PP3PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8e7 d2d4 e5d4 c2c3 g8f6 e4e5 f6e4",
     an: "e4 e5 Nf3 Nc6 Bc4 Be7 d4 exd4 c3 Nf6 e5 Ne4",
+    hasCont: false,
   },
   {
     eco: "C50",
@@ -5737,6 +6466,7 @@ export default [
     fen: "r1bqk1nr/pppp1Bpp/2n5/2b1p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c4f7",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 Bxf7+",
+    hasCont: false,
   },
   {
     eco: "C50",
@@ -5744,6 +6474,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/2b1p3/2BPP3/5N2/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 d2d4",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 d4",
+    hasCont: false,
   },
   {
     eco: "C50",
@@ -5751,6 +6482,7 @@ export default [
     fen: "r1bqkbnr/pppp2pp/2n5/4pp2/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f7f5",
     an: "e4 e5 Nf3 Nc6 Bc4 f5",
+    hasCont: false,
   },
   {
     eco: "C50",
@@ -5758,6 +6490,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 c6d4",
     an: "e4 e5 Nf3 Nc6 Bc4 Nd4",
+    hasCont: true,
   },
   {
     eco: "C51",
@@ -5765,6 +6498,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/2b1p3/1PB1P3/5N2/P1PP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4",
+    hasCont: true,
   },
   {
     eco: "C51",
@@ -5773,6 +6507,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4c5 d2d4 e5d4 e1g1 d7d6 c3d4 c5b6 b1c3 c8g4",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 Nc3 Bg4",
+    hasCont: true,
   },
   {
     eco: "C51",
@@ -5780,6 +6515,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/4p3/1bB1P3/5N2/P1PP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4",
+    hasCont: true,
   },
   {
     eco: "C51",
@@ -5787,6 +6523,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/1bn5/4p3/1PB1P3/5N2/P1PP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b6",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bb6",
+    hasCont: true,
   },
   {
     eco: "C51",
@@ -5794,6 +6531,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/1bn5/4p3/PPB1P3/5N2/2PP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b6 a2a4",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bb6 a4",
+    hasCont: true,
   },
   {
     eco: "C51",
@@ -5801,6 +6539,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/1bn5/4p3/1PB1P3/5N2/PBPP1PPP/RN1QK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b6 c1b2",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bb6 Bb2",
+    hasCont: false,
   },
   {
     eco: "C51",
@@ -5809,6 +6548,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b6 b4b5 c6a5 f3e5 d8g5 d1f3 g5e5 f3f7 e8d8 c1b2",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bb6 b5 Na5 Nxe5 Qg5 Qf3 Qxe5 Qxf7+ Kd8 Bb2",
+    hasCont: false,
   },
   {
     eco: "C51",
@@ -5816,6 +6556,7 @@ export default [
     fen: "r1b1k1nr/pppp1ppp/1b6/nP2N1q1/2B1P3/8/P1PP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b6 b4b5 c6a5 f3e5 d8g5",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bb6 b5 Na5 Nxe5 Qg5",
+    hasCont: true,
   },
   {
     eco: "C51",
@@ -5823,6 +6564,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/1b5n/nP2N3/2B1P3/8/P1PP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b6 b4b5 c6a5 f3e5 g8h6",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bb6 b5 Na5 Nxe5 Nh6",
+    hasCont: true,
   },
   {
     eco: "C51",
@@ -5830,8 +6572,8 @@ export default [
     fen: "r1b3r1/ppp2k1p/1b6/nP2B1q1/3PP3/8/P1PN1PPP/R2QK2R b KQ -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b6 b4b5 c6a5 f3e5 g8h6 d2d4 d7d6 c1h6 d6e5 h6g7 h8g8 c4f7 e8f7 g7e5 d8g5 b1d2",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bb6 b5 Na5 Nxe5 Nh6 d4 d6 Bxh6 dxe5 Bxg7 Rg8 Bxf7+ Kxf7 Bxe5 Qg5 Nd2",
+    an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bb6 b5 Na5 Nxe5 Nh6 d4 d6 Bxh6 dxe5 Bxg7 Rg8 Bxf7+ Kxf7 Bxe5 Qg5 Nd2",
+    hasCont: false,
   },
   {
     eco: "C51",
@@ -5839,6 +6581,7 @@ export default [
     fen: "r1bqk1nr/1ppp1ppp/pbn5/4p3/PPB1P3/2N2N2/2PP1PPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b6 a2a4 a7a6 b1c3",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bb6 a4 a6 Nc3",
+    hasCont: false,
   },
   {
     eco: "C51",
@@ -5847,6 +6590,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b6 b4b5 c6a5 f3e5 d8g5 c4f7 e8e7 d1h5",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bb6 b5 Na5 Nxe5 Qg5 Bxf7+ Ke7 Qh5",
+    hasCont: false,
   },
   {
     eco: "C51",
@@ -5854,6 +6598,7 @@ export default [
     fen: "r1bqk1nr/ppppbppp/2n5/4p3/2B1P3/2P2N2/P2P1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4e7",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Be7",
+    hasCont: true,
   },
   {
     eco: "C51",
@@ -5861,6 +6606,7 @@ export default [
     fen: "r1bqk1nr/ppppbppp/8/n3p3/2BPP3/2P2N2/P4PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4e7 d2d4 c6a5",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Be7 d4 Na5",
+    hasCont: false,
   },
   {
     eco: "C51",
@@ -5868,6 +6614,7 @@ export default [
     fen: "r1bqk1nr/p1pp1ppp/2n5/1pb1p3/1PB1P3/5N2/P1PP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 b7b5",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 b5",
+    hasCont: false,
   },
   {
     eco: "C51",
@@ -5875,8 +6622,8 @@ export default [
     fen: "r2qk1nr/ppp2ppp/1bnp4/8/Q1BPP1b1/2N2N2/P4PPP/R1B2RK1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4c5 d2d4 e5d4 e1g1 d7d6 c3d4 c5b6 b1c3 c8g4 d1a4",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 Nc3 Bg4 Qa4",
+    an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 Nc3 Bg4 Qa4",
+    hasCont: true,
   },
   {
     eco: "C51",
@@ -5884,8 +6631,8 @@ export default [
     fen: "r2q1knr/pppb1Bpp/1b1p4/n7/3PP3/2N2N2/P1Q2PPP/R1B2RK1 b - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4c5 d2d4 e5d4 e1g1 d7d6 c3d4 c5b6 b1c3 c8g4 d1a4 g4d7 a4b3 c6a5 c4f7 e8f8 b3c2",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 Nc3 Bg4 Qa4 Bd7 Qb3 Na5 Bxf7+ Kf8 Qc2",
+    an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 Nc3 Bg4 Qa4 Bd7 Qb3 Na5 Bxf7+ Kf8 Qc2",
+    hasCont: true,
   },
   {
     eco: "C51",
@@ -5893,8 +6640,8 @@ export default [
     fen: "r1bqk1nr/ppp2ppp/1b1p4/n5B1/2BPP3/2N2N2/P4PPP/R2Q1RK1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4c5 d2d4 e5d4 e1g1 d7d6 c3d4 c5b6 b1c3 c6a5 c1g5",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 Nc3 Na5 Bg5",
+    an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 Nc3 Na5 Bg5",
+    hasCont: true,
   },
   {
     eco: "C51",
@@ -5903,6 +6650,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4c5 d2d4 e5d4 c3d4 c5b4 c1d2",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 cxd4 Bb4+ Bd2",
+    hasCont: false,
   },
   {
     eco: "C51",
@@ -5910,6 +6658,7 @@ export default [
     fen: "r1bqk1nr/ppp2ppp/2n5/2bpp3/1PB1P3/5N2/P1PP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 d7d5",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 d5",
+    hasCont: false,
   },
   {
     eco: "C51",
@@ -5917,6 +6666,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/2P2N2/P2P1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4f8",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bf8",
+    hasCont: false,
   },
   {
     eco: "C51",
@@ -5924,6 +6674,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/2P2N2/P2P1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4c5",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5",
+    hasCont: true,
   },
   {
     eco: "C51",
@@ -5932,6 +6683,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4c5 d2d4 e5d4 e1g1 d7d6 c3d4 c5b6",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6",
+    hasCont: true,
   },
   {
     eco: "C51",
@@ -5940,6 +6692,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 d2d4 e5d4 e1g1 d7d6 c3d4 a5b6 b1c3",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O d6 cxd4 Bb6 Nc3",
+    hasCont: false,
   },
   {
     eco: "C51",
@@ -5947,8 +6700,8 @@ export default [
     fen: "r2q2nr/pppb1kpp/1b1p4/n7/3PP3/2N2N2/P1Q2PPP/R1B2RK1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4c5 d2d4 e5d4 e1g1 d7d6 c3d4 c5b6 b1c3 c8g4 d1a4 g4d7 a4b3 c6a5 c4f7 e8f8 b3c2 f8f7",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 Nc3 Bg4 Qa4 Bd7 Qb3 Na5 Bxf7+ Kf8 Qc2 Kxf7",
+    an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 Nc3 Bg4 Qa4 Bd7 Qb3 Na5 Bxf7+ Kf8 Qc2 Kxf7",
+    hasCont: false,
   },
   {
     eco: "C51",
@@ -5956,8 +6709,8 @@ export default [
     fen: "r1bqk2r/ppp1nppp/1b1p4/n2P4/2B1P3/5N2/PB3PPP/RN1Q1RK1 w kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4c5 d2d4 e5d4 e1g1 d7d6 c3d4 c5b6 d4d5 c6a5 c1b2 g8e7",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 d5 Na5 Bb2 Ne7",
+    an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 d5 Na5 Bb2 Ne7",
+    hasCont: false,
   },
   {
     eco: "C51",
@@ -5965,8 +6718,8 @@ export default [
     fen: "r1bqk1nr/ppp3pp/1b1p1p2/n7/2BPP3/2N1BN2/P4PPP/R2Q1RK1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4c5 d2d4 e5d4 e1g1 d7d6 c3d4 c5b6 b1c3 c6a5 c1g5 f7f6 g5e3",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 Nc3 Na5 Bg5 f6 Be3",
+    an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 Nc3 Na5 Bg5 f6 Be3",
+    hasCont: false,
   },
   {
     eco: "C51",
@@ -5974,6 +6727,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2nb4/4p3/2B1P3/2P2N2/P2P1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4d6",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bd6",
+    hasCont: false,
   },
   {
     eco: "C51",
@@ -5981,8 +6735,8 @@ export default [
     fen: "r1bqk1nr/ppp2ppp/1b1p4/n2P4/2B1P3/5N2/PB3PPP/RN1Q1RK1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4c5 d2d4 e5d4 e1g1 d7d6 c3d4 c5b6 d4d5 c6a5 c1b2",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 d5 Na5 Bb2",
+    an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 d5 Na5 Bb2",
+    hasCont: true,
   },
   {
     eco: "C52",
@@ -5990,6 +6744,7 @@ export default [
     fen: "r1bqk1nr/ppp2ppp/2np4/b3p3/2B1P3/2P2N2/P2P1PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 e1g1 d7d6",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 O-O d6",
+    hasCont: true,
   },
   {
     eco: "C52",
@@ -5998,6 +6753,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 e1g1 d7d6 d2d4 c8g4",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 O-O d6 d4 Bg4",
+    hasCont: false,
   },
   {
     eco: "C52",
@@ -6006,6 +6762,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 e1g1 g8f6 d2d4 e5d4",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 O-O Nf6 d4 exd4",
+    hasCont: false,
   },
   {
     eco: "C52",
@@ -6013,6 +6770,7 @@ export default [
     fen: "r1bqk1nr/ppp2ppp/2np4/b3p3/2BPP3/2P2N2/P4PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 d2d4 d7d6",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 d6",
+    hasCont: true,
   },
   {
     eco: "C52",
@@ -6021,6 +6779,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 d2d4 e5d4 e1g1 d4c3",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O dxc3",
+    hasCont: true,
   },
   {
     eco: "C52",
@@ -6028,8 +6787,8 @@ export default [
     fen: "r1b1k2r/ppppnppp/2n3q1/b3P3/2B5/BQN2N2/P4PPP/R4RK1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 d2d4 e5d4 e1g1 d4c3 d1b3 d8f6 e4e5 f6g6 b1c3 g8e7 c1a3",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O dxc3 Qb3 Qf6 e5 Qg6 Nxc3 Nge7 Ba3",
+    an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O dxc3 Qb3 Qf6 e5 Qg6 Nxc3 Nge7 Ba3",
+    hasCont: false,
   },
   {
     eco: "C52",
@@ -6037,8 +6796,8 @@ export default [
     fen: "r1b1k2r/ppppnppp/2n3q1/b3P3/2B5/1QN2N2/P4PPP/R1BR2K1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 d2d4 e5d4 e1g1 d4c3 d1b3 d8f6 e4e5 f6g6 b1c3 g8e7 f1d1",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O dxc3 Qb3 Qf6 e5 Qg6 Nxc3 Nge7 Rd1",
+    an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O dxc3 Qb3 Qf6 e5 Qg6 Nxc3 Nge7 Rd1",
+    hasCont: false,
   },
   {
     eco: "C52",
@@ -6047,6 +6806,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 d2d4 e5d4 e1g1 d4d3",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O d3",
+    hasCont: false,
   },
   {
     eco: "C52",
@@ -6055,6 +6815,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 d2d4 e5d4 e1g1 b7b5",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O b5",
+    hasCont: false,
   },
   {
     eco: "C52",
@@ -6062,6 +6823,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/b3p3/2BPP3/2P2N2/P4PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 d2d4 g8f6",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 Nf6",
+    hasCont: false,
   },
   {
     eco: "C52",
@@ -6070,6 +6832,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 e1g1 d7d6 d2d4 a5b6",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 O-O d6 d4 Bb6",
+    hasCont: false,
   },
   {
     eco: "C52",
@@ -6077,6 +6840,7 @@ export default [
     fen: "r1bqk1nr/p1pp1ppp/2n5/bp2p3/2BPP3/2P2N2/P4PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 d2d4 b7b5",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 b5",
+    hasCont: false,
   },
   {
     eco: "C52",
@@ -6084,8 +6848,8 @@ export default [
     fen: "r1b1k1nr/pppq1ppp/1b6/n3N3/2B1P3/BQP5/P4PPP/RN3RK1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 d2d4 d7d6 d1b3 d8d7 d4e5 d6e5 e1g1 a5b6 c1a3 c6a5 f3e5",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 d6 Qb3 Qd7 dxe5 dxe5 O-O Bb6 Ba3 Na5 Nxe5",
+    an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 d6 Qb3 Qd7 dxe5 dxe5 O-O Bb6 Ba3 Na5 Nxe5",
+    hasCont: false,
   },
   {
     eco: "C52",
@@ -6093,6 +6857,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/b3p3/2B1P3/2P2N2/P2P1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5",
+    hasCont: true,
   },
   {
     eco: "C52",
@@ -6101,6 +6866,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 d2d4 e5d4 e1g1 g8e7",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O Nge7",
+    hasCont: false,
   },
   {
     eco: "C52",
@@ -6108,6 +6874,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/b7/2BpP3/2P2N2/P4PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 d2d4 e5d4",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4",
+    hasCont: true,
   },
   {
     eco: "C52",
@@ -6116,6 +6883,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 e1g1 g8f6 d2d4 e8g8 f3e5",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 O-O Nf6 d4 O-O Nxe5",
+    hasCont: false,
   },
   {
     eco: "C52",
@@ -6124,6 +6892,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 e1g1 d7d6 d2d4 c8d7",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 O-O d6 d4 Bd7",
+    hasCont: false,
   },
   {
     eco: "C52",
@@ -6131,6 +6900,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/b3p3/2B1P3/2P2N2/P2P1PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 e1g1",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 O-O",
+    hasCont: true,
   },
   {
     eco: "C52",
@@ -6138,6 +6908,7 @@ export default [
     fen: "r1bqk1nr/ppp2ppp/2np4/b3p1B1/2BPP3/2P2N2/P4PPP/RN1QK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 d2d4 d7d6 c1g5",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 d6 Bg5",
+    hasCont: false,
   },
   {
     eco: "C52",
@@ -6145,6 +6916,7 @@ export default [
     fen: "r1bqk1nr/ppp2ppp/2np4/b3p3/2BPP3/1QP2N2/P4PPP/RNB1K2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 d2d4 d7d6 d1b3",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 d6 Qb3",
+    hasCont: true,
   },
   {
     eco: "C52",
@@ -6153,6 +6925,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4 c5b4 c2c3 b4a5 d2d4 e5d4 e1g1 d7d6 d1b3",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O d6 Qb3",
+    hasCont: false,
   },
   {
     eco: "C53",
@@ -6160,6 +6933,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/2b1p3/1PB1P3/2P2N2/P2P1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 b2b4",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 b4",
+    hasCont: false,
   },
   {
     eco: "C53",
@@ -6167,6 +6941,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3",
+    hasCont: true,
   },
   {
     eco: "C53",
@@ -6174,6 +6949,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6",
+    hasCont: true,
   },
   {
     eco: "C53",
@@ -6181,6 +6957,7 @@ export default [
     fen: "r1bqk1nr/pppp2pp/2n5/2b1pp2/2B1P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 f7f5",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 f5",
+    hasCont: false,
   },
   {
     eco: "C53",
@@ -6188,6 +6965,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2BPP3/2P2N2/PP3PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d4",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4",
+    hasCont: true,
   },
   {
     eco: "C53",
@@ -6195,6 +6973,7 @@ export default [
     fen: "r1b1k1nr/ppppqppp/1bn5/4p3/2BPP3/2P2N2/PP3PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 d8e7 d2d4 c5b6",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Qe7 d4 Bb6",
+    hasCont: true,
   },
   {
     eco: "C53",
@@ -6202,6 +6981,7 @@ export default [
     fen: "r1b1k1nr/ppppqppp/2n5/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 d8e7",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Qe7",
+    hasCont: true,
   },
   {
     eco: "C53",
@@ -6209,6 +6989,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d3",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d3",
+    hasCont: true,
   },
   {
     eco: "C53",
@@ -6217,6 +6998,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d3 d7d6 e1g1 e8g8 f1e1 a7a6 c4b3 c5a7 h2h3",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d3 d6 O-O O-O Re1 a6 Bb3 Ba7 h3",
+    hasCont: false,
   },
   {
     eco: "C53",
@@ -6224,15 +7006,16 @@ export default [
     fen: "r1bqk2r/ppp2ppp/2n2n2/2bpP3/2Bp4/2P2N2/PP3PPP/RNBQK2R w KQkq d6",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4 f8c5 c2c3 g8f6 e4e5 d7d5",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bc5 c3 Nf6 e5 d5",
+    hasCont: false,
   },
   {
     eco: "C53",
-    name:
-      "Italian Game: Classical Variation, Greco Gambit, Anderssen Variation",
+    name: "Italian Game: Classical Variation, Greco Gambit, Anderssen Variation",
     fen: "r1bqk2r/ppp2ppp/2n5/1B1pP3/1b1Pn3/5N2/PP3PPP/RNBQK2R w KQkq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d4 e5d4 e4e5 d7d5 c4b5 f6e4 c3d4 c5b4",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 e5 d5 Bb5 Ne4 cxd4 Bb4+",
+    hasCont: false,
   },
   {
     eco: "C53",
@@ -6240,6 +7023,7 @@ export default [
     fen: "r1bqk1nr/ppp2ppp/1bnp4/8/2BPP3/5N2/PP3PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 d7d6 d2d4 e5d4 c3d4 c5b6",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 d6 d4 exd4 cxd4 Bb6",
+    hasCont: false,
   },
   {
     eco: "C53",
@@ -6248,6 +7032,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 d8e7 d2d4 c5b6 e1g1 d7d6 a2a4 a7a6 h2h3 g8f6 f1e1",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Qe7 d4 Bb6 O-O d6 a4 a6 h3 Nf6 Re1",
+    hasCont: false,
   },
   {
     eco: "C53",
@@ -6255,6 +7040,7 @@ export default [
     fen: "rnb1k1nr/ppppqppp/1b1P4/4p3/2B1P3/2P2N2/PP3PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 d8e7 d2d4 c5b6 d4d5 c6b8 d5d6",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Qe7 d4 Bb6 d5 Nb8 d6",
+    hasCont: false,
   },
   {
     eco: "C53",
@@ -6263,6 +7049,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d4 e5d4 e4e5 f6e4 c4d5 e4f2 e1f2 d4c3 f2g3",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 e5 Ne4 Bd5 Nxf2 Kxf2 dxc3+ Kg3",
+    hasCont: false,
   },
   {
     eco: "C53",
@@ -6270,6 +7057,7 @@ export default [
     fen: "r1b1k1nr/ppppqppp/1bn5/4p1B1/2BPP3/2P2N2/PP3PPP/RN1QK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 d8e7 d2d4 c5b6 c1g5",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Qe7 d4 Bb6 Bg5",
+    hasCont: false,
   },
   {
     eco: "C53",
@@ -6277,6 +7065,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/2b5/2BpP3/2P2N2/PP3PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d4 e5d4 e1g1",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 O-O",
+    hasCont: false,
   },
   {
     eco: "C54",
@@ -6285,6 +7074,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d4 e5d4 c3d4 c5b4 b1c3 f6e4 e1g1 e4c3",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Nxc3",
+    hasCont: true,
   },
   {
     eco: "C54",
@@ -6293,25 +7083,25 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d4 e5d4 c3d4 c5b4 b1c3 f6e4 e1g1 b4c3",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Bxc3",
+    hasCont: true,
   },
   {
     eco: "C54",
-    name:
-      "Italian Game: Classical Variation, Greco Gambit, Moeller-Bayonet Attack",
+    name: "Italian Game: Classical Variation, Greco Gambit, Moeller-Bayonet Attack",
     fen: "r1bqk2r/ppp1nppp/3p1b2/3P4/2B1R1P1/5N2/PP3P1P/R1BQ2K1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d4 e5d4 c3d4 c5b4 b1c3 f6e4 e1g1 b4c3 d4d5 c3f6 f1e1 c6e7 e1e4 d7d6 g2g4",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Bxc3 d5 Bf6 Re1 Ne7 Rxe4 d6 g4",
+    an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Bxc3 d5 Bf6 Re1 Ne7 Rxe4 d6 g4",
+    hasCont: false,
   },
   {
     eco: "C54",
-    name:
-      "Italian Game: Classical Variation, Greco Gambit, Moeller-Therkatz Attack",
+    name: "Italian Game: Classical Variation, Greco Gambit, Moeller-Therkatz Attack",
     fen: "r1bqk2r/pppp1ppp/2n5/3P4/2B1n3/2b2N2/PP3PPP/R1BQ1RK1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d4 e5d4 c3d4 c5b4 b1c3 f6e4 e1g1 b4c3 d4d5",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Bxc3 d5",
+    hasCont: true,
   },
   {
     eco: "C54",
@@ -6319,6 +7109,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/2b5/2BPP3/5N2/PP3PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d4 e5d4 c3d4",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4",
+    hasCont: true,
   },
   {
     eco: "C54",
@@ -6326,8 +7117,8 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n5/8/2BP4/B1b2N2/P4PPP/R2Q1RK1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d4 e5d4 c3d4 c5b4 b1c3 f6e4 e1g1 e4c3 b2c3 b4c3 c1a3",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Nxc3 bxc3 Bxc3 Ba3",
+    an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Nxc3 bxc3 Bxc3 Ba3",
+    hasCont: false,
   },
   {
     eco: "C54",
@@ -6335,8 +7126,8 @@ export default [
     fen: "r1bqk2r/ppp2ppp/2n5/3p4/2BP4/1Qb2N2/P4PPP/R1B2RK1 w kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d4 e5d4 c3d4 c5b4 b1c3 f6e4 e1g1 e4c3 b2c3 b4c3 d1b3 d7d5",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Nxc3 bxc3 Bxc3 Qb3 d5",
+    an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Nxc3 bxc3 Bxc3 Qb3 d5",
+    hasCont: false,
   },
   {
     eco: "C54",
@@ -6344,6 +7135,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQ1K1R b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d4 e5d4 c3d4 c5b4 e1f1",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Kf1",
+    hasCont: false,
   },
   {
     eco: "C54",
@@ -6351,6 +7143,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/2N2N2/PP3PPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d4 e5d4 c3d4 c5b4 b1c3",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3",
+    hasCont: true,
   },
   {
     eco: "C54",
@@ -6358,8 +7151,8 @@ export default [
     fen: "r1bq3r/ppp3pp/5k2/3pN3/1n1Pn3/1Q3P2/PP4PP/RN2K2R b KQ -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d4 e5d4 c3d4 c5b4 c1d2 f6e4 d2b4 c6b4 c4f7 e8f7 d1b3 d7d5 f3e5 f7f6 f2f3",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Bd2 Nxe4 Bxb4 Nxb4 Bxf7+ Kxf7 Qb3+ d5 Ne5+ Kf6 f3",
+    an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Bd2 Nxe4 Bxb4 Nxb4 Bxf7+ Kxf7 Qb3+ d5 Ne5+ Kf6 f3",
+    hasCont: false,
   },
   {
     eco: "C54",
@@ -6367,8 +7160,8 @@ export default [
     fen: "r1bqk2r/ppp2ppp/2n5/3p4/2BPn3/B1P2N2/P4PPP/R2Q1RK1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d4 e5d4 c3d4 c5b4 b1c3 f6e4 e1g1 b4c3 b2c3 d7d5 c1a3",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Bxc3 bxc3 d5 Ba3",
+    an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Bxc3 bxc3 d5 Ba3",
+    hasCont: false,
   },
   {
     eco: "C54",
@@ -6376,8 +7169,8 @@ export default [
     fen: "r1bq1rk1/ppp1nppN/3p4/3P4/2B1R3/8/PP3PPP/R2Q2K1 b - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d4 e5d4 c3d4 c5b4 b1c3 f6e4 e1g1 b4c3 d4d5 c3f6 f1e1 c6e7 e1e4 d7d6 c1g5 f6g5 f3g5 e8g8 g5h7",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Bxc3 d5 Bf6 Re1 Ne7 Rxe4 d6 Bg5 Bxg5 Nxg5 O-O Nxh7",
+    an: "e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Bxc3 d5 Bf6 Re1 Ne7 Rxe4 d6 Bg5 Bxg5 Nxg5 O-O Nxh7",
+    hasCont: false,
   },
   {
     eco: "C55",
@@ -6386,6 +7179,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 e1g1 f8c5 d2d4 c5d4 f3d4 c6d4 c1g5 d7d6",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 O-O Bc5 d4 Bxd4 Nxd4 Nxd4 Bg5 d6",
+    hasCont: true,
   },
   {
     eco: "C55",
@@ -6393,8 +7187,8 @@ export default [
     fen: "r1b1k2r/ppp1qppp/5n2/4p1B1/2BnP3/2N5/PPP3PP/R2Q1RK1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 e1g1 f8c5 d2d4 c5d4 f3d4 c6d4 c1g5 d7d6 f2f4 d8e7 f4e5 d6e5 b1c3",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Nf6 O-O Bc5 d4 Bxd4 Nxd4 Nxd4 Bg5 d6 f4 Qe7 fxe5 dxe5 Nc3",
+    an: "e4 e5 Nf3 Nc6 Bc4 Nf6 O-O Bc5 d4 Bxd4 Nxd4 Nxd4 Bg5 d6 f4 Qe7 fxe5 dxe5 Nc3",
+    hasCont: false,
   },
   {
     eco: "C55",
@@ -6403,6 +7197,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 e1g1 f8c5 d2d4 c5d4 f3d4 c6d4 c1g5 h7h6 g5h4 g7g5 f2f4",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 O-O Bc5 d4 Bxd4 Nxd4 Nxd4 Bg5 h6 Bh4 g5 f4",
+    hasCont: false,
   },
   {
     eco: "C55",
@@ -6410,6 +7205,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/8/2BpP3/5N2/PPP2PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d4 e5d4 e1g1",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O",
+    hasCont: true,
   },
   {
     eco: "C55",
@@ -6417,6 +7213,7 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/2np1n2/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d4 d7d6",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 d6",
+    hasCont: false,
   },
   {
     eco: "C55",
@@ -6424,6 +7221,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2nb1n2/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d4 f8d6",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 Bd6",
+    hasCont: false,
   },
   {
     eco: "C55",
@@ -6431,6 +7229,7 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/2np1n2/8/2BpP3/5N2/PPP2PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4 g8f6 e1g1 d7d6",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Nf6 O-O d6",
+    hasCont: false,
   },
   {
     eco: "C55",
@@ -6438,6 +7237,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/2b5/2BpP3/5N2/PPP2PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4 g8f6 e1g1 f8c5",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Nf6 O-O Bc5",
+    hasCont: true,
   },
   {
     eco: "C55",
@@ -6446,6 +7246,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 e1g1 g8f6 d2d4 e5d4 e4e5 d7d5 e5f6 d5c4 f1e1 c8e6 f6g7",
     an: "e4 e5 Nf3 Nc6 Bc4 Bc5 O-O Nf6 d4 exd4 e5 d5 exf6 dxc4 Re1+ Be6 fxg7",
+    hasCont: false,
   },
   {
     eco: "C55",
@@ -6453,8 +7254,8 @@ export default [
     fen: "r3k2r/ppp2ppp/2n1bP2/2b2qN1/2ppN3/8/PPP2PPP/R1BQR1K1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4 g8f6 e1g1 f8c5 e4e5 d7d5 e5f6 d5c4 f1e1 c8e6 f3g5 d8d5 b1c3 d5f5 c3e4",
-    an:
-      "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Nf6 O-O Bc5 e5 d5 exf6 dxc4 Re1+ Be6 Ng5 Qd5 Nc3 Qf5 Nce4",
+    an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Nf6 O-O Bc5 e5 d5 exf6 dxc4 Re1+ Be6 Ng5 Qd5 Nc3 Qf5 Nce4",
+    hasCont: false,
   },
   {
     eco: "C55",
@@ -6462,6 +7263,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n5/2b1P3/2Bp2n1/5N2/PPP2PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4 g8f6 e1g1 f8c5 e4e5 f6g4",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Nf6 O-O Bc5 e5 Ng4",
+    hasCont: false,
   },
   {
     eco: "C55",
@@ -6469,6 +7271,7 @@ export default [
     fen: "r1bqk2r/ppppbppp/2n2n2/8/2BpP3/5N2/PPP2PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4 g8f6 e1g1 f8e7",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Nf6 O-O Be7",
+    hasCont: false,
   },
   {
     eco: "C55",
@@ -6476,6 +7279,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6",
+    hasCont: true,
   },
   {
     eco: "C55",
@@ -6483,6 +7287,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n5/4p3/2BPn3/5N2/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d4 f6e4",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 Nxe4",
+    hasCont: false,
   },
   {
     eco: "C55",
@@ -6490,8 +7295,8 @@ export default [
     fen: "r1b1k2r/ppp2ppp/2N5/1B1pP3/4n2q/8/PPP2bPP/RNBQ1K1R w kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d4 e5d4 e4e5 d7d5 c4b5 f6e4 f3d4 f8c5 d4c6 c5f2 e1f1 d8h4",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 e5 d5 Bb5 Ne4 Nxd4 Bc5 Nxc6 Bxf2+ Kf1 Qh4",
+    an: "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 e5 d5 Bb5 Ne4 Nxd4 Bc5 Nxc6 Bxf2+ Kf1 Qh4",
+    hasCont: false,
   },
   {
     eco: "C55",
@@ -6499,24 +7304,24 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/2b1P3/2Bp4/5N2/PPP2PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4 g8f6 e1g1 f8c5 e4e5",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Nf6 O-O Bc5 e5",
+    hasCont: true,
   },
   {
     eco: "C55",
-    name:
-      "Italian Game: Two Knights Defense, Max Lange Attack, Berger Variation",
+    name: "Italian Game: Two Knights Defense, Max Lange Attack, Berger Variation",
     fen: "2kr3r/ppp2ppp/1bn1bPq1/6N1/2ppNPP1/8/PPP4P/R1BQR1K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d4 e5d4 e1g1 f8c5 e4e5 d7d5 e5f6 d5c4 f1e1 c8e6 f3g5 d8d5 b1c3 d5f5 g2g4 f5g6 c3e4 c5b6 f2f4 e8c8",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Bc5 e5 d5 exf6 dxc4 Re1+ Be6 Ng5 Qd5 Nc3 Qf5 g4 Qg6 Nce4 Bb6 f4 O-O-O",
+    an: "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Bc5 e5 d5 exf6 dxc4 Re1+ Be6 Ng5 Qd5 Nc3 Qf5 g4 Qg6 Nce4 Bb6 f4 O-O-O",
+    hasCont: false,
   },
   {
     eco: "C55",
-    name:
-      "Italian Game: Two Knights Defense, Max Lange Attack, Krause Variation",
+    name: "Italian Game: Two Knights Defense, Max Lange Attack, Krause Variation",
     fen: "r1bqk2r/pppp1ppp/2n5/2b1P3/2Bp2n1/2P2N2/PP3PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d4 e5d4 e1g1 f8c5 e4e5 f6g4 c2c3",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Bc5 e5 Ng4 c3",
+    hasCont: false,
   },
   {
     eco: "C55",
@@ -6525,16 +7330,16 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4 f8c5 e1g1 g8f6 e4e5 d7d5 e5f6 d5c4 f1e1 c8e6 f3g5 g7g6",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bc5 O-O Nf6 e5 d5 exf6 dxc4 Re1+ Be6 Ng5 g6",
+    hasCont: false,
   },
   {
     eco: "C55",
-    name:
-      "Italian Game: Two Knights Defense, Max Lange Attack, Rubinstein Variation",
+    name: "Italian Game: Two Knights Defense, Max Lange Attack, Rubinstein Variation",
     fen: "r3kb1r/ppp2ppp/2n1bP2/5qN1/2ppN3/8/PPP2PPP/R1BQR1K1 w kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d4 e5d4 e1g1 f8c5 e4e5 d7d5 e5f6 d5c4 f1e1 c8e6 f3g5 d8d5 b1c3 d5f5 c3e4 c5f8",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Bc5 e5 d5 exf6 dxc4 Re1+ Be6 Ng5 Qd5 Nc3 Qf5 Nce4 Bf8",
+    an: "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Bc5 e5 d5 exf6 dxc4 Re1+ Be6 Ng5 Qd5 Nc3 Qf5 Nce4 Bf8",
+    hasCont: false,
   },
   {
     eco: "C55",
@@ -6542,6 +7347,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d3",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 d3",
+    hasCont: true,
   },
   {
     eco: "C55",
@@ -6549,6 +7355,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d4",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 d4",
+    hasCont: true,
   },
   {
     eco: "C55",
@@ -6556,6 +7363,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/6N1/2BpP3/8/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d4 e5d4 f3g5",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 Ng5",
+    hasCont: false,
   },
   {
     eco: "C56",
@@ -6564,6 +7372,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d4 e5d4 e1g1 f6e4 f1e1 d7d5 c4d5 d8d5 b1c3",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Nxe4 Re1 d5 Bxd5 Qxd5 Nc3",
+    hasCont: true,
   },
   {
     eco: "C56",
@@ -6571,8 +7380,8 @@ export default [
     fen: "r3kb1r/ppp2ppp/2n1b3/3q2B1/3pN3/5N2/PPP2PPP/R2QR1K1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d4 e5d4 e1g1 f6e4 f1e1 d7d5 c4d5 d8d5 b1c3 d5a5 c3e4 c8e6 c1d2 a5d5 d2g5",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Nxe4 Re1 d5 Bxd5 Qxd5 Nc3 Qa5 Nxe4 Be6 Bd2 Qd5 Bg5",
+    an: "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Nxe4 Re1 d5 Bxd5 Qxd5 Nc3 Qa5 Nxe4 Be6 Bd2 Qd5 Bg5",
+    hasCont: false,
   },
   {
     eco: "C56",
@@ -6580,6 +7389,7 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/2n5/3p4/2Bpn3/2N2N2/PPP2PPP/R1BQR1K1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4 g8f6 e1g1 f6e4 f1e1 d7d5 b1c3",
     an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Nf6 O-O Nxe4 Re1 d5 Nc3",
+    hasCont: false,
   },
   {
     eco: "C56",
@@ -6587,6 +7397,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n5/8/2Bpn3/5N2/PPP2PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d4 e5d4 e1g1 f6e4",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Nxe4",
+    hasCont: true,
   },
   {
     eco: "C56",
@@ -6594,6 +7405,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n5/8/2Bpn3/2N2N2/PPP2PPP/R1BQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d4 e5d4 e1g1 f6e4 b1c3",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Nxe4 Nc3",
+    hasCont: false,
   },
   {
     eco: "C56",
@@ -6601,18 +7413,17 @@ export default [
     fen: "r4b1r/ppp1kp2/2n1bN1p/q5p1/1P1p3B/5N2/P1P2PPP/R2QR1K1 b - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4 g8f6 e1g1 f6e4 f1e1 d7d5 c4d5 d8d5 b1c3 d5a5 c3e4 c8e6 c1g5 h7h6 g5h4 g7g5 e4f6 e8e7 b2b4",
-    an:
-      "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Nf6 O-O Nxe4 Re1 d5 Bxd5 Qxd5 Nc3 Qa5 Nxe4 Be6 Bg5 h6 Bh4 g5 Nf6+ Ke7 b4",
+    an: "e4 e5 Nf3 Nc6 d4 exd4 Bc4 Nf6 O-O Nxe4 Re1 d5 Bxd5 Qxd5 Nc3 Qa5 Nxe4 Be6 Bg5 h6 Bh4 g5 Nf6+ Ke7 b4",
+    hasCont: false,
   },
   {
     eco: "C57",
-    name:
-      "Italian Game: Two Knights Defense, Fegatello Attack, Leonhardt Variation",
+    name: "Italian Game: Two Knights Defense, Fegatello Attack, Leonhardt Variation",
     fen: "r1bq1b1r/ppn3pp/2p1k3/3np3/2BPQ3/P1N5/1PP2PPP/R1B1K2R w KQ -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 f6d5 g5f7 e8f7 d1f3 f7e6 b1c3 c6b4 f3e4 c7c6 a2a3 b4a6 d2d4 a6c7",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nxd5 Nxf7 Kxf7 Qf3+ Ke6 Nc3 Nb4 Qe4 c6 a3 Na6 d4 Nc7",
+    an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nxd5 Nxf7 Kxf7 Qf3+ Ke6 Nc3 Nb4 Qe4 c6 a3 Na6 d4 Nc7",
+    hasCont: false,
   },
   {
     eco: "C57",
@@ -6620,6 +7431,7 @@ export default [
     fen: "r1bqkb1r/ppp2Npp/2n5/3np3/2B5/8/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 f6d5 g5f7",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nxd5 Nxf7",
+    hasCont: true,
   },
   {
     eco: "C57",
@@ -6627,6 +7439,7 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/5n2/3Pp1N1/2Bn4/8/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 c6d4",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nd4",
+    hasCont: true,
   },
   {
     eco: "C57",
@@ -6635,6 +7448,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 c6d4 c2c3 b7b5 c4f1 f6d5 g5e4",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nd4 c3 b5 Bf1 Nxd5 Ne4",
+    hasCont: false,
   },
   {
     eco: "C57",
@@ -6642,6 +7456,7 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/5n2/3Pp1N1/1nB5/8/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 c6b4",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nb4",
+    hasCont: false,
   },
   {
     eco: "C57",
@@ -6649,6 +7464,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/4p1N1/2B1P3/8/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5",
+    hasCont: true,
   },
   {
     eco: "C57",
@@ -6656,6 +7472,7 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/2n2n2/3pp1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5",
+    hasCont: true,
   },
   {
     eco: "C57",
@@ -6663,6 +7480,7 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/2n5/3np1N1/2BP4/8/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 f6d5 d2d4",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nxd5 d4",
+    hasCont: true,
   },
   {
     eco: "C57",
@@ -6670,6 +7488,7 @@ export default [
     fen: "r1bqk2r/ppp2ppp/2n5/3np1N1/1bBP4/8/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 f6d5 d2d4 f8b4",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nxd5 d4 Bb4+",
+    hasCont: false,
   },
   {
     eco: "C57",
@@ -6677,6 +7496,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n5/4p1N1/2B1n3/8/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 f6e4",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 Nxe4",
+    hasCont: false,
   },
   {
     eco: "C57",
@@ -6684,38 +7504,39 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 f8c5",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 Bc5",
+    hasCont: true,
   },
   {
     eco: "C57",
-    name:
-      "Italian Game: Two Knights Defense, Traxler Counterattack, Bishop Sacrifice Line",
+    name: "Italian Game: Two Knights Defense, Traxler Counterattack, Bishop Sacrifice Line",
     fen: "r1bqk2r/pppp1Bpp/2n2n2/2b1p1N1/4P3/8/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 f8c5 c4f7",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 Bc5 Bxf7+",
+    hasCont: true,
   },
   {
     eco: "C57",
-    name:
-      "Italian Game: Two Knights Defense, Traxler Counterattack, King March Line",
+    name: "Italian Game: Two Knights Defense, Traxler Counterattack, King March Line",
     fen: "r1bqk2r/pppp1Npp/2n5/4p3/2B1n3/4K3/PPPP2PP/RNBQ3R b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 f8c5 g5f7 c5f2 e1f2 f6e4 f2e3",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 Bc5 Nxf7 Bxf2+ Kxf2 Nxe4+ Ke3",
+    hasCont: false,
   },
   {
     eco: "C57",
-    name:
-      "Italian Game: Two Knights Defense, Traxler Counterattack, Knight Sacrifice Line",
+    name: "Italian Game: Two Knights Defense, Traxler Counterattack, Knight Sacrifice Line",
     fen: "r1bqk2r/pppp1Npp/2n2n2/2b1p3/2B1P3/8/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 f8c5 g5f7",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 Bc5 Nxf7",
+    hasCont: true,
   },
   {
     eco: "C57",
-    name:
-      "Italian Game: Two Knights Defense, Traxler Variation, Trencianske-Teplice Gambit",
+    name: "Italian Game: Two Knights Defense, Traxler Variation, Trencianske-Teplice Gambit",
     fen: "r1bq3r/ppppkBpp/2n2n2/2b1p1N1/3PP3/8/PPP2PPP/RNBQK2R b KQ -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 f8c5 c4f7 e8e7 d2d4",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 Bc5 Bxf7+ Ke7 d4",
+    hasCont: false,
   },
   {
     eco: "C57",
@@ -6723,14 +7544,15 @@ export default [
     fen: "r1bqkb1r/p1p2ppp/2n2n2/1p1Pp1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 b7b5",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 b5",
+    hasCont: true,
   },
   {
     eco: "C57",
-    name:
-      "Italian Game: Two Knights Defense, Ulvestad Variation, Kurkin Gambit",
+    name: "Italian Game: Two Knights Defense, Ulvestad Variation, Kurkin Gambit",
     fen: "r1bqkb1r/p1p2Np1/2n2n1p/1p1Pp3/8/8/PPPP1PPP/RNBQKB1R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 b7b5 c4f1 h7h6 g5f7",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 b5 Bf1 h6 Nxf7",
+    hasCont: false,
   },
   {
     eco: "C58",
@@ -6739,6 +7561,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 c6a5 c4b5 c7c6 d5c6 b7c6 b5e2",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Be2",
+    hasCont: true,
   },
   {
     eco: "C58",
@@ -6747,6 +7570,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 c6a5 c4b5 c7c6 d5c6 b7c6 d1f3 c6b5",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Qf3 cxb5",
+    hasCont: false,
   },
   {
     eco: "C58",
@@ -6755,6 +7579,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 c6a5 c4b5 c7c6 d5c6 b7c6 d1f3 a8b8",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Qf3 Rb8",
+    hasCont: false,
   },
   {
     eco: "C58",
@@ -6763,6 +7588,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 c6a5 d2d3 h7h6 g5f3 e5e4 d1e2 a5c4 d3c4 f8e7",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 d3 h6 Nf3 e4 Qe2 Nxc4 dxc4 Be7",
+    hasCont: false,
   },
   {
     eco: "C58",
@@ -6771,6 +7597,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 c6a5 c4b5 c7c6 d5c6 b7c6 d1f3 d8c7 b5d3",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Qf3 Qc7 Bd3",
+    hasCont: false,
   },
   {
     eco: "C58",
@@ -6778,41 +7605,41 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/5n2/n2Pp1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 c6a5",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5",
+    hasCont: true,
   },
   {
     eco: "C58",
-    name:
-      "Italian Game: Two Knights Defense, Polerio Defense, Bishop Check Line",
+    name: "Italian Game: Two Knights Defense, Polerio Defense, Bishop Check Line",
     fen: "r1bqkb1r/ppp2ppp/5n2/nB1Pp1N1/8/8/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 c6a5 c4b5",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+",
+    hasCont: true,
   },
   {
     eco: "C58",
-    name:
-      "Italian Game: Two Knights Defense, Polerio Defense, Bogoljubov Variation",
+    name: "Italian Game: Two Knights Defense, Polerio Defense, Bogoljubov Variation",
     fen: "r1bqkb1r/p4ppp/2p2n2/nB2p1N1/8/5Q2/PPPP1PPP/RNB1K2R b KQkq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 c6a5 c4b5 c7c6 d5c6 b7c6 d1f3",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Qf3",
+    hasCont: true,
   },
   {
     eco: "C58",
-    name:
-      "Italian Game: Two Knights Defense, Polerio Defense, Kieseritzky Variation",
+    name: "Italian Game: Two Knights Defense, Polerio Defense, Kieseritzky Variation",
     fen: "r1bqkb1r/ppp2ppp/5n2/n2Pp1N1/2B5/3P4/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 c6a5 d2d3",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 d3",
+    hasCont: true,
   },
   {
     eco: "C58",
-    name:
-      "Italian Game: Two Knights Defense, Polerio Defense, Yankovich Variation",
+    name: "Italian Game: Two Knights Defense, Polerio Defense, Yankovich Variation",
     fen: "r1bqk2r/ppp2pp1/5n1p/2bP4/2P1p3/8/PPPNQPPP/RNB1K2R b KQkq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 c6a5 d2d3 h7h6 g5f3 e5e4 d1e2 a5c4 d3c4 f8c5 f3d2",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 d3 h6 Nf3 e4 Qe2 Nxc4 dxc4 Bc5 Nfd2",
+    an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 d3 h6 Nf3 e4 Qe2 Nxc4 dxc4 Bc5 Nfd2",
+    hasCont: false,
   },
   {
     eco: "C59",
@@ -6820,18 +7647,17 @@ export default [
     fen: "r1b1k2r/p1q2pp1/2pb1n1p/n3N3/3Pp3/8/PPPBBPPP/RN1QK2R b KQkq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 c6a5 c4b5 c7c6 d5c6 b7c6 b5e2 h7h6 g5f3 e5e4 f3e5 f8d6 d2d4 d8c7 c1d2",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Be2 h6 Nf3 e4 Ne5 Bd6 d4 Qc7 Bd2",
+    an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Be2 h6 Nf3 e4 Ne5 Bd6 d4 Qc7 Bd2",
+    hasCont: false,
   },
   {
     eco: "C59",
-    name:
-      "Italian Game: Two Knights Defense, Polerio Defense, Göring Variation",
+    name: "Italian Game: Two Knights Defense, Polerio Defense, Göring Variation",
     fen: "r1b1kb1r/p1q2pp1/2p2n1p/n3N3/4p3/8/PPPPBPPP/RNBQK2R w KQkq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 c6a5 c4b5 c7c6 d5c6 b7c6 b5e2 h7h6 g5f3 e5e4 f3e5 d8c7",
-    an:
-      "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Be2 h6 Nf3 e4 Ne5 Qc7",
+    an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Be2 h6 Nf3 e4 Ne5 Qc7",
+    hasCont: false,
   },
   {
     eco: "C59",
@@ -6840,6 +7666,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 c6a5 c4b5 c7c6 d5c6 b7c6 b5e2 h7h6",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Be2 h6",
+    hasCont: true,
   },
   {
     eco: "C59",
@@ -6848,6 +7675,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 c6a5 c4b5 c7c6 d5c6 b7c6 b5e2 h7h6 g5h3",
     an: "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Be2 h6 Nh3",
+    hasCont: false,
   },
   {
     eco: "C60",
@@ -6855,6 +7683,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5",
     an: "e4 e5 Nf3 Nc6 Bb5",
+    hasCont: true,
   },
   {
     eco: "C60",
@@ -6862,6 +7691,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/1B2p3/1b2P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 f8b4",
     an: "e4 e5 Nf3 Nc6 Bb5 Bb4",
+    hasCont: true,
   },
   {
     eco: "C60",
@@ -6869,6 +7699,7 @@ export default [
     fen: "r1bqk1nr/ppp2ppp/2p5/b3p3/4P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 f8b4 c2c3 b4a5 b5c6 d7c6",
     an: "e4 e5 Nf3 Nc6 Bb5 Bb4 c3 Ba5 Bxc6 dxc6",
+    hasCont: false,
   },
   {
     eco: "C60",
@@ -6876,6 +7707,7 @@ export default [
     fen: "r1bqkbnr/pppp1p1p/2n5/1B2p1p1/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g7g5",
     an: "e4 e5 Nf3 Nc6 Bb5 g5",
+    hasCont: false,
   },
   {
     eco: "C60",
@@ -6883,6 +7715,7 @@ export default [
     fen: "r1bqkbnr/1ppp1ppp/2n5/pB2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a5",
     an: "e4 e5 Nf3 Nc6 Bb5 a5",
+    hasCont: false,
   },
   {
     eco: "C60",
@@ -6890,6 +7723,7 @@ export default [
     fen: "r1bqkb1r/ppppnppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8e7",
     an: "e4 e5 Nf3 Nc6 Bb5 Nge7",
+    hasCont: true,
   },
   {
     eco: "C60",
@@ -6897,6 +7731,7 @@ export default [
     fen: "r1bqkb1r/ppppnp1p/2n3p1/1B2p3/4P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8e7 b1c3 g7g6",
     an: "e4 e5 Nf3 Nc6 Bb5 Nge7 Nc3 g6",
+    hasCont: false,
   },
   {
     eco: "C60",
@@ -6905,6 +7740,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 g7g6 d2d4 e5d4 f3d4 f8g7 c1e3 g8e7 b1c3 e8g8 d1d2 d7d5",
     an: "e4 e5 Nf3 Nc6 Bb5 g6 d4 exd4 Nxd4 Bg7 Be3 Nge7 Nc3 O-O Qd2 d5",
+    hasCont: false,
   },
   {
     eco: "C60",
@@ -6912,6 +7748,7 @@ export default [
     fen: "r1bqkbnr/pppp1p1p/2n3p1/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g7g6",
     an: "e4 e5 Nf3 Nc6 Bb5 g6",
+    hasCont: true,
   },
   {
     eco: "C60",
@@ -6919,6 +7756,7 @@ export default [
     fen: "r1bqkbnr/pppp3p/2n3p1/1B2pp2/4P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g7g6 c2c3 f7f5",
     an: "e4 e5 Nf3 Nc6 Bb5 g6 c3 f5",
+    hasCont: false,
   },
   {
     eco: "C60",
@@ -6926,6 +7764,7 @@ export default [
     fen: "r1bqk1nr/ppppbppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 f8e7",
     an: "e4 e5 Nf3 Nc6 Bb5 Be7",
+    hasCont: false,
   },
   {
     eco: "C60",
@@ -6933,6 +7772,7 @@ export default [
     fen: "r1bqkbnr/pppp2pp/2n2p2/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 f7f6",
     an: "e4 e5 Nf3 Nc6 Bb5 f6",
+    hasCont: false,
   },
   {
     eco: "C60",
@@ -6940,6 +7780,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/8/nB2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 c6a5",
     an: "e4 e5 Nf3 Nc6 Bb5 Na5",
+    hasCont: false,
   },
   {
     eco: "C60",
@@ -6947,6 +7788,7 @@ export default [
     fen: "rnbqkbnr/pppp1ppp/8/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 c6b8",
     an: "e4 e5 Nf3 Nc6 Bb5 Nb8",
+    hasCont: false,
   },
   {
     eco: "C60",
@@ -6954,6 +7796,7 @@ export default [
     fen: "r1bqkbnr/p1pp1ppp/1pn5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 b7b6",
     an: "e4 e5 Nf3 Nc6 Bb5 b6",
+    hasCont: false,
   },
   {
     eco: "C60",
@@ -6961,14 +7804,15 @@ export default [
     fen: "r1bqkbnr/ppp2ppp/2n5/1B1pp3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 d7d5",
     an: "e4 e5 Nf3 Nc6 Bb5 d5",
+    hasCont: true,
   },
   {
     eco: "C60",
-    name:
-      "Ruy Lopez: Spanish Countergambit, Harding Countergambit, Fricke Gambit",
+    name: "Ruy Lopez: Spanish Countergambit, Harding Countergambit, Fricke Gambit",
     fen: "r1b1kbnr/ppp2ppp/2n5/1B1pN1q1/4P3/8/PPPP1PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 d7d5 f3e5 d8g5 e1g1",
     an: "e4 e5 Nf3 Nc6 Bb5 d5 Nxe5 Qg5 O-O",
+    hasCont: false,
   },
   {
     eco: "C60",
@@ -6976,6 +7820,7 @@ export default [
     fen: "r1b1kbnr/ppp2ppp/2N5/1B1p2q1/4P3/8/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 d7d5 f3e5 d8g5 e5c6",
     an: "e4 e5 Nf3 Nc6 Bb5 d5 Nxe5 Qg5 Nxc6",
+    hasCont: false,
   },
   {
     eco: "C60",
@@ -6983,6 +7828,7 @@ export default [
     fen: "r1b1kbnr/ppppqppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 d8e7",
     an: "e4 e5 Nf3 Nc6 Bb5 Qe7",
+    hasCont: false,
   },
   {
     eco: "C61",
@@ -6990,6 +7836,7 @@ export default [
     fen: "r1bqkbnr/pppp1ppp/8/1B2p3/3nP3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 c6d4",
     an: "e4 e5 Nf3 Nc6 Bb5 Nd4",
+    hasCont: true,
   },
   {
     eco: "C61",
@@ -6997,6 +7844,7 @@ export default [
     fen: "r1bqkb1r/ppppnppp/8/1B6/3pP3/8/PPPP1PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 c6d4 f3d4 e5d4 e1g1 g8e7",
     an: "e4 e5 Nf3 Nc6 Bb5 Nd4 Nxd4 exd4 O-O Ne7",
+    hasCont: false,
   },
   {
     eco: "C62",
@@ -7004,6 +7852,7 @@ export default [
     fen: "r2qkbnr/pppb1ppp/2np4/1B2p3/2PPP3/5N2/PP3PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 d7d6 d2d4 c8d7 c2c4",
     an: "e4 e5 Nf3 Nc6 Bb5 d6 d4 Bd7 c4",
+    hasCont: false,
   },
   {
     eco: "C62",
@@ -7011,6 +7860,7 @@ export default [
     fen: "r1bqkbnr/ppp2ppp/2np4/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 d7d6",
     an: "e4 e5 Nf3 Nc6 Bb5 d6",
+    hasCont: true,
   },
   {
     eco: "C62",
@@ -7018,6 +7868,7 @@ export default [
     fen: "r1bqkbnr/ppp2ppp/2np4/1B6/3pP3/5N2/PPP2PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 d7d6 d2d4 e5d4 e1g1",
     an: "e4 e5 Nf3 Nc6 Bb5 d6 d4 exd4 O-O",
+    hasCont: false,
   },
   {
     eco: "C62",
@@ -7025,6 +7876,7 @@ export default [
     fen: "r2qkb1r/pppb1ppp/2Bp1n2/4p3/3PP3/2N2N2/PPP2PPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 d7d6 d2d4 c8d7 b1c3 g8f6 b5c6",
     an: "e4 e5 Nf3 Nc6 Bb5 d6 d4 Bd7 Nc3 Nf6 Bxc6",
+    hasCont: false,
   },
   {
     eco: "C63",
@@ -7032,6 +7884,7 @@ export default [
     fen: "r1bqkbnr/pppp2pp/2n5/1B2pp2/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 f7f5",
     an: "e4 e5 Nf3 Nc6 Bb5 f5",
+    hasCont: true,
   },
   {
     eco: "C63",
@@ -7040,6 +7893,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 f7f5 b1c3 f5e4 c3e4 d7d5 f3e5 d5e4 e5c6 d8g5",
     an: "e4 e5 Nf3 Nc6 Bb5 f5 Nc3 fxe4 Nxe4 d5 Nxe5 dxe4 Nxc6 Qg5",
+    hasCont: false,
   },
   {
     eco: "C63",
@@ -7047,6 +7901,7 @@ export default [
     fen: "r1bqkbnr/pppp2pp/2n5/1B2pp2/4P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 f7f5 b1c3",
     an: "e4 e5 Nf3 Nc6 Bb5 f5 Nc3",
+    hasCont: true,
   },
   {
     eco: "C63",
@@ -7054,6 +7909,7 @@ export default [
     fen: "r1bqkbnr/pppp2pp/2B5/4pp2/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 f7f5 b5c6",
     an: "e4 e5 Nf3 Nc6 Bb5 f5 Bxc6",
+    hasCont: false,
   },
   {
     eco: "C63",
@@ -7061,6 +7917,7 @@ export default [
     fen: "r1bqkbnr/pppp2pp/2n5/1B2pP2/8/5N2/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 f7f5 e4f5",
     an: "e4 e5 Nf3 Nc6 Bb5 f5 exf5",
+    hasCont: false,
   },
   {
     eco: "C63",
@@ -7068,6 +7925,7 @@ export default [
     fen: "r1bqk1nr/ppppb1pp/2n5/1B2p3/4N3/5N2/PPPP1PPP/R1BQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 f7f5 b1c3 f5e4 c3e4 f8e7",
     an: "e4 e5 Nf3 Nc6 Bb5 f5 Nc3 fxe4 Nxe4 Be7",
+    hasCont: false,
   },
   {
     eco: "C63",
@@ -7076,6 +7934,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 f7f5 b1c3 f5e4 c3e4 d7d5 f3e5 d5e4 e5c6 d8d5",
     an: "e4 e5 Nf3 Nc6 Bb5 f5 Nc3 fxe4 Nxe4 d5 Nxe5 dxe4 Nxc6 Qd5",
+    hasCont: false,
   },
   {
     eco: "C63",
@@ -7083,6 +7942,7 @@ export default [
     fen: "r1bqkbnr/pppp2pp/2n5/1B2pp2/3PP3/5N2/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 f7f5 d2d4",
     an: "e4 e5 Nf3 Nc6 Bb5 f5 d4",
+    hasCont: false,
   },
   {
     eco: "C63",
@@ -7090,6 +7950,7 @@ export default [
     fen: "r1bqkb1r/pppp2pp/2n2n2/1B2p3/4N3/5N2/PPPP1PPP/R1BQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 f7f5 b1c3 f5e4 c3e4 g8f6",
     an: "e4 e5 Nf3 Nc6 Bb5 f5 Nc3 fxe4 Nxe4 Nf6",
+    hasCont: false,
   },
   {
     eco: "C64",
@@ -7097,6 +7958,7 @@ export default [
     fen: "r1bq1rk1/pppp1ppp/1bn2n2/1B2p3/3PP3/2P2N2/PP3PPP/RNBQ1RK1 w - -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f8c5 c2c3 e8g8 d2d4 c5b6",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Bc5 c3 O-O d4 Bb6",
+    hasCont: true,
   },
   {
     eco: "C64",
@@ -7104,6 +7966,7 @@ export default [
     fen: "r1b1k1nr/ppppqppp/2n5/1Bb1p3/4P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 f8c5 c2c3 d8e7",
     an: "e4 e5 Nf3 Nc6 Bb5 Bc5 c3 Qe7",
+    hasCont: false,
   },
   {
     eco: "C64",
@@ -7111,6 +7974,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/8/1Bb1p3/1P1nP3/5N2/P1PP1PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 f8c5 e1g1 c6d4 b2b4",
     an: "e4 e5 Nf3 Nc6 Bb5 Bc5 O-O Nd4 b4",
+    hasCont: false,
   },
   {
     eco: "C64",
@@ -7118,6 +7982,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/1Bb1p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 f8c5",
     an: "e4 e5 Nf3 Nc6 Bb5 Bc5",
+    hasCont: true,
   },
   {
     eco: "C64",
@@ -7125,6 +7990,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/1Bb1p3/4P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 f8c5 c2c3",
     an: "e4 e5 Nf3 Nc6 Bb5 Bc5 c3",
+    hasCont: true,
   },
   {
     eco: "C64",
@@ -7132,6 +7998,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/1bn5/1B2p3/4P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 f8c5 c2c3 c5b6",
     an: "e4 e5 Nf3 Nc6 Bb5 Bc5 c3 Bb6",
+    hasCont: false,
   },
   {
     eco: "C64",
@@ -7139,6 +8006,7 @@ export default [
     fen: "r1bqk1nr/pppp2pp/2n5/1Bb1pp2/4P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 f8c5 c2c3 f7f5",
     an: "e4 e5 Nf3 Nc6 Bb5 Bc5 c3 f5",
+    hasCont: false,
   },
   {
     eco: "C64",
@@ -7146,6 +8014,7 @@ export default [
     fen: "r1bqk1nr/ppp2ppp/2n5/1Bbpp3/4P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 f8c5 c2c3 d7d5",
     an: "e4 e5 Nf3 Nc6 Bb5 Bc5 c3 d5",
+    hasCont: false,
   },
   {
     eco: "C64",
@@ -7153,6 +8022,7 @@ export default [
     fen: "r1bq1rk1/pppp1ppp/1bn2n2/1B2p1B1/3PP3/2P2N2/PP3PPP/RN1Q1RK1 b - -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f8c5 c2c3 e8g8 d2d4 c5b6 c1g5",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Bc5 c3 O-O d4 Bb6 Bg5",
+    hasCont: false,
   },
   {
     eco: "C64",
@@ -7160,6 +8030,7 @@ export default [
     fen: "r1bqk1nr/pppp1ppp/2n5/1Bb1p3/1P2P3/5N2/P1PP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 f8c5 b2b4",
     an: "e4 e5 Nf3 Nc6 Bb5 Bc5 b4",
+    hasCont: false,
   },
   {
     eco: "C65",
@@ -7167,6 +8038,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6",
+    hasCont: true,
   },
   {
     eco: "C65",
@@ -7174,6 +8046,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O",
+    hasCont: true,
   },
   {
     eco: "C65",
@@ -7181,6 +8054,7 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/2Bp1n2/4p3/4P3/3P1N2/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 d2d3 d7d6 b5c6",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 d3 d6 Bxc6+",
+    hasCont: false,
   },
   {
     eco: "C65",
@@ -7188,6 +8062,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/1Bb1p3/4P3/5N2/PPPP1PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f8c5",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Bc5",
+    hasCont: true,
   },
   {
     eco: "C65",
@@ -7195,6 +8070,7 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/2np1n2/1B2p3/2P1P3/3P1N2/PP3PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 d2d3 d7d6 c2c4",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 d3 d6 c4",
+    hasCont: false,
   },
   {
     eco: "C65",
@@ -7202,6 +8078,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n5/1B2p3/4P1n1/5N2/PPPP1PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6g4",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Ng4",
+    hasCont: false,
   },
   {
     eco: "C65",
@@ -7209,6 +8086,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/1Bb1p3/4P3/3PBN2/PPP2PPP/RN1QK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 d2d3 f8c5 c1e3",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 d3 Bc5 Be3",
+    hasCont: false,
   },
   {
     eco: "C65",
@@ -7216,6 +8094,7 @@ export default [
     fen: "r1bqkb1r/pp1pnppp/2p2n2/1B2N3/4P3/3P4/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 d2d3 c6e7 f3e5 c7c6",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 d3 Ne7 Nxe5 c6",
+    hasCont: false,
   },
   {
     eco: "C65",
@@ -7223,6 +8102,7 @@ export default [
     fen: "r1bqkb1r/ppppnppp/5n2/1B2p3/4P3/3P1N2/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 d2d3 c6e7",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 d3 Ne7",
+    hasCont: true,
   },
   {
     eco: "C65",
@@ -7230,6 +8110,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/1B6/3pP3/5N2/PPP2PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 d2d4 e5d4 e1g1",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 d4 exd4 O-O",
+    hasCont: false,
   },
   {
     eco: "C65",
@@ -7237,6 +8118,7 @@ export default [
     fen: "r1bqk2r/pppp1ppp/2n2n2/1Bb1p3/4P3/2P2N2/PP1P1PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f8c5 c2c3",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Bc5 c3",
+    hasCont: true,
   },
   {
     eco: "C65",
@@ -7244,6 +8126,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n2n2/1B2N3/4P3/8/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 f3e5",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 Nxe5",
+    hasCont: false,
   },
   {
     eco: "C66",
@@ -7251,6 +8134,7 @@ export default [
     fen: "r2qk2r/pppbbppp/2np1n2/1B2p1B1/3PP3/2N2N2/PPP2PPP/R2Q1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 d7d6 d2d4 c8d7 b1c3 f8e7 c1g5",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O d6 d4 Bd7 Nc3 Be7 Bg5",
+    hasCont: false,
   },
   {
     eco: "C66",
@@ -7258,6 +8142,7 @@ export default [
     fen: "r2qk2r/pppbbppp/2Bp1n2/4p3/3PP3/2N2N2/PPP2PPP/R1BQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 d7d6 d2d4 c8d7 b1c3 f8e7 b5c6",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O d6 d4 Bd7 Nc3 Be7 Bxc6",
+    hasCont: false,
   },
   {
     eco: "C66",
@@ -7265,6 +8150,7 @@ export default [
     fen: "r2qkb1r/pppb1ppp/2np1n2/1B6/3pP3/2N2N2/PPP2PPP/R1BQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 d7d6 d2d4 c8d7 b1c3 e5d4",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O d6 d4 Bd7 Nc3 exd4",
+    hasCont: false,
   },
   {
     eco: "C66",
@@ -7272,6 +8158,7 @@ export default [
     fen: "r2qk2r/pppbbppp/2np1n2/1B2p3/3PP3/2N2N2/PPP2PPP/R1BQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 d7d6 d2d4 c8d7 b1c3 f8e7",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O d6 d4 Bd7 Nc3 Be7",
+    hasCont: true,
   },
   {
     eco: "C66",
@@ -7279,6 +8166,7 @@ export default [
     fen: "r1bqkb1r/ppp2ppp/2np1n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 d7d6",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O d6",
+    hasCont: true,
   },
   {
     eco: "C66",
@@ -7287,6 +8175,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 d7d6 d2d4 c8d7 b1c3 g8f6 e1g1 f8e7 f1e1 e8g8",
     an: "e4 e5 Nf3 Nc6 Bb5 d6 d4 Bd7 Nc3 Nf6 O-O Be7 Re1 O-O",
+    hasCont: false,
   },
   {
     eco: "C66",
@@ -7294,6 +8183,7 @@ export default [
     fen: "r1bqkb1r/pppn1ppp/2np4/1B2p3/3PP3/5N2/PPP2PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 d7d6 d2d4 f6d7",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O d6 d4 Nd7",
+    hasCont: false,
   },
   {
     eco: "C67",
@@ -7301,8 +8191,8 @@ export default [
     fen: "r2k1b1r/pppb1ppp/2p5/4Pn2/8/2N2N2/PPP2PPP/R1B2RK1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6e4 d2d4 e4d6 b5c6 d7c6 d4e5 d6f5 d1d8 e8d8 b1c3 c8d7",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Nd6 Bxc6 dxc6 dxe5 Nf5 Qxd8+ Kxd8 Nc3 Bd7",
+    an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Nd6 Bxc6 dxc6 dxe5 Nf5 Qxd8+ Kxd8 Nc3 Bd7",
+    hasCont: false,
   },
   {
     eco: "C67",
@@ -7311,6 +8201,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6e4 d2d4 f8e7 d1e2 e4d6 b5c6 b7c6 d4e5 d6f5",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Be7 Qe2 Nd6 Bxc6 bxc6 dxe5 Nf5",
+    hasCont: false,
   },
   {
     eco: "C67",
@@ -7318,6 +8209,7 @@ export default [
     fen: "r1bqk2r/ppppbppp/2n5/1B2P3/4n3/5N2/PPP2PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6e4 d2d4 f8e7 d4e5",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Be7 dxe5",
+    hasCont: false,
   },
   {
     eco: "C67",
@@ -7326,6 +8218,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6e4 d2d4 f8e7 d1e2 e4d6 b5c6 b7c6 d4e5 d6b7 b2b3",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Be7 Qe2 Nd6 Bxc6 bxc6 dxe5 Nb7 b3",
+    hasCont: false,
   },
   {
     eco: "C67",
@@ -7333,6 +8226,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2n5/1B2p3/4n3/5N2/PPPP1PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6e4",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4",
+    hasCont: true,
   },
   {
     eco: "C67",
@@ -7340,6 +8234,7 @@ export default [
     fen: "r1bqk2r/ppppbppp/2n5/1B2p3/3Pn3/5N2/PPP2PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6e4 d2d4 f8e7",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Be7",
+    hasCont: true,
   },
   {
     eco: "C67",
@@ -7347,8 +8242,8 @@ export default [
     fen: "r1bq1rk1/p1ppbppp/8/2p1P3/3B4/2N5/PPP1QPPP/R3R1K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6e4 d2d4 f8e7 d1e2 e4d6 b5c6 b7c6 d4e5 d6b7 b1c3 e8g8 f1e1 b7c5 f3d4 c5e6 c1e3 e6d4 e3d4 c6c5",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Be7 Qe2 Nd6 Bxc6 bxc6 dxe5 Nb7 Nc3 O-O Re1 Nc5 Nd4 Ne6 Be3 Nxd4 Bxd4 c5",
+    an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Be7 Qe2 Nd6 Bxc6 bxc6 dxe5 Nb7 Nc3 O-O Re1 Nc5 Nd4 Ne6 Be3 Nxd4 Bxd4 c5",
+    hasCont: false,
   },
   {
     eco: "C67",
@@ -7356,6 +8251,7 @@ export default [
     fen: "r1bqkb1r/1ppp1ppp/p1n5/1B2p3/3Pn3/5N2/PPP2PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6e4 d2d4 a7a6",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 a6",
+    hasCont: false,
   },
   {
     eco: "C67",
@@ -7363,6 +8259,7 @@ export default [
     fen: "r1bqk2r/ppp1bppp/2n5/1B1pp3/3Pn3/5N2/PPP1QPPP/RNB2RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6e4 d2d4 f8e7 d1e2 d7d5",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Be7 Qe2 d5",
+    hasCont: false,
   },
   {
     eco: "C67",
@@ -7371,6 +8268,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6e4 d2d4 f8e7 d1e2 e4d6 b5c6 b7c6 d4e5 d6b7 f3d4",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Be7 Qe2 Nd6 Bxc6 bxc6 dxe5 Nb7 Nd4",
+    hasCont: false,
   },
   {
     eco: "C67",
@@ -7379,6 +8277,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6e4 d2d4 f8e7 d1e2 e4d6 b5c6 b7c6 d4e5 d6b7 c2c4",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Be7 Qe2 Nd6 Bxc6 bxc6 dxe5 Nb7 c4",
+    hasCont: false,
   },
   {
     eco: "C67",
@@ -7386,6 +8285,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2nn4/1B2p3/3P4/5N2/PPP2PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6e4 d2d4 e4d6",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Nd6",
+    hasCont: true,
   },
   {
     eco: "C67",
@@ -7394,6 +8294,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6e4 d2d4 e4d6 b5c6 d7c6 d4e5 d6f5 d1d8 e8d8",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Nd6 Bxc6 dxc6 dxe5 Nf5 Qxd8+ Kxd8",
+    hasCont: true,
   },
   {
     eco: "C67",
@@ -7402,6 +8303,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6e4 d2d4 e4d6 b5c6 d7c6 d4e5 d6e4",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Nd6 Bxc6 dxc6 dxe5 Ne4",
+    hasCont: false,
   },
   {
     eco: "C67",
@@ -7409,6 +8311,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2nn4/4p3/B2P4/5N2/PPP2PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6e4 d2d4 e4d6 b5a4",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Nd6 Ba4",
+    hasCont: false,
   },
   {
     eco: "C67",
@@ -7416,6 +8319,7 @@ export default [
     fen: "r1bqkb1r/pppp1ppp/2nn4/1B2P3/8/5N2/PPP2PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6e4 d2d4 e4d6 d4e5",
     an: "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Nd6 dxe5",
+    hasCont: false,
   },
   {
     eco: "C68",
@@ -7423,6 +8327,7 @@ export default [
     fen: "r1bqkbnr/1ppp1ppp/p1B5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5c6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Bxc6",
+    hasCont: true,
   },
   {
     eco: "C68",
@@ -7431,6 +8336,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5c6 d7c6 d2d4 e5d4 d1d4 d8d4 f3d4 f8d6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6 d4 exd4 Qxd4 Qxd4 Nxd4 Bd6",
+    hasCont: false,
   },
   {
     eco: "C68",
@@ -7438,6 +8344,7 @@ export default [
     fen: "r1bqkbnr/1pp2ppp/p1p5/4p3/4P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5c6 d7c6 b1c3",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6 Nc3",
+    hasCont: true,
   },
   {
     eco: "C68",
@@ -7445,6 +8352,7 @@ export default [
     fen: "r1bqkbnr/2pp1ppp/p1p5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5c6 b7c6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 bxc6",
+    hasCont: false,
   },
   {
     eco: "C68",
@@ -7452,6 +8360,7 @@ export default [
     fen: "r1bqkbnr/1pp3pp/p1p2p2/4p3/4P3/2NP1N2/PPP2PPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5c6 d7c6 b1c3 f7f6 d2d3",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6 Nc3 f6 d3",
+    hasCont: false,
   },
   {
     eco: "C68",
@@ -7460,6 +8369,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5c6 d7c6 d2d4 e5d4 d1d4 d8d4 f3d4 c8d7",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6 d4 exd4 Qxd4 Qxd4 Nxd4 Bd7",
+    hasCont: false,
   },
   {
     eco: "C69",
@@ -7467,6 +8377,7 @@ export default [
     fen: "r2qkbnr/1pp2pp1/p1p5/4p2p/4P1b1/5N1P/PPPP1PP1/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5c6 d7c6 e1g1 c8g4 h2h3 h7h5",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6 O-O Bg4 h3 h5",
+    hasCont: false,
   },
   {
     eco: "C69",
@@ -7474,6 +8385,7 @@ export default [
     fen: "r1b1kbnr/1pp2ppp/p1pq4/4p3/4P3/5N2/PPPP1PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5c6 d7c6 e1g1 d8d6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6 O-O Qd6",
+    hasCont: false,
   },
   {
     eco: "C69",
@@ -7481,6 +8393,7 @@ export default [
     fen: "r1bqkbnr/1pp3pp/p1p2p2/4p3/4P3/5N2/PPPP1PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5c6 d7c6 e1g1 f7f6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6 O-O f6",
+    hasCont: false,
   },
   {
     eco: "C69",
@@ -7488,6 +8401,7 @@ export default [
     fen: "r1bqk1nr/1pp2ppp/p1pb4/4p3/4P3/5N2/PPPP1PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5c6 d7c6 e1g1 f8d6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6 O-O Bd6",
+    hasCont: false,
   },
   {
     eco: "C69",
@@ -7495,6 +8409,7 @@ export default [
     fen: "r1bqkbnr/1pp2ppp/p1p5/4p3/4P3/5N2/PPPP1PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5c6 d7c6 e1g1",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6 O-O",
+    hasCont: true,
   },
   {
     eco: "C70",
@@ -7502,6 +8417,7 @@ export default [
     fen: "r1bqkbnr/1ppp1ppp/p7/4p3/B2nP3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 c6d4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nd4",
+    hasCont: false,
   },
   {
     eco: "C70",
@@ -7509,6 +8425,7 @@ export default [
     fen: "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6",
+    hasCont: true,
   },
   {
     eco: "C70",
@@ -7516,6 +8433,7 @@ export default [
     fen: "r1bqk1nr/1ppp1ppp/p1n5/4p3/Bb2P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 f8b4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Bb4",
+    hasCont: false,
   },
   {
     eco: "C70",
@@ -7523,6 +8441,7 @@ export default [
     fen: "r1bqkbnr/2pp1ppp/p1n5/1p2p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 b7b5",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 b5",
+    hasCont: true,
   },
   {
     eco: "C70",
@@ -7530,6 +8449,7 @@ export default [
     fen: "r1bqk1nr/1ppp1ppp/p1n5/2b1p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 f8c5",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Bc5",
+    hasCont: false,
   },
   {
     eco: "C70",
@@ -7537,6 +8457,7 @@ export default [
     fen: "r1bqkb1r/1pppnppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8e7",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nge7",
+    hasCont: false,
   },
   {
     eco: "C70",
@@ -7544,6 +8465,7 @@ export default [
     fen: "r1bqkbnr/1ppp1p1p/p1n3p1/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g7g6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 g6",
+    hasCont: false,
   },
   {
     eco: "C70",
@@ -7551,6 +8473,7 @@ export default [
     fen: "r1bqk1nr/2pp1ppp/p1n5/1pb1p3/4P3/1B3N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 b7b5 a4b3 f8c5",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 b5 Bb3 Bc5",
+    hasCont: false,
   },
   {
     eco: "C70",
@@ -7558,6 +8481,7 @@ export default [
     fen: "r1bqkbnr/2pp1ppp/p7/np2p3/4P3/1B3N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 b7b5 a4b3 c6a5",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 b5 Bb3 Na5",
+    hasCont: true,
   },
   {
     eco: "C70",
@@ -7565,6 +8489,7 @@ export default [
     fen: "r1bqkbnr/2pp1Bpp/p7/np2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 b7b5 a4b3 c6a5 b3f7",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 b5 Bb3 Na5 Bxf7+",
+    hasCont: false,
   },
   {
     eco: "C70",
@@ -7572,14 +8497,15 @@ export default [
     fen: "r1bqkbnr/1ppp2pp/p1n5/4pp2/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 f7f5",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 f5",
+    hasCont: true,
   },
   {
     eco: "C70",
-    name:
-      "Ruy Lopez: Morphy Defense, Schliemann Defense Deferred, Jaenisch Gambit Deferred",
+    name: "Ruy Lopez: Morphy Defense, Schliemann Defense Deferred, Jaenisch Gambit Deferred",
     fen: "r1bqkbnr/1ppp2pp/p1n5/4pP2/B7/5N2/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 f7f5 e4f5",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 f5 exf5",
+    hasCont: false,
   },
   {
     eco: "C71",
@@ -7587,6 +8513,7 @@ export default [
     fen: "r1bqkbnr/1pp2ppp/p1np4/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 d7d6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6",
+    hasCont: true,
   },
   {
     eco: "C71",
@@ -7594,6 +8521,7 @@ export default [
     fen: "r1bqkbnr/1pp2ppp/p1np4/4p3/B3P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 d7d6 b1c3",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 Nc3",
+    hasCont: false,
   },
   {
     eco: "C71",
@@ -7601,6 +8529,7 @@ export default [
     fen: "r1bqkbnr/1pp2ppp/p1np4/4p3/B1P1P3/5N2/PP1P1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 d7d6 c2c4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 c4",
+    hasCont: false,
   },
   {
     eco: "C71",
@@ -7609,6 +8538,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 b7b5 a4b3 d7d6 d2d4 c6d4 f3d4 e5d4 d1d4 c7c5",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 b5 Bb3 d6 d4 Nxd4 Nxd4 exd4 Qxd4 c5",
+    hasCont: false,
   },
   {
     eco: "C72",
@@ -7617,6 +8547,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 d7d6 e1g1 c8d7 c2c3 g8f6 d2d4 f8e7 b1d2 e8g8 f1e1 d7e8",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 O-O Bd7 c3 Nf6 d4 Be7 Nbd2 O-O Re1 Be8",
+    hasCont: false,
   },
   {
     eco: "C72",
@@ -7624,6 +8555,7 @@ export default [
     fen: "r1bqkbnr/1pp2ppp/p1np4/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 d7d6 e1g1",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 O-O",
+    hasCont: true,
   },
   {
     eco: "C73",
@@ -7631,6 +8563,7 @@ export default [
     fen: "r1bqkbnr/2p2ppp/p1pp4/4p3/3PP3/5N2/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 d7d6 a4c6 b7c6 d2d4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 Bxc6+ bxc6 d4",
+    hasCont: false,
   },
   {
     eco: "C73",
@@ -7638,6 +8571,7 @@ export default [
     fen: "r1bqkbnr/2p3pp/p1pp1p2/4p3/3PP3/5N2/PPP2PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 d7d6 a4c6 b7c6 d2d4 f7f6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 Bxc6+ bxc6 d4 f6",
+    hasCont: false,
   },
   {
     eco: "C74",
@@ -7645,6 +8579,7 @@ export default [
     fen: "r1bqkbnr/1pp2ppp/p1np4/4p3/B3P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 d7d6 c2c3",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 c3",
+    hasCont: true,
   },
   {
     eco: "C74",
@@ -7652,14 +8587,15 @@ export default [
     fen: "r2qkbnr/1pp3pp/p1np4/4pb2/B7/2P2N2/PP1P1PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 d7d6 c2c3 f7f5 e4f5 c8f5 e1g1",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 c3 f5 exf5 Bxf5 O-O",
+    hasCont: false,
   },
   {
     eco: "C74",
-    name:
-      "Ruy Lopez: Morphy Defense, Modern Steinitz Defense, Siesta Variation",
+    name: "Ruy Lopez: Morphy Defense, Modern Steinitz Defense, Siesta Variation",
     fen: "r1bqkbnr/1pp3pp/p1np4/4pp2/B3P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 d7d6 c2c3 f7f5",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 c3 f5",
+    hasCont: true,
   },
   {
     eco: "C75",
@@ -7667,6 +8603,7 @@ export default [
     fen: "r2qkbnr/1ppb1ppp/p1np4/4p3/B3P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 d7d6 c2c3 c8d7",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 c3 Bd7",
+    hasCont: false,
   },
   {
     eco: "C75",
@@ -7674,14 +8611,15 @@ export default [
     fen: "r2qkb1r/1ppbnppp/p1np4/4p3/B2PP3/2P2N2/PP3PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 d7d6 c2c3 c8d7 d2d4 g8e7",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 c3 Bd7 d4 Nge7",
+    hasCont: false,
   },
   {
     eco: "C76",
-    name:
-      "Ruy Lopez: Morphy Defense, Modern Steinitz Defense, Fianchetto Variation",
+    name: "Ruy Lopez: Morphy Defense, Modern Steinitz Defense, Fianchetto Variation",
     fen: "r2qkbnr/1ppb1p1p/p1np2p1/4p3/B2PP3/2P2N2/PP3PPP/RNBQK2R w KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 g7g6 c2c3 a7a6 b5a4 d7d6 d2d4 c8d7",
     an: "e4 e5 Nf3 Nc6 Bb5 g6 c3 a6 Ba4 d6 d4 Bd7",
+    hasCont: false,
   },
   {
     eco: "C77",
@@ -7689,6 +8627,7 @@ export default [
     fen: "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/3P1N2/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 d2d3",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 d3",
+    hasCont: true,
   },
   {
     eco: "C77",
@@ -7696,6 +8635,7 @@ export default [
     fen: "r1bqkb1r/1ppp1ppp/p1B2n2/4p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 a4c6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 Bxc6",
+    hasCont: false,
   },
   {
     eco: "C77",
@@ -7703,6 +8643,7 @@ export default [
     fen: "r1bqkb1r/1pp2ppp/p1np1n2/4p3/B1P1P3/3P1N2/PP3PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 d2d3 d7d6 c2c4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 d3 d6 c4",
+    hasCont: false,
   },
   {
     eco: "C77",
@@ -7710,6 +8651,7 @@ export default [
     fen: "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 c2c3",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 c3",
+    hasCont: false,
   },
   {
     eco: "C77",
@@ -7717,6 +8659,7 @@ export default [
     fen: "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B2PP3/5N2/PPP2PPP/RNBQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 d2d4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 d4",
+    hasCont: false,
   },
   {
     eco: "C77",
@@ -7724,6 +8667,7 @@ export default [
     fen: "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 b1c3",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 Nc3",
+    hasCont: false,
   },
   {
     eco: "C77",
@@ -7731,6 +8675,7 @@ export default [
     fen: "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPPQPPP/RNB1K2R b KQkq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 d1e2",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 Qe2",
+    hasCont: true,
   },
   {
     eco: "C77",
@@ -7739,6 +8684,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 d1e2 b7b5 a4b3 f8e7 d2d4 d7d6 c2c3 c8g4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 Qe2 b5 Bb3 Be7 d4 d6 c3 Bg4",
+    hasCont: false,
   },
   {
     eco: "C78",
@@ -7746,6 +8692,7 @@ export default [
     fen: "r1bqkb1r/1ppp1p1p/p1n2np1/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 g7g6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O g6",
+    hasCont: false,
   },
   {
     eco: "C78",
@@ -7753,6 +8700,7 @@ export default [
     fen: "r1bqkb1r/1pp2ppp/p1n2n2/3pp3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 d7d5",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O d5",
+    hasCont: false,
   },
   {
     eco: "C78",
@@ -7760,6 +8708,7 @@ export default [
     fen: "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O",
+    hasCont: true,
   },
   {
     eco: "C78",
@@ -7767,6 +8716,7 @@ export default [
     fen: "r1bqkb1r/2p2ppp/p1np1n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 b7b5 a4b3 d7d6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O b5 Bb3 d6",
+    hasCont: true,
   },
   {
     eco: "C78",
@@ -7774,6 +8724,7 @@ export default [
     fen: "r2qkb1r/1bpp1ppp/p1n2n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 b7b5 a4b3 c8b7",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O b5 Bb3 Bb7",
+    hasCont: false,
   },
   {
     eco: "C78",
@@ -7781,6 +8732,7 @@ export default [
     fen: "r1bqk2r/1ppp1ppp/p1n2n2/2b1p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8c5",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Bc5",
+    hasCont: false,
   },
   {
     eco: "C78",
@@ -7788,6 +8740,7 @@ export default [
     fen: "r1bqk2r/2ppbppp/p1n2n2/1p2p3/P3P3/1B3N2/1PPP1PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 b7b5 a4b3 f8e7 a2a4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O b5 Bb3 Be7 a4",
+    hasCont: false,
   },
   {
     eco: "C78",
@@ -7795,8 +8748,8 @@ export default [
     fen: "r1bq1k1r/2p2ppp/p4n2/1pbPR1N1/3n4/1B6/PPPP1PPP/RNBQ2K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 b7b5 a4b3 d7d6 f3g5 d6d5 e4d5 c6d4 f1e1 f8c5 e1e5 e8f8",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O b5 Bb3 d6 Ng5 d5 exd5 Nd4 Re1 Bc5 Rxe5+ Kf8",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O b5 Bb3 d6 Ng5 d5 exd5 Nd4 Re1 Bc5 Rxe5+ Kf8",
+    hasCont: false,
   },
   {
     eco: "C79",
@@ -7804,6 +8757,7 @@ export default [
     fen: "r1bqkb1r/1pp2ppp/p1np1n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 d7d6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O d6",
+    hasCont: true,
   },
   {
     eco: "C79",
@@ -7812,6 +8766,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 d7d6 a4c6 b7c6 d2d4 f6e4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O d6 Bxc6+ bxc6 d4 Nxe4",
+    hasCont: true,
   },
   {
     eco: "C79",
@@ -7819,8 +8774,8 @@ export default [
     fen: "r1bqkb1r/2p3pp/p1p5/3pPp2/4n3/2N2N2/PPP2PPP/R1BQR1K1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 d7d6 a4c6 b7c6 d2d4 f6e4 f1e1 f7f5 d4e5 d6d5 b1c3",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O d6 Bxc6+ bxc6 d4 Nxe4 Re1 f5 dxe5 d5 Nc3",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O d6 Bxc6+ bxc6 d4 Nxe4 Re1 f5 dxe5 d5 Nc3",
+    hasCont: false,
   },
   {
     eco: "C79",
@@ -7829,6 +8784,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 d7d6 a4c6 b7c6 d2d4 c8g4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O d6 Bxc6+ bxc6 d4 Bg4",
+    hasCont: false,
   },
   {
     eco: "C80",
@@ -7836,6 +8792,7 @@ export default [
     fen: "r1bqkb1r/1ppp1ppp/p1n5/4p3/B3n3/5N2/PPPPQPPP/RNB2RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d1e2",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 Qe2",
+    hasCont: false,
   },
   {
     eco: "C80",
@@ -7843,6 +8800,7 @@ export default [
     fen: "r1bqkb1r/1ppp1ppp/p1n5/4p3/B3n3/5N2/PPPP1PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4",
+    hasCont: true,
   },
   {
     eco: "C80",
@@ -7850,6 +8808,7 @@ export default [
     fen: "r1bqkb1r/1ppp1ppp/p1n5/4p3/B2Pn3/5N2/PPP2PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4",
+    hasCont: true,
   },
   {
     eco: "C80",
@@ -7857,6 +8816,7 @@ export default [
     fen: "r1bqkb1r/2pp1ppp/p1n5/1p2p3/3Pn3/1B3N2/PPP2PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3",
+    hasCont: true,
   },
   {
     eco: "C80",
@@ -7865,6 +8825,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5",
+    hasCont: true,
   },
   {
     eco: "C80",
@@ -7872,8 +8833,8 @@ export default [
     fen: "r1bqkb1r/2p2ppp/p7/1p1p4/P2pn3/1BN5/1PP2PPP/R1BQ1RK1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 a2a4 c6d4 f3d4 e5d4 b1c3",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 a4 Nxd4 Nxd4 exd4 Nc3",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 a4 Nxd4 Nxd4 exd4 Nc3",
+    hasCont: false,
   },
   {
     eco: "C80",
@@ -7882,6 +8843,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6 b1d2",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 Nbd2",
+    hasCont: true,
   },
   {
     eco: "C80",
@@ -7889,8 +8851,8 @@ export default [
     fen: "r2qk2r/2p2ppp/p1n1b3/1pbpP3/4n3/1B3N2/PPPN1PPP/R1B1QRK1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6 b1d2 f8c5 d1e1",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 Nbd2 Bc5 Qe1",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 Nbd2 Bc5 Qe1",
+    hasCont: false,
   },
   {
     eco: "C80",
@@ -7898,6 +8860,7 @@ export default [
     fen: "r1bqkb1r/2pp1ppp/p1n5/1p2N3/B2Pn3/8/PPP2PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 f3e5",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Nxe5",
+    hasCont: false,
   },
   {
     eco: "C80",
@@ -7906,6 +8869,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 c2c4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 c4",
+    hasCont: false,
   },
   {
     eco: "C80",
@@ -7913,8 +8877,8 @@ export default [
     fen: "r2qkb1r/2p2ppp/p1n1b3/1pn1P1N1/3p4/1BP5/PP1N1PPP/R1BQ1RK1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6 b1d2 e4c5 c2c3 d5d4 f3g5",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 Nbd2 Nc5 c3 d4 Ng5",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 Nbd2 Nc5 c3 d4 Ng5",
+    hasCont: false,
   },
   {
     eco: "C80",
@@ -7922,6 +8886,7 @@ export default [
     fen: "r1bqkb1r/1ppp1ppp/p1n5/4p3/B3n3/2N2N2/PPPP1PPP/R1BQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 b1c3",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 Nc3",
+    hasCont: false,
   },
   {
     eco: "C80",
@@ -7930,6 +8895,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6",
+    hasCont: true,
   },
   {
     eco: "C80",
@@ -7937,6 +8903,7 @@ export default [
     fen: "r1bqkb1r/2pp1ppp/p1n5/1p1Pp3/B3n3/5N2/PPP2PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 d4d5",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 d5",
+    hasCont: false,
   },
   {
     eco: "C80",
@@ -7944,6 +8911,7 @@ export default [
     fen: "r1bqkb1r/1ppp1ppp/p1n5/8/B2pn3/5N2/PPP2PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 e5d4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 exd4",
+    hasCont: false,
   },
   {
     eco: "C80",
@@ -7952,6 +8920,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 a2a4 c6d4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 a4 Nxd4",
+    hasCont: true,
   },
   {
     eco: "C80",
@@ -7959,6 +8928,7 @@ export default [
     fen: "r1bqkb1r/1pp2ppp/p1n5/3pp3/B3n3/5N2/PPPP1PPP/RNBQR1K1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 f1e1 d7d5",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 Re1 d5",
+    hasCont: false,
   },
   {
     eco: "C80",
@@ -7967,6 +8937,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c6e7",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Ne7",
+    hasCont: false,
   },
   {
     eco: "C81",
@@ -7975,6 +8946,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6 d1e2",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 Qe2",
+    hasCont: true,
   },
   {
     eco: "C81",
@@ -7982,8 +8954,8 @@ export default [
     fen: "r2qk2r/2p1bppp/p1n1b3/1p1pP3/2P1n3/1B3N2/PP2QPPP/RNB2RK1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6 d1e2 f8e7 c2c4",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 Qe2 Be7 c4",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 Qe2 Be7 c4",
+    hasCont: false,
   },
   {
     eco: "C81",
@@ -7991,8 +8963,8 @@ export default [
     fen: "r4rk1/2pqbppp/p1n1b3/3pP3/2B1n3/5N2/PP2QPPP/RNBR2K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6 d1e2 f8e7 f1d1 e8g8 c2c4 b5c4 b3c4 d8d7",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 Qe2 Be7 Rd1 O-O c4 bxc4 Bxc4 Qd7",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 Qe2 Be7 Rd1 O-O c4 bxc4 Bxc4 Qd7",
+    hasCont: false,
   },
   {
     eco: "C82",
@@ -8001,6 +8973,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6 c2c3",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3",
+    hasCont: true,
   },
   {
     eco: "C82",
@@ -8009,6 +8982,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6 c2c3 e4c5",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Nc5",
+    hasCont: false,
   },
   {
     eco: "C82",
@@ -8016,8 +8990,8 @@ export default [
     fen: "r2q1rk1/2p2ppp/p1n1b3/1pbpP3/8/2P2N2/PPBN1nPP/R1BQ1RK1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6 c2c3 f8c5 b1d2 e8g8 b3c2 e4f2",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Bc5 Nbd2 O-O Bc2 Nxf2",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Bc5 Nbd2 O-O Bc2 Nxf2",
+    hasCont: false,
   },
   {
     eco: "C82",
@@ -8026,6 +9000,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6 c2c3 f8c5",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Bc5",
+    hasCont: true,
   },
   {
     eco: "C82",
@@ -8033,8 +9008,8 @@ export default [
     fen: "r2qk2r/2p2ppp/p1n1b3/1pbpP3/4n3/1BPQ1N2/PP3PPP/RNB2RK1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6 c2c3 f8c5 d1d3",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Bc5 Qd3",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Bc5 Qd3",
+    hasCont: true,
   },
   {
     eco: "C82",
@@ -8042,8 +9017,8 @@ export default [
     fen: "r2qk2r/2p1nppp/p3b3/1pbpP3/4n3/1BPQ1N2/PP3PPP/RNB2RK1 w kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6 c2c3 f8c5 d1d3 c6e7",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Bc5 Qd3 Ne7",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Bc5 Qd3 Ne7",
+    hasCont: false,
   },
   {
     eco: "C82",
@@ -8051,8 +9026,8 @@ export default [
     fen: "r2qk2r/2p2ppp/p1n1b3/1pbpP3/4n3/1BP2N2/PP1N1PPP/R1BQ1RK1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6 c2c3 f8c5 b1d2",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Bc5 Nbd2",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Bc5 Nbd2",
+    hasCont: true,
   },
   {
     eco: "C83",
@@ -8060,8 +9035,8 @@ export default [
     fen: "r2q1rk1/2p1bppp/p3b3/1p1pn3/3Nn3/1BP5/PP3PPP/RNBQR1K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6 c2c3 f8e7 f1e1 e8g8 f3d4 c6e5",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Be7 Re1 O-O Nd4 Nxe5",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Be7 Re1 O-O Nd4 Nxe5",
+    hasCont: false,
   },
   {
     eco: "C83",
@@ -8070,6 +9045,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6 c2c3 f8e7",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Be7",
+    hasCont: true,
   },
   {
     eco: "C83",
@@ -8077,8 +9053,8 @@ export default [
     fen: "r2qk2r/2p1bppp/p1n1b3/1p1pP3/4n3/1BP2N2/PP3PPP/RNBQR1K1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 f8e7 f1e1 b7b5 a4b3 d7d5 d4e5 c8e6 c2c3",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 Be7 Re1 b5 Bb3 d5 dxe5 Be6 c3",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 Be7 Re1 b5 Bb3 d5 dxe5 Be6 c3",
+    hasCont: false,
   },
   {
     eco: "C83",
@@ -8086,8 +9062,8 @@ export default [
     fen: "r2q1rk1/2p1bppp/p1n1b3/1p1pP3/4n3/1BP2N2/PP1NQPPP/R1B2RK1 b - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6 c2c3 f8e7 b1d2 e8g8 d1e2",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Be7 Nbd2 O-O Qe2",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Be7 Nbd2 O-O Qe2",
+    hasCont: false,
   },
   {
     eco: "C83",
@@ -8095,8 +9071,8 @@ export default [
     fen: "r4rk1/2pqb1pp/p1n1p3/1p1pP3/4R3/1BP5/PP3PPP/RNBQ2K1 b - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6 c2c3 f8e7 f1e1 e8g8 f3d4 d8d7 d4e6 f7e6 e1e4",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Be7 Re1 O-O Nd4 Qd7 Nxe6 fxe6 Rxe4",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Be7 Re1 O-O Nd4 Qd7 Nxe6 fxe6 Rxe4",
+    hasCont: false,
   },
   {
     eco: "C84",
@@ -8104,6 +9080,7 @@ export default [
     fen: "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7",
+    hasCont: true,
   },
   {
     eco: "C84",
@@ -8112,6 +9089,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 d2d4 e5d4 e4e5 f6e4 c2c3",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 d4 exd4 e5 Ne4 c3",
+    hasCont: true,
   },
   {
     eco: "C84",
@@ -8119,6 +9097,7 @@ export default [
     fen: "r1bqk2r/1pppbppp/p1n2n2/4p3/B2PP3/5N2/PPP2PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 d2d4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 d4",
+    hasCont: true,
   },
   {
     eco: "C84",
@@ -8127,6 +9106,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 d2d4 e5d4 e4e5 f6e4 c2c3 d4c3",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 d4 exd4 e5 Ne4 c3 dxc3",
+    hasCont: false,
   },
   {
     eco: "C84",
@@ -8134,6 +9114,7 @@ export default [
     fen: "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/3P1N2/PPP2PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 d2d3",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 d3",
+    hasCont: false,
   },
   {
     eco: "C84",
@@ -8141,6 +9122,7 @@ export default [
     fen: "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/2N2N2/PPPP1PPP/R1BQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 b1c3",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Nc3",
+    hasCont: false,
   },
   {
     eco: "C85",
@@ -8148,6 +9130,7 @@ export default [
     fen: "r1bqk2r/1pppbppp/p1B2n2/4p3/4P3/5N2/PPPP1PPP/RNBQ1RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 a4c6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Bxc6",
+    hasCont: false,
   },
   {
     eco: "C86",
@@ -8155,6 +9138,7 @@ export default [
     fen: "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPPQPPP/RNB2RK1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 d1e2",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Qe2",
+    hasCont: true,
   },
   {
     eco: "C86",
@@ -8163,6 +9147,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 d1e2 b7b5 a4b3 e8g8",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Qe2 b5 Bb3 O-O",
+    hasCont: false,
   },
   {
     eco: "C86",
@@ -8171,6 +9156,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 d1e2 b7b5 a4b3 d7d6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Qe2 b5 Bb3 d6",
+    hasCont: false,
   },
   {
     eco: "C87",
@@ -8178,6 +9164,7 @@ export default [
     fen: "r1bqk2r/1pp1bppp/p1np1n2/4p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 w kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 d7d6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 d6",
+    hasCont: false,
   },
   {
     eco: "C88",
@@ -8185,6 +9172,7 @@ export default [
     fen: "r1bqk2r/2ppbppp/p1n2n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 b kq -",
     moves: "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3",
+    hasCont: true,
   },
   {
     eco: "C88",
@@ -8193,6 +9181,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 e8g8",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O",
+    hasCont: true,
   },
   {
     eco: "C88",
@@ -8200,8 +9189,8 @@ export default [
     fen: "r4rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P1NQ2/PPB2PPP/R1B1R1K1 b - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 c6a5 b3c2 c7c5 d2d4 d8c7 b1d2 e8g8 d2f1 c8g4 f1e3 g4f3 d1f3",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 Na5 Bc2 c5 d4 Qc7 Nbd2 O-O Nf1 Bg4 Ne3 Bxf3 Qxf3",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 Na5 Bc2 c5 d4 Qc7 Nbd2 O-O Nf1 Bg4 Ne3 Bxf3 Qxf3",
+    hasCont: false,
   },
   {
     eco: "C88",
@@ -8210,6 +9199,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 e8g8 a2a4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O a4",
+    hasCont: false,
   },
   {
     eco: "C88",
@@ -8217,8 +9207,8 @@ export default [
     fen: "r1b1k2r/2q1bppp/p2p1n2/npp1p3/P2PP3/2P2N2/1PB2PPP/RNBQR1K1 b kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 c6a5 b3c2 c7c5 d2d4 d8c7 a2a4",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 Na5 Bc2 c5 d4 Qc7 a4",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 Na5 Bc2 c5 d4 Qc7 a4",
+    hasCont: false,
   },
   {
     eco: "C88",
@@ -8226,8 +9216,8 @@ export default [
     fen: "rnb1k2r/2q1bp1p/p2p1n2/1ppPp1p1/4P3/2P2N1P/PPBN1PP1/R1BQR1K1 w kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 c6a5 b3c2 c7c5 d2d4 d8c7 h2h3 a5c6 d4d5 c6b8 b1d2 g7g5",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 Na5 Bc2 c5 d4 Qc7 h3 Nc6 d5 Nb8 Nbd2 g5",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 Na5 Bc2 c5 d4 Qc7 h3 Nc6 d5 Nb8 Nbd2 g5",
+    hasCont: false,
   },
   {
     eco: "C88",
@@ -8236,6 +9226,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 d2d4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 d4",
+    hasCont: true,
   },
   {
     eco: "C88",
@@ -8244,6 +9235,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 c8b7",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 Bb7",
+    hasCont: false,
   },
   {
     eco: "C88",
@@ -8251,8 +9243,8 @@ export default [
     fen: "r1bqk2r/4bppp/p2p1n2/1pp5/3QP3/1B6/PPP2PPP/RNB1R1K1 w kq -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 d2d4 c6d4 f3d4 e5d4 d1d4 c7c5",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 d4 Nxd4 Nxd4 exd4 Qxd4 c5",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 d4 Nxd4 Nxd4 exd4 Qxd4 c5",
+    hasCont: false,
   },
   {
     eco: "C89",
@@ -8261,6 +9253,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 e8g8 c2c3 d7d5",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5",
+    hasCont: true,
   },
   {
     eco: "C89",
@@ -8268,8 +9261,8 @@ export default [
     fen: "r1bq1rk1/4bppp/p1p5/1p1nR3/3P4/1BP5/PP3PPP/RNBQ2K1 b - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 e8g8 c2c3 d7d5 e4d5 f6d5 f3e5 c6e5 e1e5 c7c6 d2d4",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5 exd5 Nxd5 Nxe5 Nxe5 Rxe5 c6 d4",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5 exd5 Nxd5 Nxe5 Nxe5 Rxe5 c6 d4",
+    hasCont: true,
   },
   {
     eco: "C89",
@@ -8277,8 +9270,8 @@ export default [
     fen: "5rk1/5ppp/p1pbr3/1p1n3q/P2P2b1/1BPQB1P1/1P1N1P1P/R3R1K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 e8g8 c2c3 d7d5 e4d5 f6d5 f3e5 c6e5 e1e5 c7c6 d2d4 e7d6 e5e1 d8h4 g2g3 h4h3 c1e3 c8g4 d1d3 a8e8 b1d2 e8e6 a2a4 h3h5",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5 exd5 Nxd5 Nxe5 Nxe5 Rxe5 c6 d4 Bd6 Re1 Qh4 g3 Qh3 Be3 Bg4 Qd3 Rae8 Nd2 Re6 a4 Qh5",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5 exd5 Nxd5 Nxe5 Nxe5 Rxe5 c6 d4 Bd6 Re1 Qh4 g3 Qh3 Be3 Bg4 Qd3 Rae8 Nd2 Re6 a4 Qh5",
+    hasCont: false,
   },
   {
     eco: "C89",
@@ -8286,8 +9279,8 @@ export default [
     fen: "r1b2rk1/5ppp/p1pb4/1p1n4/3P4/1BP3Pq/PP3P1P/RNBQR1K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 e8g8 c2c3 d7d5 e4d5 f6d5 f3e5 c6e5 e1e5 c7c6 d2d4 e7d6 e5e1 d8h4 g2g3 h4h3",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5 exd5 Nxd5 Nxe5 Nxe5 Rxe5 c6 d4 Bd6 Re1 Qh4 g3 Qh3",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5 exd5 Nxd5 Nxe5 Nxe5 Rxe5 c6 d4 Bd6 Re1 Qh4 g3 Qh3",
+    hasCont: true,
   },
   {
     eco: "C89",
@@ -8295,8 +9288,8 @@ export default [
     fen: "r1bq1rk1/4bppp/p1p5/1p1nR3/8/1BP5/PP1P1PPP/RNBQ2K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 e8g8 c2c3 d7d5 e4d5 f6d5 f3e5 c6e5 e1e5 c7c6",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5 exd5 Nxd5 Nxe5 Nxe5 Rxe5 c6",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5 exd5 Nxd5 Nxe5 Nxe5 Rxe5 c6",
+    hasCont: true,
   },
   {
     eco: "C89",
@@ -8304,8 +9297,8 @@ export default [
     fen: "r1bq1rk1/2p1bppp/p4n2/1p2R3/8/1BP5/PP1P1PPP/RNBQ2K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 e8g8 c2c3 d7d5 e4d5 f6d5 f3e5 c6e5 e1e5 d5f6",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5 exd5 Nxd5 Nxe5 Nxe5 Rxe5 Nf6",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5 exd5 Nxd5 Nxe5 Nxe5 Rxe5 Nf6",
+    hasCont: false,
   },
   {
     eco: "C89",
@@ -8313,8 +9306,8 @@ export default [
     fen: "r1bq1rk1/5ppp/p2b4/1p1p4/3P4/2P1R3/PP3PPP/RNBQ2K1 b - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 e8g8 c2c3 d7d5 e4d5 f6d5 f3e5 c6e5 e1e5 c7c6 b3d5 c6d5 d2d4 e7d6 e5e3",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5 exd5 Nxd5 Nxe5 Nxe5 Rxe5 c6 Bxd5 cxd5 d4 Bd6 Re3",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5 exd5 Nxd5 Nxe5 Nxe5 Rxe5 c6 Bxd5 cxd5 d4 Bd6 Re3",
+    hasCont: false,
   },
   {
     eco: "C89",
@@ -8323,6 +9316,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 e8g8 c2c3 d7d5 e4d5 e5e4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5 exd5 e4",
+    hasCont: false,
   },
   {
     eco: "C90",
@@ -8331,6 +9325,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O",
+    hasCont: true,
   },
   {
     eco: "C90",
@@ -8339,6 +9334,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 b3c2",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O Bc2",
+    hasCont: false,
   },
   {
     eco: "C90",
@@ -8347,6 +9343,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 e8g8 d2d3 d7d6 c2c3",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O d3 d6 c3",
+    hasCont: false,
   },
   {
     eco: "C90",
@@ -8355,6 +9352,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 a2a3",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O a3",
+    hasCont: false,
   },
   {
     eco: "C91",
@@ -8363,6 +9361,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 d2d4 c8g4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O d4 Bg4",
+    hasCont: true,
   },
   {
     eco: "C91",
@@ -8371,6 +9370,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 d2d4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O d4",
+    hasCont: true,
   },
   {
     eco: "C91",
@@ -8379,6 +9379,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 d2d4 c8g4 a2a4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O d4 Bg4 a4",
+    hasCont: false,
   },
   {
     eco: "C92",
@@ -8387,6 +9388,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3",
+    hasCont: true,
   },
   {
     eco: "C92",
@@ -8395,6 +9397,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 c8b7",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Bb7",
+    hasCont: true,
   },
   {
     eco: "C92",
@@ -8403,6 +9406,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 f6d7",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nd7",
+    hasCont: false,
   },
   {
     eco: "C92",
@@ -8411,6 +9415,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 e8g8 c2c3 d7d6 h2h3 a6a5",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d6 h3 a5",
+    hasCont: false,
   },
   {
     eco: "C92",
@@ -8419,6 +9424,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 c8e6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Be6",
+    hasCont: false,
   },
   {
     eco: "C92",
@@ -8426,8 +9432,8 @@ export default [
     fen: "r2qrbk1/1bp2pp1/p1np1n1p/1p2p3/3PP3/PBP2N1P/1P1N1PP1/R1BQR1K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 c8b7 d2d4 f8e8 b1d2 e7f8 a2a3 h7h6",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Bb7 d4 Re8 Nbd2 Bf8 a3 h6",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Bb7 d4 Re8 Nbd2 Bf8 a3 h6",
+    hasCont: false,
   },
   {
     eco: "C92",
@@ -8436,6 +9442,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 f8e8",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Re8",
+    hasCont: false,
   },
   {
     eco: "C93",
@@ -8444,6 +9451,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 h7h6",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 h6",
+    hasCont: false,
   },
   {
     eco: "C94",
@@ -8452,6 +9460,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 c6b8",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nb8",
+    hasCont: true,
   },
   {
     eco: "C94",
@@ -8460,6 +9469,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 c6b8 d2d3",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nb8 d3",
+    hasCont: false,
   },
   {
     eco: "C95",
@@ -8468,6 +9478,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 c6b8 d2d4",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nb8 d4",
+    hasCont: true,
   },
   {
     eco: "C95",
@@ -8475,8 +9486,8 @@ export default [
     fen: "r2q1rk1/1b1nbppp/p2p1n2/1pp1p3/3PP3/2P2N1P/PPBN1PP1/R1BQR1K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 c6b8 d2d4 b8d7 b1d2 c8b7 b3c2 c7c5",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nb8 d4 Nbd7 Nbd2 Bb7 Bc2 c5",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nb8 d4 Nbd7 Nbd2 Bb7 Bc2 c5",
+    hasCont: false,
   },
   {
     eco: "C95",
@@ -8484,8 +9495,8 @@ export default [
     fen: "r1bq1rk1/2pnbppp/p2p1n2/1p2p3/3PP2N/1BP4P/PP3PP1/RNBQR1K1 b - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 c6b8 d2d4 b8d7 f3h4",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nb8 d4 Nbd7 Nh4",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nb8 d4 Nbd7 Nh4",
+    hasCont: false,
   },
   {
     eco: "C95",
@@ -8493,8 +9504,8 @@ export default [
     fen: "r1bq1rk1/2pnbppp/p2p1n2/1p2p3/3PP3/1BP2N1P/PP3PP1/RNBQR1K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 c6b8 d2d4 b8d7",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nb8 d4 Nbd7",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nb8 d4 Nbd7",
+    hasCont: true,
   },
   {
     eco: "C96",
@@ -8502,8 +9513,8 @@ export default [
     fen: "r1bq1rk1/4bppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 c6a5 b3c2 c7c5 d2d4 a5c6",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Nc6",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Nc6",
+    hasCont: false,
   },
   {
     eco: "C96",
@@ -8512,6 +9523,7 @@ export default [
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 c6a5 b3c2",
     an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2",
+    hasCont: true,
   },
   {
     eco: "C96",
@@ -8519,8 +9531,8 @@ export default [
     fen: "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 c6a5 b3c2 c7c5",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5",
+    hasCont: true,
   },
   {
     eco: "C96",
@@ -8528,8 +9540,8 @@ export default [
     fen: "r1bq1rk1/3nbppp/p2p4/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 c6a5 b3c2 c7c5 d2d4 f6d7",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Nd7",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Nd7",
+    hasCont: false,
   },
   {
     eco: "C96",
@@ -8537,8 +9549,8 @@ export default [
     fen: "r1b2rk1/2q1bppp/p1pp1n2/np2p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 e8g8 c2c3 d7d6 h2h3 c6a5 b3c2 c7c6 d2d4 d8c7",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d6 h3 Na5 Bc2 c6 d4 Qc7",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d6 h3 Na5 Bc2 c6 d4 Qc7",
+    hasCont: false,
   },
   {
     eco: "C97",
@@ -8546,8 +9558,8 @@ export default [
     fen: "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 c6a5 b3c2 c7c5 d2d4 d8c7",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Qc7",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Qc7",
+    hasCont: true,
   },
   {
     eco: "C97",
@@ -8555,8 +9567,8 @@ export default [
     fen: "r3r1k1/2qbbp1p/p2p1np1/npp1p3/3PP3/2P1NN1P/PPB2PP1/R1BQR1K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 c6a5 b3c2 c7c5 d2d4 d8c7 b1d2 c8d7 d2f1 f8e8 f1e3 g7g6",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Qc7 Nbd2 Bd7 Nf1 Rfe8 Ne3 g6",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Qc7 Nbd2 Bd7 Nf1 Rfe8 Ne3 g6",
+    hasCont: false,
   },
   {
     eco: "C98",
@@ -8564,8 +9576,8 @@ export default [
     fen: "r1b2rk1/2q1bppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPBN1PP1/R1BQR1K1 w - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 c6a5 b3c2 c7c5 d2d4 d8c7 b1d2 a5c6",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Qc7 Nbd2 Nc6",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Qc7 Nbd2 Nc6",
+    hasCont: false,
   },
   {
     eco: "C98",
@@ -8573,8 +9585,8 @@ export default [
     fen: "r1b2rk1/2q1bppp/p1np1n2/1pP1p3/4P3/2P2N1P/PPBN1PP1/R1BQR1K1 b - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 c6a5 b3c2 c7c5 d2d4 d8c7 b1d2 a5c6 d4c5",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Qc7 Nbd2 Nc6 dxc5",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Qc7 Nbd2 Nc6 dxc5",
+    hasCont: false,
   },
   {
     eco: "C99",
@@ -8582,7 +9594,7 @@ export default [
     fen: "r1b2rk1/2q1bppp/p2p1n2/np2p3/3PP3/5N1P/PPBN1PP1/R1BQR1K1 b - -",
     moves:
       "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f8e7 f1e1 b7b5 a4b3 d7d6 c2c3 e8g8 h2h3 c6a5 b3c2 c7c5 d2d4 d8c7 b1d2 c5d4 c3d4",
-    an:
-      "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Qc7 Nbd2 cxd4 cxd4",
+    an: "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Qc7 Nbd2 cxd4 cxd4",
+    hasCont: false,
   },
 ];
